@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "fits": [
+    {
+      "scale": 0.5,
+      "seed": 0,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "50b72f532483a9f8d96bbff283a2b7d760ab6137ed91146689d1e0c4d9351618"
+    },
+    {
+      "scale": 0.5,
+      "seed": 1,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "61b28e6469a3f5c7236fe0e912e2643ee2b32e741c79647853b34e6136b56894"
+    },
+    {
+      "scale": 0.5,
+      "seed": 2,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "a23de366bf5ed93745f7429e3ece3a4ecae6e0c6cf414dc179e9e0c4bc56d218"
+    },
+    {
+      "scale": 0.25,
+      "seed": 0,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "68f711d4dd6a7c912809a9f19c7aab407198adeae42d738b57ee2205db3e812c"
+    },
+    {
+      "scale": 0.25,
+      "seed": 1,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "5da94df97e76f6bc12f3416af351993ecdda94d3c3d08c1fc4bfc15a82379d62"
+    },
+    {
+      "scale": 0.25,
+      "seed": 2,
+      "validation_rows": 150,
+      "status": "passed",
+      "weights_sha256": "5ea10ad05fb996d7cca6c6fa67deec8d3649621a1097f535e7a2bcb89bd41988"
+    }
+  ],
+  "test_inference": false
+}

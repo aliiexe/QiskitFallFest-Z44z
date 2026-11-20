@@ -1,0 +1,803 @@
+{
+  "class_order": [
+    "alfalfa",
+    "maize",
+    "wheat"
+  ],
+  "standard_deviation": "population SD across seeds, ddof=0; not a confidence interval",
+  "metrics": [
+    {
+      "model": "dummy_majority",
+      "macro_f1_mean": 0.16666666666666666,
+      "macro_f1_sd": 0.0,
+      "accuracy_mean": 0.3333333333333333,
+      "accuracy_sd": 0.0,
+      "correct_fields_mean": 50.0,
+      "correct_fields_sd": 0.0,
+      "fit_seconds_mean": 0.00022595866660897931,
+      "fit_seconds_sd": 2.0528885503785766e-05,
+      "predict_seconds_mean": 0.00011801366781583056,
+      "predict_seconds_sd": 6.378734865140769e-06,
+      "preprocessing_seconds_mean": 0.0,
+      "preprocessing_seconds_sd": 0.0,
+      "total_seconds_mean": 0.00034397233442480985,
+      "total_seconds_sd": 2.6124457947336606e-05,
+      "precision_alfalfa_mean": 0.0,
+      "precision_alfalfa_sd": 0.0,
+      "recall_alfalfa_mean": 0.0,
+      "recall_alfalfa_sd": 0.0,
+      "precision_maize_mean": 0.0,
+      "precision_maize_sd": 0.0,
+      "recall_maize_mean": 0.0,
+      "recall_maize_sd": 0.0,
+      "precision_wheat_mean": 0.3333333333333333,
+      "precision_wheat_sd": 0.0,
+      "recall_wheat_mean": 1.0,
+      "recall_wheat_sd": 0.0,
+      "confusion_sum_three_seeds": [
+        [
+          0,
+          0,
+          150
+        ],
+        [
+          0,
+          0,
+          150
+        ],
+        [
+          0,
+          0,
+          150
+        ]
+      ],
+      "resources": {}
+    },
+    {
+      "model": "dummy_stratified",
+      "macro_f1_mean": 0.32182938189389027,
+      "macro_f1_sd": 0.029932836452264033,
+      "accuracy_mean": 0.3244444444444445,
+      "accuracy_sd": 0.03142696805273544,
+      "correct_fields_mean": 48.666666666666664,
+      "correct_fields_sd": 4.714045207910317,
+      "fit_seconds_mean": 0.0001997780030554471,
+      "fit_seconds_sd": 1.1318180302642822e-05,
+      "predict_seconds_mean": 0.00022566633318395665,
+      "predict_seconds_sd": 0.00010051980212531825,
+      "preprocessing_seconds_mean": 0.0,
+      "preprocessing_seconds_sd": 0.0,
+      "total_seconds_mean": 0.00042544433623940375,
+      "total_seconds_sd": 0.0001051969542740508,
+      "precision_alfalfa_mean": 0.3661764705882353,
+      "precision_alfalfa_sd": 0.0803951458076595,
+      "recall_alfalfa_mean": 0.26,
+      "recall_alfalfa_sd": 0.04320493798938574,
+      "precision_maize_mean": 0.34561965811965817,
+      "precision_maize_sd": 0.03701734217750087,
+      "recall_maize_mean": 0.30666666666666664,
+      "recall_maize_sd": 0.05734883511361752,
+      "precision_wheat_mean": 0.28888856241797417,
+      "precision_wheat_sd": 0.030240631882779284,
+      "recall_wheat_mean": 0.4066666666666667,
+      "recall_wheat_sd": 0.06599663291074442,
+      "confusion_sum_three_seeds": [
+        [
+          39,
+          39,
+          72
+        ],
+        [
+          27,
+          46,
+          77
+        ],
+        [
+          42,
+          47,
+          61
+        ]
+      ],
+      "resources": {}
+    },
+    {
+      "model": "reference",
+      "macro_f1_mean": 0.8797397657892102,
+      "macro_f1_sd": 0.0,
+      "accuracy_mean": 0.88,
+      "accuracy_sd": 0.0,
+      "correct_fields_mean": 132.0,
+      "correct_fields_sd": 0.0,
+      "fit_seconds_mean": 0.005208763999689836,
+      "fit_seconds_sd": 4.897931319680511e-05,
+      "predict_seconds_mean": 0.0009805693334783427,
+      "predict_seconds_sd": 1.1759010541564533e-05,
+      "preprocessing_seconds_mean": 0.0,
+      "preprocessing_seconds_sd": 0.0,
+      "total_seconds_mean": 0.006189333333168179,
+      "total_seconds_sd": 5.7048950262260623e-05,
+      "precision_alfalfa_mean": 0.8867924528301887,
+      "precision_alfalfa_sd": 0.0,
+      "recall_alfalfa_mean": 0.94,
+      "recall_alfalfa_sd": 0.0,
+      "precision_maize_mean": 0.9148936170212766,
+      "precision_maize_sd": 0.0,
+      "recall_maize_mean": 0.86,
+      "recall_maize_sd": 0.0,
+      "precision_wheat_mean": 0.84,
+      "precision_wheat_sd": 0.0,
+      "recall_wheat_mean": 0.84,
+      "recall_wheat_sd": 0.0,
+      "confusion_sum_three_seeds": [
+        [
+          141,
+          0,
+          9
+        ],
+        [
+          6,
+          129,
+          15
+        ],
+        [
+          12,
+          12,
+          126
+        ]
+      ],
+      "resources": {}
+    },
+    {
+      "model": "qnn",
+      "macro_f1_mean": 0.8556942724191511,
+      "macro_f1_sd": 0.006027139053849285,
+      "accuracy_mean": 0.8555555555555555,
+      "accuracy_sd": 0.006285393610547077,
+      "correct_fields_mean": 128.33333333333334,
+      "correct_fields_sd": 0.9428090415820634,
+      "fit_seconds_mean": 48.11430091700216,
+      "fit_seconds_sd": 0.5165755607922052,
+      "predict_seconds_mean": 0.08032894433078279,
+      "predict_seconds_sd": 0.0031277552337666235,
+      "preprocessing_seconds_mean": 0.0063379580024047755,
+      "preprocessing_seconds_sd": 0.0,
+      "total_seconds_mean": 48.20096781933535,
+      "total_seconds_sd": 0.518323990323883,
+      "precision_alfalfa_mean": 0.8253491992408248,
+      "precision_alfalfa_sd": 0.06581869375259454,
+      "recall_alfalfa_mean": 0.8866666666666667,
+      "recall_alfalfa_sd": 0.018856180831641284,
+      "precision_maize_mean": 0.8691648410776741,
+      "precision_maize_sd": 0.05613110774814507,
+      "recall_maize_mean": 0.8799999999999999,
+      "recall_maize_sd": 0.043204937989385725,
+      "precision_wheat_mean": 0.8886245833516879,
+      "precision_wheat_sd": 0.005506610080265365,
+      "recall_wheat_mean": 0.7999999999999999,
+      "recall_wheat_sd": 0.043204937989385725,
+      "confusion_sum_three_seeds": [
+        [
+          133,
+          8,
+          9
+        ],
+        [
+          12,
+          132,
+          6
+        ],
+        [
+          17,
+          13,
+          120
+        ]
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 8,
+        "frozen_quantum": 0,
+        "depth": 6,
+        "two_qubit_gates": 3,
+        "objective_evaluations": 100,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "encoding": "ry",
+        "compilation": "logical decomposed H/P/RY/CX; no backend routing"
+      }
+    },
+    {
+      "model": "matched_head",
+      "macro_f1_mean": 0.5813713934208765,
+      "macro_f1_sd": 0.10586241964000936,
+      "accuracy_mean": 0.6511111111111111,
+      "accuracy_sd": 0.058203559349816844,
+      "correct_fields_mean": 97.66666666666667,
+      "correct_fields_sd": 8.73053390247253,
+      "fit_seconds_mean": 0.04223451400078678,
+      "fit_seconds_sd": 0.004003872483799842,
+      "predict_seconds_mean": 4.3763667539072536e-05,
+      "predict_seconds_sd": 6.0134996108210606e-06,
+      "preprocessing_seconds_mean": 0.0063379580024047755,
+      "preprocessing_seconds_sd": 0.0,
+      "total_seconds_mean": 0.048616235670730625,
+      "total_seconds_sd": 0.004009875634555896,
+      "precision_alfalfa_mean": 0.2830188679245283,
+      "precision_alfalfa_sd": 0.4002491214263477,
+      "recall_alfalfa_mean": 0.3,
+      "recall_alfalfa_sd": 0.42426406871192857,
+      "precision_maize_mean": 0.8775462962962962,
+      "precision_maize_sd": 0.024324287314549796,
+      "recall_maize_mean": 0.7999999999999999,
+      "recall_maize_sd": 0.18547236990991406,
+      "precision_wheat_mean": 0.500982905982906,
+      "precision_wheat_sd": 0.05914100695853058,
+      "recall_wheat_mean": 0.8533333333333334,
+      "recall_wheat_sd": 0.0679869268479038,
+      "confusion_sum_three_seeds": [
+        [
+          45,
+          1,
+          104
+        ],
+        [
+          1,
+          120,
+          29
+        ],
+        [
+          7,
+          15,
+          128
+        ]
+      ],
+      "resources": {
+        "trainable": 11,
+        "objective_evaluations": 100
+      }
+    }
+  ],
+  "verification": {
+    "all_15_prediction_files_rescored": true,
+    "all_training_and_validation_hashes_match": true,
+    "all_qnn_control_histories_have_100_evaluations": true,
+    "svm_predictions_identical_across_seeds": true,
+    "test_inference": false
+  },
+  "loss_diagnostics": {
+    "qnn": [
+      {
+        "seed": 0,
+        "initial_loss_nats": 1.31647045228209,
+        "best_at_50": 0.7374726443152354,
+        "best_at_80": 0.5550831373130103,
+        "best_at_100": 0.5366209942681697,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 1,
+        "initial_loss_nats": 1.5146805384108082,
+        "best_at_50": 0.6467834578739233,
+        "best_at_80": 0.5576824811764595,
+        "best_at_100": 0.4899455277634044,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 2,
+        "initial_loss_nats": 1.0121470233373346,
+        "best_at_50": 0.7726244408207182,
+        "best_at_80": 0.54233609688177,
+        "best_at_100": 0.5342642964456484,
+        "best_evaluation": 95
+      }
+    ],
+    "matched_head": [
+      {
+        "seed": 0,
+        "initial_loss_nats": 1.0843774386150113,
+        "best_at_50": 0.6934290807883076,
+        "best_at_80": 0.6070512648081542,
+        "best_at_100": 0.588745531702108,
+        "best_evaluation": 99
+      },
+      {
+        "seed": 1,
+        "initial_loss_nats": 1.070296541453461,
+        "best_at_50": 0.7485595854525258,
+        "best_at_80": 0.6975582647220565,
+        "best_at_100": 0.6915299005364336,
+        "best_evaluation": 99
+      },
+      {
+        "seed": 2,
+        "initial_loss_nats": 1.0594664632462234,
+        "best_at_50": 0.7255235298813616,
+        "best_at_80": 0.6789609055365499,
+        "best_at_100": 0.6689755506318746,
+        "best_evaluation": 95
+      }
+    ]
+  },
+  "persistent_qnn_errors": [
+    {
+      "sample_id": "r2_b2d9a81ca9899515",
+      "target": "wheat",
+      "reference_seed_0": "maize",
+      "reference_seed_1": "maize",
+      "reference_seed_2": "maize",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 0
+    },
+    {
+      "sample_id": "r2_8579e12576443070",
+      "target": "wheat",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 0
+    },
+    {
+      "sample_id": "r2_ee157cdc50ccd1a5",
+      "target": "alfalfa",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 0,
+      "qnn_seed_0": "maize",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "maize",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "maize",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 3
+    },
+    {
+      "sample_id": "r2_f4a3878c8cf5eb02",
+      "target": "alfalfa",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 0,
+      "qnn_seed_0": "maize",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "maize",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 3
+    },
+    {
+      "sample_id": "r2_8cd2d7cce8101c14",
+      "target": "maize",
+      "reference_seed_0": "wheat",
+      "reference_seed_1": "wheat",
+      "reference_seed_2": "wheat",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "wheat",
+      "qnn_seed_1": "wheat",
+      "qnn_seed_2": "wheat",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 3
+    },
+    {
+      "sample_id": "r2_89f882698714ecba",
+      "target": "wheat",
+      "reference_seed_0": "maize",
+      "reference_seed_1": "maize",
+      "reference_seed_2": "maize",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "maize",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "maize",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "maize",
+      "matched_head_seed_1": "maize",
+      "matched_head_seed_2": "maize",
+      "matched_head_wrong_seed_count": 3
+    },
+    {
+      "sample_id": "r2_614f27a98e1657c5",
+      "target": "wheat",
+      "reference_seed_0": "maize",
+      "reference_seed_1": "maize",
+      "reference_seed_2": "maize",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "maize",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "maize",
+      "matched_head_seed_2": "maize",
+      "matched_head_wrong_seed_count": 2
+    },
+    {
+      "sample_id": "r2_9aaa0a12413a4a3a",
+      "target": "alfalfa",
+      "reference_seed_0": "wheat",
+      "reference_seed_1": "wheat",
+      "reference_seed_2": "wheat",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "wheat",
+      "qnn_seed_1": "wheat",
+      "qnn_seed_2": "wheat",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "wheat",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 3
+    },
+    {
+      "sample_id": "r2_2d55d6e6dfaff0af",
+      "target": "wheat",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "alfalfa",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "alfalfa",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 1
+    },
+    {
+      "sample_id": "r2_b72afa409591d641",
+      "target": "alfalfa",
+      "reference_seed_0": "wheat",
+      "reference_seed_1": "wheat",
+      "reference_seed_2": "wheat",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "wheat",
+      "qnn_seed_1": "wheat",
+      "qnn_seed_2": "wheat",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "alfalfa",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 2
+    },
+    {
+      "sample_id": "r2_bbc9c3c88dff52d3",
+      "target": "wheat",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "alfalfa",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "alfalfa",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 1
+    },
+    {
+      "sample_id": "r2_7f3c98dae83eba11",
+      "target": "wheat",
+      "reference_seed_0": "alfalfa",
+      "reference_seed_1": "alfalfa",
+      "reference_seed_2": "alfalfa",
+      "reference_wrong_seed_count": 3,
+      "qnn_seed_0": "alfalfa",
+      "qnn_seed_1": "alfalfa",
+      "qnn_seed_2": "alfalfa",
+      "qnn_wrong_seed_count": 3,
+      "matched_head_seed_0": "alfalfa",
+      "matched_head_seed_1": "wheat",
+      "matched_head_seed_2": "wheat",
+      "matched_head_wrong_seed_count": 1
+    }
+  ],
+  "qnn_error_stability": {
+    "0": 118,
+    "1": 11,
+    "2": 9,
+    "3": 12
+  },
+  "comparison_with_supplied_reference_runs": [
+    {
+      "model": "reference",
+      "seed": 0,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "matched_head",
+      "seed": 0,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "qnn",
+      "seed": 0,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "reference",
+      "seed": 1,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "matched_head",
+      "seed": 1,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "qnn",
+      "seed": 1,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "reference",
+      "seed": 2,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "matched_head",
+      "seed": 2,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    },
+    {
+      "model": "qnn",
+      "seed": 2,
+      "macro_f1_difference": 0.0,
+      "accuracy_difference": 0.0
+    }
+  ],
+  "quick_vs_full_seed0": {
+    "reference": {
+      "quick": {
+        "macro_f1": 0.8590686274509803,
+        "accuracy": 0.86,
+        "precision": [
+          0.8846153846153846,
+          0.8461538461538461,
+          0.8478260869565217
+        ],
+        "recall": [
+          0.92,
+          0.88,
+          0.78
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            46,
+            1,
+            3
+          ],
+          [
+            2,
+            44,
+            4
+          ],
+          [
+            4,
+            7,
+            39
+          ]
+        ]
+      },
+      "full": {
+        "macro_f1": 0.8797397657892102,
+        "accuracy": 0.88,
+        "precision": [
+          0.8867924528301887,
+          0.9148936170212766,
+          0.84
+        ],
+        "recall": [
+          0.94,
+          0.86,
+          0.84
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            47,
+            0,
+            3
+          ],
+          [
+            2,
+            43,
+            5
+          ],
+          [
+            4,
+            4,
+            42
+          ]
+        ]
+      }
+    },
+    "qnn": {
+      "quick": {
+        "macro_f1": 0.85276917366805,
+        "accuracy": 0.8533333333333334,
+        "precision": [
+          0.7704918032786885,
+          0.88,
+          0.9487179487179487
+        ],
+        "recall": [
+          0.94,
+          0.88,
+          0.74
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            47,
+            2,
+            1
+          ],
+          [
+            5,
+            44,
+            1
+          ],
+          [
+            9,
+            4,
+            37
+          ]
+        ]
+      },
+      "full": {
+        "macro_f1": 0.8473003848003847,
+        "accuracy": 0.8466666666666667,
+        "precision": [
+          0.7818181818181819,
+          0.8775510204081632,
+          0.8913043478260869
+        ],
+        "recall": [
+          0.86,
+          0.86,
+          0.82
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            43,
+            4,
+            3
+          ],
+          [
+            5,
+            43,
+            2
+          ],
+          [
+            7,
+            2,
+            41
+          ]
+        ]
+      }
+    },
+    "matched_head": {
+      "quick": {
+        "macro_f1": 0.5743262312594559,
+        "accuracy": 0.6266666666666667,
+        "precision": [
+          0.5308641975308642,
+          0.8301886792452831,
+          0.4375
+        ],
+        "recall": [
+          0.86,
+          0.88,
+          0.14
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            43,
+            1,
+            6
+          ],
+          [
+            3,
+            44,
+            3
+          ],
+          [
+            35,
+            8,
+            7
+          ]
+        ]
+      },
+      "full": {
+        "macro_f1": 0.7310641861167451,
+        "accuracy": 0.7333333333333333,
+        "precision": [
+          0.8490566037735849,
+          0.84375,
+          0.5846153846153846
+        ],
+        "recall": [
+          0.9,
+          0.54,
+          0.76
+        ],
+        "support": [
+          50,
+          50,
+          50
+        ],
+        "confusion": [
+          [
+            45,
+            0,
+            5
+          ],
+          [
+            1,
+            27,
+            22
+          ],
+          [
+            7,
+            5,
+            38
+          ]
+        ]
+      }
+    }
+  }
+}

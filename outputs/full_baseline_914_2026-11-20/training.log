@@ -1,0 +1,28 @@
+Running original 914-field baseline, seeds 0/1/2. Destination: /Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/outputs/full_baseline_914_2026-11-20
+914 dummy_majority 0 0.16666666666666666
+914 dummy_stratified 0 0.3431338637149775
+914 reference 0 0.8797397657892102
+914 matched_head 0 0.7310641861167451
+914 qnn 0 0.8473003848003847
+914 dummy_majority 1 0.16666666666666666
+914 dummy_stratified 1 0.2794982625646241
+914 reference 1 0.8797397657892102
+914 matched_head 1 0.5044444444444444
+914 qnn 1 0.8586080187595945
+914 dummy_majority 2 0.16666666666666666
+914 dummy_stratified 2 0.3428560194020691
+914 reference 2 0.8797397657892102
+914 matched_head 2 0.5086055497014401
+914 qnn 2 0.861174413697474
+Training complete. Verifying predictions and building diagnostic figures.
+       model  seed  macro_f1  accuracy  correct_fields  total_seconds
+   reference     0  0.879740  0.880000             132       0.006109
+matched_head     0  0.731064  0.733333             110       0.054244
+         qnn     0  0.847300  0.846667             127      47.508303
+   reference     1  0.879740  0.880000             132       0.006221
+matched_head     1  0.504444  0.606667              91       0.045196
+         qnn     1  0.858608  0.860000             129      48.339572
+   reference     2  0.879740  0.880000             132       0.006238
+matched_head     2  0.508606  0.613333              92       0.046409
+         qnn     2  0.861174  0.860000             129      48.755029
+Verified 15 prediction files, all data hashes, original optimizer budgets, and deterministic SVM predictions.

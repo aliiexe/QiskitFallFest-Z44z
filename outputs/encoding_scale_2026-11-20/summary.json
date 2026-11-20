@@ -1,0 +1,551 @@
+{
+  "provenance": "All nine QNN results are LOCAL. Scale=1 reused the separately verified full baseline.",
+  "class_order": [
+    "alfalfa",
+    "maize",
+    "wheat"
+  ],
+  "metrics": [
+    {
+      "scale": 1.0,
+      "macro_f1_mean": 0.8556942724191511,
+      "macro_f1_sd": 0.006027139053849285,
+      "accuracy_mean": 0.8555555555555555,
+      "accuracy_sd": 0.006285393610547077,
+      "correct_fields_mean": 128.33333333333334,
+      "correct_fields_sd": 0.9428090415820634,
+      "fit_seconds_mean": 48.11430091700216,
+      "fit_seconds_sd": 0.5165755607922052,
+      "predict_seconds_mean": 0.08032894433078279,
+      "predict_seconds_sd": 0.0031277552337666235,
+      "total_seconds_mean": 48.20096781933535,
+      "total_seconds_sd": 0.518323990323883,
+      "recall_alfalfa_mean": 0.8866666666666667,
+      "recall_alfalfa_sd": 0.018856180831641284,
+      "precision_alfalfa_mean": 0.8253491992408248,
+      "precision_alfalfa_sd": 0.06581869375259454,
+      "recall_maize_mean": 0.8799999999999999,
+      "recall_maize_sd": 0.043204937989385725,
+      "precision_maize_mean": 0.8691648410776741,
+      "precision_maize_sd": 0.05613110774814507,
+      "recall_wheat_mean": 0.7999999999999999,
+      "recall_wheat_sd": 0.043204937989385725,
+      "precision_wheat_mean": 0.8886245833516879,
+      "precision_wheat_sd": 0.005506610080265365,
+      "confusion_sum_three_seeds": [
+        [
+          133,
+          8,
+          9
+        ],
+        [
+          12,
+          132,
+          6
+        ],
+        [
+          17,
+          13,
+          120
+        ]
+      ]
+    },
+    {
+      "scale": 0.5,
+      "macro_f1_mean": 0.8445216305903562,
+      "macro_f1_sd": 0.012723459450619274,
+      "accuracy_mean": 0.8444444444444446,
+      "accuracy_sd": 0.012570787221094207,
+      "correct_fields_mean": 126.66666666666667,
+      "correct_fields_sd": 1.8856180831641267,
+      "fit_seconds_mean": 48.27159437533313,
+      "fit_seconds_sd": 0.5416103206927848,
+      "predict_seconds_mean": 0.08325594433214671,
+      "predict_seconds_sd": 0.0019879249252884837,
+      "total_seconds_mean": 48.36194256966701,
+      "total_seconds_sd": 0.5435664085961821,
+      "recall_alfalfa_mean": 0.8466666666666667,
+      "recall_alfalfa_sd": 0.018856180831641284,
+      "precision_alfalfa_mean": 0.8312000726216412,
+      "precision_alfalfa_sd": 0.025088073956844398,
+      "recall_maize_mean": 0.8066666666666666,
+      "recall_maize_sd": 0.07542472332656508,
+      "precision_maize_mean": 0.9093518518518519,
+      "precision_maize_sd": 0.04680113636316326,
+      "recall_wheat_mean": 0.88,
+      "recall_wheat_sd": 0.03265986323710907,
+      "precision_wheat_mean": 0.8171041921041922,
+      "precision_wheat_sd": 0.06259744490318715,
+      "confusion_sum_three_seeds": [
+        [
+          127,
+          9,
+          14
+        ],
+        [
+          12,
+          121,
+          17
+        ],
+        [
+          14,
+          4,
+          132
+        ]
+      ]
+    },
+    {
+      "scale": 0.25,
+      "macro_f1_mean": 0.40341755524969175,
+      "macro_f1_sd": 0.27447660221089354,
+      "accuracy_mean": 0.49333333333333335,
+      "accuracy_sd": 0.20805982045769644,
+      "correct_fields_mean": 74.0,
+      "correct_fields_sd": 31.20897306865447,
+      "fit_seconds_mean": 49.50823745833137,
+      "fit_seconds_sd": 0.36327521544178926,
+      "predict_seconds_mean": 0.08160879166583375,
+      "predict_seconds_sd": 0.0018363511593041722,
+      "total_seconds_mean": 49.59693849999894,
+      "total_seconds_sd": 0.3650418632896553,
+      "recall_alfalfa_mean": 0.2733333333333334,
+      "recall_alfalfa_sd": 0.3724990678586398,
+      "precision_alfalfa_mean": 0.37282229965156793,
+      "precision_alfalfa_sd": 0.43020660079609724,
+      "recall_maize_mean": 0.24666666666666667,
+      "recall_maize_sd": 0.2684937408746969,
+      "precision_maize_mean": 0.5896358543417367,
+      "precision_maize_sd": 0.41753140970383884,
+      "recall_wheat_mean": 0.96,
+      "recall_wheat_sd": 0.016329931618554536,
+      "precision_wheat_mean": 0.4382829959808377,
+      "precision_wheat_sd": 0.133384948963356,
+      "confusion_sum_three_seeds": [
+        [
+          41,
+          2,
+          107
+        ],
+        [
+          7,
+          37,
+          106
+        ],
+        [
+          4,
+          2,
+          144
+        ]
+      ]
+    }
+  ],
+  "sd_definition": "Population SD across 3 initialization seeds; not an interval over new fields.",
+  "test_inference": false,
+  "per_seed_deltas": {
+    "0.5": [
+      {
+        "seed": 0,
+        "macro_f1": 0.006571933357647719,
+        "accuracy": 0.00666666666666671,
+        "repaired_fields": 3,
+        "newly_wrong_fields": 2,
+        "recall_delta": {
+          "alfalfa": 0.0,
+          "maize": 0.0,
+          "wheat": 0.020000000000000018
+        }
+      },
+      {
+        "seed": 1,
+        "macro_f1": -0.032075375785480253,
+        "accuracy": -0.033333333333333326,
+        "repaired_fields": 10,
+        "newly_wrong_fields": 15,
+        "recall_delta": {
+          "alfalfa": -0.040000000000000036,
+          "maize": -0.24,
+          "wheat": 0.18000000000000005
+        }
+      },
+      {
+        "seed": 2,
+        "macro_f1": -0.008014483058551791,
+        "accuracy": -0.006666666666666599,
+        "repaired_fields": 4,
+        "newly_wrong_fields": 5,
+        "recall_delta": {
+          "alfalfa": -0.08000000000000007,
+          "maize": 0.020000000000000018,
+          "wheat": 0.040000000000000036
+        }
+      }
+    ],
+    "0.25": [
+      {
+        "seed": 0,
+        "macro_f1": -0.05756167906167886,
+        "accuracy": -0.06000000000000005,
+        "repaired_fields": 11,
+        "newly_wrong_fields": 20,
+        "recall_delta": {
+          "alfalfa": -0.05999999999999994,
+          "maize": -0.24,
+          "wheat": 0.12
+        }
+      },
+      {
+        "seed": 1,
+        "macro_f1": -0.6155930739902638,
+        "accuracy": -0.49333333333333335,
+        "repaired_fields": 12,
+        "newly_wrong_fields": 86,
+        "recall_delta": {
+          "alfalfa": -0.9,
+          "maize": -0.82,
+          "wheat": 0.24
+        }
+      },
+      {
+        "seed": 2,
+        "macro_f1": -0.6836753984564353,
+        "accuracy": -0.5333333333333333,
+        "repaired_fields": 7,
+        "newly_wrong_fields": 87,
+        "recall_delta": {
+          "alfalfa": -0.88,
+          "maize": -0.84,
+          "wheat": 0.12
+        }
+      }
+    ]
+  },
+  "paired_spatial_bootstrap": {
+    "method": "2000 paired resamples of 18 validation spatial blocks, RNG seed 2026; two-sided percentile intervals; conditional on these 3 fitted seeds; no multiplicity correction",
+    "spatial_blocks": 18,
+    "candidate_minus_original": {
+      "0.5": {
+        "macro_f1": {
+          "difference": -0.011172641828794738,
+          "lower_95": -0.05719907362983155,
+          "upper_95": 0.03503337188589953
+        },
+        "accuracy": {
+          "difference": -0.01111111111111096,
+          "lower_95": -0.049480926238738815,
+          "upper_95": 0.03145113161639818
+        },
+        "recall_alfalfa": {
+          "difference": -0.040000000000000036,
+          "lower_95": -0.07104800936768157,
+          "upper_95": 2.7755575615477452e-18
+        },
+        "recall_maize": {
+          "difference": -0.07333333333333325,
+          "lower_95": -0.17592592592592582,
+          "upper_95": 0.0
+        },
+        "recall_wheat": {
+          "difference": 0.08000000000000007,
+          "lower_95": 0.019883754305396115,
+          "upper_95": 0.18593749999999978
+        }
+      },
+      "0.25": {
+        "macro_f1": {
+          "difference": -0.45227671716945933,
+          "lower_95": -0.5340554386662906,
+          "upper_95": -0.34572163228311575
+        },
+        "accuracy": {
+          "difference": -0.36222222222222217,
+          "lower_95": -0.4719540704070407,
+          "upper_95": -0.2666666666666667
+        },
+        "recall_alfalfa": {
+          "difference": -0.6133333333333333,
+          "lower_95": -0.6666666666666666,
+          "upper_95": -0.5353468899521531
+        },
+        "recall_maize": {
+          "difference": -0.6333333333333332,
+          "lower_95": -0.768726556042978,
+          "upper_95": -0.40473057644110283
+        },
+        "recall_wheat": {
+          "difference": 0.16000000000000003,
+          "lower_95": 0.07842094284522315,
+          "upper_95": 0.28431372549019596
+        }
+      }
+    }
+  },
+  "actual_field_examples": [
+    {
+      "sample_id": "r2_614f27a98e1657c5",
+      "target": "wheat",
+      "scale": 1.0,
+      "NDVI": 0.04944578671728577,
+      "PC1": 9.518496907581735,
+      "PC2": -3.098870020469009,
+      "PC3": -6.384833490126023,
+      "PC4": 5.068810880354239,
+      "angle1": 3.141592636627346,
+      "angle2": 0.006377098207384556,
+      "angle3": 8.940313160949933e-06,
+      "angle4": 3.1414683683653766,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "maize",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_614f27a98e1657c5",
+      "target": "wheat",
+      "scale": 0.5,
+      "NDVI": 0.04944578671728577,
+      "PC1": 9.518496907581735,
+      "PC2": -3.098870020469009,
+      "PC3": -6.384833490126023,
+      "PC4": 5.068810880354239,
+      "angle1": 3.1413618262327705,
+      "angle2": 0.1355719424165962,
+      "angle3": 0.005290782452935869,
+      "angle4": 3.1219558785027126,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_614f27a98e1657c5",
+      "target": "wheat",
+      "scale": 0.25,
+      "NDVI": 0.04944578671728577,
+      "PC1": 9.518496907581735,
+      "PC2": -3.098870020469009,
+      "PC3": -6.384833490126023,
+      "PC4": 5.068810880354239,
+      "angle1": 3.114891648909622,
+      "angle2": 0.5503061413493384,
+      "angle3": 0.12394240704536488,
+      "angle4": 2.910744804020151,
+      "prediction_seed_0": "maize",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_0f0d5893227ca21d",
+      "target": "maize",
+      "scale": 1.0,
+      "NDVI": 0.05720315735491764,
+      "PC1": 9.49956416020164,
+      "PC2": -3.007544291621701,
+      "PC3": -6.284518341296076,
+      "PC4": 5.065350198324516,
+      "angle1": 3.1415926359727395,
+      "angle2": 0.007651930167273806,
+      "angle3": 1.0926601090686074e-05,
+      "angle4": 3.141467505192639,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "maize",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_0f0d5893227ca21d",
+      "target": "maize",
+      "scale": 0.5,
+      "NDVI": 0.05720315735491764,
+      "PC1": 9.49956416020164,
+      "PC2": -3.007544291621701,
+      "PC3": -6.284518341296076,
+      "PC4": 5.065350198324516,
+      "angle1": 3.1413574147348533,
+      "angle2": 0.14792568710848955,
+      "angle3": 0.005848022707431607,
+      "angle4": 3.1218882311141662,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_0f0d5893227ca21d",
+      "target": "maize",
+      "scale": 0.25,
+      "NDVI": 0.05720315735491764,
+      "PC1": 9.49956416020164,
+      "PC2": -3.007544291621701,
+      "PC3": -6.284518341296076,
+      "PC4": 5.065350198324516,
+      "angle1": 3.1146398658937495,
+      "angle2": 0.5713413354625186,
+      "angle3": 0.13005368686132007,
+      "angle4": 2.9103744369868068,
+      "prediction_seed_0": "maize",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_1f036cbcc9c718d1",
+      "target": "maize",
+      "scale": 1.0,
+      "NDVI": 0.07627946740378587,
+      "PC1": 7.268396378762886,
+      "PC2": -2.3799329720245788,
+      "PC3": -4.793104468288608,
+      "PC4": 4.82987552938673,
+      "angle1": 3.141591126372678,
+      "angle2": 0.026684662161712825,
+      "angle3": 0.00021571602428837306,
+      "angle4": 3.1413922315009963,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "maize",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_1f036cbcc9c718d1",
+      "target": "maize",
+      "scale": 0.5,
+      "NDVI": 0.07627946740378587,
+      "PC1": 7.268396378762886,
+      "PC2": -2.3799329720245788,
+      "PC3": -4.793104468288608,
+      "PC4": 4.82987552938673,
+      "angle1": 3.1394037696446726,
+      "angle2": 0.2661424182706659,
+      "angle3": 0.02581945173380958,
+      "angle4": 3.116697980427153,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_1f036cbcc9c718d1",
+      "target": "maize",
+      "scale": 0.25,
+      "NDVI": 0.07627946740378587,
+      "PC1": 7.268396378762886,
+      "PC2": -2.3799329720245788,
+      "PC3": -4.793104468288608,
+      "PC4": 4.82987552938673,
+      "angle1": 3.060772652391772,
+      "angle2": 0.732823389721553,
+      "angle3": 0.26212187435327694,
+      "angle4": 2.8838542348524125,
+      "prediction_seed_0": "maize",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_19678996b95020df",
+      "target": "maize",
+      "scale": 1.0,
+      "NDVI": 0.057275295293593716,
+      "PC1": 8.092478287243257,
+      "PC2": -2.7103860664913864,
+      "PC3": -5.446957889621605,
+      "PC4": 4.547861953644042,
+      "angle1": 3.14159235974872,
+      "angle2": 0.013836348216146497,
+      "angle3": 5.8341057680208635e-05,
+      "angle4": 3.1412403813100824,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "maize",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_19678996b95020df",
+      "target": "maize",
+      "scale": 0.5,
+      "NDVI": 0.057275295293593716,
+      "PC1": 8.092478287243257,
+      "PC2": -2.7103860664913864,
+      "PC3": -5.446957889621605,
+      "PC4": 4.547861953644042,
+      "angle1": 3.1406321512939663,
+      "angle2": 0.19591999929523146,
+      "angle3": 0.01348027006306711,
+      "angle4": 3.1086723674127152,
+      "prediction_seed_0": "alfalfa",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    },
+    {
+      "sample_id": "r2_19678996b95020df",
+      "target": "maize",
+      "scale": 0.25,
+      "NDVI": 0.057275295293593716,
+      "PC1": 8.092478287243257,
+      "PC2": -2.7103860664913864,
+      "PC3": -5.446957889621605,
+      "PC4": 4.547861953644042,
+      "angle1": 3.087596697536167,
+      "angle2": 0.6440977174186432,
+      "angle3": 0.1935285511312139,
+      "angle4": 2.8484659666473564,
+      "prediction_seed_0": "maize",
+      "prediction_seed_1": "alfalfa",
+      "prediction_seed_2": "alfalfa"
+    }
+  ],
+  "loss_diagnostics": {
+    "1.0": [
+      {
+        "seed": 0,
+        "best_loss_nats": 0.5366209942681697,
+        "best_at_80": 0.5550831373130103,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 1,
+        "best_loss_nats": 0.4899455277634044,
+        "best_at_80": 0.5576824811764595,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 2,
+        "best_loss_nats": 0.5342642964456484,
+        "best_at_80": 0.54233609688177,
+        "best_evaluation": 95
+      }
+    ],
+    "0.5": [
+      {
+        "seed": 0,
+        "best_loss_nats": 0.5816997950704529,
+        "best_at_80": 0.5942930763665281,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 1,
+        "best_loss_nats": 0.5187153197132662,
+        "best_at_80": 0.5550795142886592,
+        "best_evaluation": 96
+      },
+      {
+        "seed": 2,
+        "best_loss_nats": 0.6122330916047077,
+        "best_at_80": 0.6249857827033202,
+        "best_evaluation": 100
+      }
+    ],
+    "0.25": [
+      {
+        "seed": 0,
+        "best_loss_nats": 0.6618126119651294,
+        "best_at_80": 0.6681051042328151,
+        "best_evaluation": 98
+      },
+      {
+        "seed": 1,
+        "best_loss_nats": 0.7817323441914332,
+        "best_at_80": 0.7830075515668934,
+        "best_evaluation": 100
+      },
+      {
+        "seed": 2,
+        "best_loss_nats": 0.9256156464413712,
+        "best_at_80": 0.9284699869126798,
+        "best_evaluation": 100
+      }
+    ]
+  },
+  "selected_by_mean_validation_macro_f1": 1.0
+}

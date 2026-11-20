@@ -1,0 +1,578 @@
+[
+  {
+    "model": "qnn",
+    "seed": 0,
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.8473003848003847,
+      "accuracy": 0.8466666666666667,
+      "precision": [
+        0.7818181818181819,
+        0.8775510204081632,
+        0.8913043478260869
+      ],
+      "recall": [
+        0.86,
+        0.86,
+        0.82
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          43,
+          4,
+          3
+        ],
+        [
+          5,
+          43,
+          2
+        ],
+        [
+          7,
+          2,
+          41
+        ]
+      ]
+    },
+    "fit_seconds": 47.42517933400086,
+    "predict_seconds": 0.07678562500223052,
+    "preprocessing_seconds": 0.0063379580024047755,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing"
+    },
+    "scale": 1.0,
+    "origin": "reused verified LOCAL full-training baseline",
+    "baseline_results": "outputs/full_baseline_914_2026-11-20"
+  },
+  {
+    "model": "qnn",
+    "seed": 1,
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.8586080187595945,
+      "accuracy": 0.86,
+      "precision": [
+        0.9183673469387755,
+        0.7966101694915254,
+        0.8809523809523809
+      ],
+      "recall": [
+        0.9,
+        0.94,
+        0.74
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          45,
+          2,
+          3
+        ],
+        [
+          1,
+          47,
+          2
+        ],
+        [
+          3,
+          10,
+          37
+        ]
+      ]
+    },
+    "fit_seconds": 48.248840167005255,
+    "predict_seconds": 0.0843936249948456,
+    "preprocessing_seconds": 0.0063379580024047755,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing"
+    },
+    "scale": 1.0,
+    "origin": "reused verified LOCAL full-training baseline",
+    "baseline_results": "outputs/full_baseline_914_2026-11-20"
+  },
+  {
+    "model": "qnn",
+    "seed": 2,
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.861174413697474,
+      "accuracy": 0.86,
+      "precision": [
+        0.7758620689655172,
+        0.9333333333333333,
+        0.8936170212765957
+      ],
+      "recall": [
+        0.9,
+        0.84,
+        0.84
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          45,
+          2,
+          3
+        ],
+        [
+          6,
+          42,
+          2
+        ],
+        [
+          7,
+          1,
+          42
+        ]
+      ]
+    },
+    "fit_seconds": 48.66888325000036,
+    "predict_seconds": 0.07980758299527224,
+    "preprocessing_seconds": 0.0063379580024047755,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing"
+    },
+    "scale": 1.0,
+    "origin": "reused verified LOCAL full-training baseline",
+    "baseline_results": "outputs/full_baseline_914_2026-11-20"
+  },
+  {
+    "model": "qnn",
+    "scale": 0.5,
+    "seed": 0,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.8538723181580324,
+      "accuracy": 0.8533333333333334,
+      "precision": [
+        0.7962962962962963,
+        0.8958333333333334,
+        0.875
+      ],
+      "recall": [
+        0.86,
+        0.86,
+        0.84
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          43,
+          3,
+          4
+        ],
+        [
+          5,
+          43,
+          2
+        ],
+        [
+          6,
+          2,
+          42
+        ]
+      ]
+    },
+    "fit_seconds": 47.61553466699843,
+    "predict_seconds": 0.08114575000217883,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.5
+    }
+  },
+  {
+    "model": "qnn",
+    "scale": 0.5,
+    "seed": 1,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.8265326429741142,
+      "accuracy": 0.8266666666666667,
+      "precision": [
+        0.8431372549019608,
+        0.9722222222222222,
+        0.7301587301587301
+      ],
+      "recall": [
+        0.86,
+        0.7,
+        0.92
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          43,
+          1,
+          6
+        ],
+        [
+          4,
+          35,
+          11
+        ],
+        [
+          4,
+          0,
+          46
+        ]
+      ]
+    },
+    "fit_seconds": 48.2572766670055,
+    "predict_seconds": 0.082702290994348,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.5
+    }
+  },
+  {
+    "model": "qnn",
+    "scale": 0.5,
+    "seed": 2,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.8531599306389223,
+      "accuracy": 0.8533333333333334,
+      "precision": [
+        0.8541666666666666,
+        0.86,
+        0.8461538461538461
+      ],
+      "recall": [
+        0.82,
+        0.86,
+        0.88
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          41,
+          5,
+          4
+        ],
+        [
+          3,
+          43,
+          4
+        ],
+        [
+          4,
+          2,
+          44
+        ]
+      ]
+    },
+    "fit_seconds": 48.941971791995456,
+    "predict_seconds": 0.08591979199991329,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.5
+    }
+  },
+  {
+    "model": "qnn",
+    "scale": 0.25,
+    "seed": 0,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.7897387057387059,
+      "accuracy": 0.7866666666666666,
+      "precision": [
+        0.975609756097561,
+        0.9117647058823529,
+        0.6266666666666667
+      ],
+      "recall": [
+        0.8,
+        0.62,
+        0.94
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          40,
+          1,
+          9
+        ],
+        [
+          0,
+          31,
+          19
+        ],
+        [
+          1,
+          2,
+          47
+        ]
+      ]
+    },
+    "fit_seconds": 49.82267270799639,
+    "predict_seconds": 0.0825757920028991,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.25
+    }
+  },
+  {
+    "model": "qnn",
+    "scale": 0.25,
+    "seed": 1,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.24301494476933072,
+      "accuracy": 0.36666666666666664,
+      "precision": [
+        0.0,
+        0.8571428571428571,
+        0.35251798561151076
+      ],
+      "recall": [
+        0.0,
+        0.12,
+        0.98
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          0,
+          1,
+          49
+        ],
+        [
+          3,
+          6,
+          41
+        ],
+        [
+          1,
+          0,
+          49
+        ]
+      ]
+    },
+    "fit_seconds": 49.702873750000435,
+    "predict_seconds": 0.08321262499521254,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.25
+    }
+  },
+  {
+    "model": "qnn",
+    "scale": 0.25,
+    "seed": 2,
+    "origin": "new LOCAL encoding-scale fit",
+    "training_rows": 914,
+    "training_sha256": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "validation_sha256": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "metrics": {
+      "macro_f1": 0.1774990152410387,
+      "accuracy": 0.32666666666666666,
+      "precision": [
+        0.14285714285714285,
+        0.0,
+        0.3356643356643357
+      ],
+      "recall": [
+        0.02,
+        0.0,
+        0.96
+      ],
+      "support": [
+        50,
+        50,
+        50
+      ],
+      "confusion": [
+        [
+          1,
+          0,
+          49
+        ],
+        [
+          4,
+          0,
+          46
+        ],
+        [
+          2,
+          0,
+          48
+        ]
+      ]
+    },
+    "fit_seconds": 48.9991659169973,
+    "predict_seconds": 0.07903795799938962,
+    "preprocessing_seconds": 0.007092250001733191,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "fixed_input_scale": 0.25
+    }
+  }
+]
