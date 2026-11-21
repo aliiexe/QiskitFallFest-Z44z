@@ -1,0 +1,1490 @@
+[
+  {
+    "configuration": "A",
+    "fold": 0,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.7656768306359268,
+      "accuracy": 0.780327868852459,
+      "precision": [
+        0.6857142857142857,
+        0.7428571428571429,
+        0.8769230769230769
+      ],
+      "recall": [
+        0.8780487804878049,
+        0.6419753086419753,
+        0.8028169014084507
+      ],
+      "support": [
+        82,
+        81,
+        142
+      ],
+      "confusion": [
+        [
+          72,
+          5,
+          5
+        ],
+        [
+          18,
+          52,
+          11
+        ],
+        [
+          15,
+          13,
+          114
+        ]
+      ]
+    },
+    "fit_seconds": 0.3614987500041025,
+    "predict_seconds": 0.1516176250006538,
+    "preprocessing_seconds": 0.0025641250031185336,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 60900,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 72
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.396210881607617,
+      0.4325473412871609,
+      -4.039784868681762,
+      -4.7161248218509435,
+      3.1757386001270427,
+      2.530538624640797,
+      0.8427783273650793,
+      1.2405931109966526
+    ]
+  },
+  {
+    "configuration": "A",
+    "fold": 1,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.7844318973738496,
+      "accuracy": 0.7934426229508197,
+      "precision": [
+        0.7047619047619048,
+        0.7341772151898734,
+        0.9090909090909091
+      ],
+      "recall": [
+        0.891566265060241,
+        0.725,
+        0.7746478873239436
+      ],
+      "support": [
+        83,
+        80,
+        142
+      ],
+      "confusion": [
+        [
+          74,
+          7,
+          2
+        ],
+        [
+          13,
+          58,
+          9
+        ],
+        [
+          18,
+          14,
+          110
+        ]
+      ]
+    },
+    "fit_seconds": 0.3338596659959876,
+    "predict_seconds": 0.15302037500077859,
+    "preprocessing_seconds": 0.0010132500028703362,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 60900,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 71
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.3631181788014006,
+      0.3974957776001169,
+      -4.056476831064547,
+      -4.736930163268735,
+      3.167556290923853,
+      2.5849358729691008,
+      0.8347948784273193,
+      1.262682321376139
+    ]
+  },
+  {
+    "configuration": "A",
+    "fold": 2,
+    "seed": 0,
+    "training_rows": 610,
+    "held_out_rows": 304,
+    "metrics": {
+      "macro_f1": 0.785741581222716,
+      "accuracy": 0.7960526315789473,
+      "precision": [
+        0.7446808510638298,
+        0.6818181818181818,
+        0.9180327868852459
+      ],
+      "recall": [
+        0.8536585365853658,
+        0.7407407407407407,
+        0.7943262411347518
+      ],
+      "support": [
+        82,
+        81,
+        141
+      ],
+      "confusion": [
+        [
+          70,
+          8,
+          4
+        ],
+        [
+          15,
+          60,
+          6
+        ],
+        [
+          9,
+          20,
+          112
+        ]
+      ]
+    },
+    "fit_seconds": 0.3379560829998809,
+    "predict_seconds": 0.15166841699829092,
+    "preprocessing_seconds": 0.0011224580011912622,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 61000,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 70
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.388739110316094,
+      0.29170438937175486,
+      -4.014506275892826,
+      -4.710905598998418,
+      3.219913511319876,
+      2.5438899388965606,
+      0.8672872178846559,
+      1.2094996241509919
+    ]
+  },
+  {
+    "configuration": "B",
+    "fold": 0,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.8690705160925877,
+      "accuracy": 0.8721311475409836,
+      "precision": [
+        0.8333333333333334,
+        0.8089887640449438,
+        0.9444444444444444
+      ],
+      "recall": [
+        0.9146341463414634,
+        0.8888888888888888,
+        0.8380281690140845
+      ],
+      "support": [
+        82,
+        81,
+        142
+      ],
+      "confusion": [
+        [
+          75,
+          4,
+          3
+        ],
+        [
+          5,
+          72,
+          4
+        ],
+        [
+          10,
+          13,
+          119
+        ]
+      ]
+    },
+    "fit_seconds": 0.7872184170046239,
+    "predict_seconds": 0.15271237499837298,
+    "preprocessing_seconds": 0.001046542005497031,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 17,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 17,
+      "native_operator_builds": 289,
+      "logical_field_probability_evaluations": 176001,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 17,
+      "njev": 17,
+      "nit": 15
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.6445952044556056,
+      -0.38414176840619435,
+      -1.3377718889231858,
+      -2.925537095236799,
+      -0.050709858590598476,
+      3.0328142252429293,
+      0.19642827687521408,
+      0.6638150532770444
+    ]
+  },
+  {
+    "configuration": "B",
+    "fold": 1,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.8584242477541638,
+      "accuracy": 0.8590163934426229,
+      "precision": [
+        0.9047619047619048,
+        0.7857142857142857,
+        0.8759124087591241
+      ],
+      "recall": [
+        0.9156626506024096,
+        0.825,
+        0.8450704225352113
+      ],
+      "support": [
+        83,
+        80,
+        142
+      ],
+      "confusion": [
+        [
+          76,
+          2,
+          5
+        ],
+        [
+          2,
+          66,
+          12
+        ],
+        [
+          6,
+          16,
+          120
+        ]
+      ]
+    },
+    "fit_seconds": 0.7880500420069438,
+    "predict_seconds": 0.15125154199631652,
+    "preprocessing_seconds": 0.0011332919966662303,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 17,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 17,
+      "native_operator_builds": 289,
+      "logical_field_probability_evaluations": 176001,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 17,
+      "njev": 17,
+      "nit": 16
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.7370729633605855,
+      -0.4444076723606824,
+      -1.3372916219267001,
+      -2.875886366238739,
+      -0.07930206989149766,
+      2.9784553681470665,
+      0.27499579866239354,
+      0.7612840967650658
+    ]
+  },
+  {
+    "configuration": "B",
+    "fold": 2,
+    "seed": 0,
+    "training_rows": 610,
+    "held_out_rows": 304,
+    "metrics": {
+      "macro_f1": 0.8448453590416793,
+      "accuracy": 0.8453947368421053,
+      "precision": [
+        0.8928571428571429,
+        0.7362637362637363,
+        0.8914728682170543
+      ],
+      "recall": [
+        0.9146341463414634,
+        0.8271604938271605,
+        0.8156028368794326
+      ],
+      "support": [
+        82,
+        81,
+        141
+      ],
+      "confusion": [
+        [
+          75,
+          3,
+          4
+        ],
+        [
+          4,
+          67,
+          10
+        ],
+        [
+          5,
+          21,
+          115
+        ]
+      ]
+    },
+    "fit_seconds": 0.7999420840060338,
+    "predict_seconds": 0.1512524999998277,
+    "preprocessing_seconds": 0.0010558329959167168,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 17,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 17,
+      "native_operator_builds": 289,
+      "logical_field_probability_evaluations": 176290,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 17,
+      "njev": 17,
+      "nit": 16
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.7337034037421453,
+      -0.4200093363602032,
+      -1.3721264174088919,
+      -2.8789687939629194,
+      -0.07526001959777594,
+      3.0472203087431415,
+      0.2120176861974084,
+      0.7078847445582811
+    ]
+  },
+  {
+    "configuration": "C",
+    "fold": 0,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.8902400349881766,
+      "accuracy": 0.8885245901639345,
+      "precision": [
+        0.9047619047619048,
+        0.79,
+        0.9586776859504132
+      ],
+      "recall": [
+        0.926829268292683,
+        0.9753086419753086,
+        0.8169014084507042
+      ],
+      "support": [
+        82,
+        81,
+        142
+      ],
+      "confusion": [
+        [
+          76,
+          2,
+          4
+        ],
+        [
+          1,
+          79,
+          1
+        ],
+        [
+          7,
+          19,
+          116
+        ]
+      ]
+    },
+    "fit_seconds": 0.3490114590022131,
+    "predict_seconds": 0.17126999999891268,
+    "preprocessing_seconds": 0.001006291997327935,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 60900,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 68
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.5603096301249317,
+      -1.548507068092151,
+      -2.642629013670333,
+      -3.2459806718488338,
+      2.981364822799778,
+      4.820443221242307,
+      0.08412163807449649,
+      0.35302613918361436,
+      0.19058843071749831,
+      2.706110534684655,
+      1.4844578604629384,
+      -3.949391580882423
+    ]
+  },
+  {
+    "configuration": "C",
+    "fold": 1,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.8459730261602819,
+      "accuracy": 0.8426229508196721,
+      "precision": [
+        0.9135802469135802,
+        0.7446808510638298,
+        0.8692307692307693
+      ],
+      "recall": [
+        0.891566265060241,
+        0.875,
+        0.795774647887324
+      ],
+      "support": [
+        83,
+        80,
+        142
+      ],
+      "confusion": [
+        [
+          74,
+          2,
+          7
+        ],
+        [
+          0,
+          70,
+          10
+        ],
+        [
+          7,
+          22,
+          113
+        ]
+      ]
+    },
+    "fit_seconds": 0.3469918329938082,
+    "predict_seconds": 0.1701654159987811,
+    "preprocessing_seconds": 0.001156708000053186,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 60900,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 69
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.3899244554075687,
+      -1.16247477579293,
+      -2.6651088909869323,
+      -3.4804766812548915,
+      3.085042188537532,
+      4.778761091210411,
+      0.28743725545454396,
+      0.4345966804771902,
+      0.14286615078029005,
+      2.4185350225394275,
+      1.4979027732780135,
+      -4.18057591591032
+    ]
+  },
+  {
+    "configuration": "C",
+    "fold": 2,
+    "seed": 0,
+    "training_rows": 610,
+    "held_out_rows": 304,
+    "metrics": {
+      "macro_f1": 0.8748631744349488,
+      "accuracy": 0.8717105263157895,
+      "precision": [
+        0.926829268292683,
+        0.7524752475247525,
+        0.9338842975206612
+      ],
+      "recall": [
+        0.926829268292683,
+        0.9382716049382716,
+        0.8014184397163121
+      ],
+      "support": [
+        82,
+        81,
+        141
+      ],
+      "confusion": [
+        [
+          76,
+          2,
+          4
+        ],
+        [
+          1,
+          76,
+          4
+        ],
+        [
+          5,
+          23,
+          113
+        ]
+      ]
+    },
+    "fit_seconds": 0.3456653329994879,
+    "predict_seconds": 0.1692239590047393,
+    "preprocessing_seconds": 0.0014249160012695938,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 100,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 100,
+      "logical_field_probability_evaluations": 61000,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the objective function has been evaluated MAXFUN times.",
+      "success": false,
+      "nfev": 100,
+      "njev": 0,
+      "nit": 67
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.4664667185765812,
+      -1.4257629319557334,
+      -2.740118279176638,
+      -3.1859275571346353,
+      2.9032924787464984,
+      4.716063776713028,
+      0.04148699991610986,
+      0.3449559664532517,
+      0.24424436368441466,
+      2.6344460002530137,
+      1.6155055891817187,
+      -3.8694205345090866
+    ]
+  },
+  {
+    "configuration": "D",
+    "fold": 0,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.869971066860427,
+      "accuracy": 0.8688524590163934,
+      "precision": [
+        0.9375,
+        0.825,
+        0.8551724137931035
+      ],
+      "recall": [
+        0.9146341463414634,
+        0.8148148148148148,
+        0.8732394366197183
+      ],
+      "support": [
+        82,
+        81,
+        142
+      ],
+      "confusion": [
+        [
+          75,
+          1,
+          6
+        ],
+        [
+          0,
+          66,
+          15
+        ],
+        [
+          5,
+          13,
+          124
+        ]
+      ]
+    },
+    "fit_seconds": 3.0407139169983566,
+    "predict_seconds": 0.17040754100162303,
+    "preprocessing_seconds": 0.0009884579994832166,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 45,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 45,
+      "native_operator_builds": 1125,
+      "logical_field_probability_evaluations": 685125,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 45,
+      "njev": 45,
+      "nit": 37
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.3601850098478088,
+      -0.6799129146517032,
+      -1.2396101506624044,
+      -4.712815081880685,
+      3.1931579548721807,
+      4.475821636418712,
+      -0.07525842159081125,
+      0.3139772485645147,
+      0.06815625995105072,
+      1.929466956409853,
+      1.536977389015504,
+      -4.683017739839059
+    ]
+  },
+  {
+    "configuration": "D",
+    "fold": 1,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.8635073997392838,
+      "accuracy": 0.8622950819672132,
+      "precision": [
+        0.9493670886075949,
+        0.8024691358024691,
+        0.8482758620689655
+      ],
+      "recall": [
+        0.9036144578313253,
+        0.8125,
+        0.8661971830985915
+      ],
+      "support": [
+        83,
+        80,
+        142
+      ],
+      "confusion": [
+        [
+          75,
+          1,
+          7
+        ],
+        [
+          0,
+          65,
+          15
+        ],
+        [
+          4,
+          15,
+          123
+        ]
+      ]
+    },
+    "fit_seconds": 2.2444964589958545,
+    "predict_seconds": 0.1729557090002345,
+    "preprocessing_seconds": 0.001110958997742273,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 33,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 33,
+      "native_operator_builds": 825,
+      "logical_field_probability_evaluations": 502425,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 33,
+      "njev": 33,
+      "nit": 31
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.304161430198136,
+      -0.6217333854153937,
+      -1.3415970565407667,
+      -4.689000927335293,
+      3.179421825089125,
+      4.518142379080906,
+      -0.0681569798122278,
+      0.32593021618829393,
+      0.14005467577060068,
+      1.9358921055926672,
+      1.5385759571208286,
+      -4.667787088767689
+    ]
+  },
+  {
+    "configuration": "D",
+    "fold": 2,
+    "seed": 0,
+    "training_rows": 610,
+    "held_out_rows": 304,
+    "metrics": {
+      "macro_f1": 0.8810707073600389,
+      "accuracy": 0.8782894736842105,
+      "precision": [
+        0.926829268292683,
+        0.7623762376237624,
+        0.9421487603305785
+      ],
+      "recall": [
+        0.926829268292683,
+        0.9506172839506173,
+        0.8085106382978723
+      ],
+      "support": [
+        82,
+        81,
+        141
+      ],
+      "confusion": [
+        [
+          76,
+          2,
+          4
+        ],
+        [
+          1,
+          77,
+          3
+        ],
+        [
+          5,
+          22,
+          114
+        ]
+      ]
+    },
+    "fit_seconds": 1.8453324169968255,
+    "predict_seconds": 0.1715466249952442,
+    "preprocessing_seconds": 0.0013431670013233088,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "objective_evaluations": 27,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "optimizer": "L-BFGS-B",
+      "gradient_evaluations": 27,
+      "native_operator_builds": 675,
+      "logical_field_probability_evaluations": 411750,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 27,
+      "njev": 27,
+      "nit": 25
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025,
+      0.2741039054013798,
+      2.733640660702316,
+      1.984566410476863,
+      -3.1243861495570098
+    ],
+    "final_weights": [
+      1.4641006948579267,
+      -1.4962140915020774,
+      -2.822304101030484,
+      -3.269484590399695,
+      2.999789659480172,
+      4.794628583133352,
+      0.11168580406143057,
+      0.1571560969372528,
+      0.17299256849636396,
+      2.690889333886495,
+      1.5871038193365774,
+      -3.898656440893471
+    ]
+  },
+  {
+    "configuration": "E",
+    "fold": 0,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.7806368868868869,
+      "accuracy": 0.7934426229508197,
+      "precision": [
+        0.6818181818181818,
+        0.7910447761194029,
+        0.890625
+      ],
+      "recall": [
+        0.9146341463414634,
+        0.654320987654321,
+        0.8028169014084507
+      ],
+      "support": [
+        82,
+        81,
+        142
+      ],
+      "confusion": [
+        [
+          75,
+          4,
+          3
+        ],
+        [
+          17,
+          53,
+          11
+        ],
+        [
+          18,
+          10,
+          114
+        ]
+      ]
+    },
+    "fit_seconds": 2.381595124999876,
+    "predict_seconds": 0.157202624999627,
+    "preprocessing_seconds": 0.0010779169970192015,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 801,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 801,
+      "logical_field_probability_evaluations": 487809,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+      "success": true,
+      "nfev": 801,
+      "njev": 0,
+      "nit": 644
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.3709209230461752,
+      0.23119978769506278,
+      -4.105447582008054,
+      -4.805176529857035,
+      3.1519664044407865,
+      2.713479983965249,
+      0.6595254808205361,
+      1.0859132927923807
+    ]
+  },
+  {
+    "configuration": "E",
+    "fold": 1,
+    "seed": 0,
+    "training_rows": 609,
+    "held_out_rows": 305,
+    "metrics": {
+      "macro_f1": 0.7925106494773781,
+      "accuracy": 0.8,
+      "precision": [
+        0.7037037037037037,
+        0.7733333333333333,
+        0.9016393442622951
+      ],
+      "recall": [
+        0.9156626506024096,
+        0.725,
+        0.7746478873239436
+      ],
+      "support": [
+        83,
+        80,
+        142
+      ],
+      "confusion": [
+        [
+          76,
+          4,
+          3
+        ],
+        [
+          13,
+          58,
+          9
+        ],
+        [
+          19,
+          13,
+          110
+        ]
+      ]
+    },
+    "fit_seconds": 2.2889820829950622,
+    "predict_seconds": 0.15581691599800251,
+    "preprocessing_seconds": 0.0010818329974426888,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 745,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 745,
+      "logical_field_probability_evaluations": 453705,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+      "success": true,
+      "nfev": 745,
+      "njev": 0,
+      "nit": 612
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.302193222797524,
+      -0.019700793398195242,
+      -4.1133657564651,
+      -4.804389936832247,
+      3.145194214104176,
+      2.9057735243718197,
+      0.5470914889537886,
+      1.0073917918808046
+    ]
+  },
+  {
+    "configuration": "E",
+    "fold": 2,
+    "seed": 0,
+    "training_rows": 610,
+    "held_out_rows": 304,
+    "metrics": {
+      "macro_f1": 0.7790878711590649,
+      "accuracy": 0.7894736842105263,
+      "precision": [
+        0.7,
+        0.7195121951219512,
+        0.9098360655737705
+      ],
+      "recall": [
+        0.8536585365853658,
+        0.7283950617283951,
+        0.7872340425531915
+      ],
+      "support": [
+        82,
+        81,
+        141
+      ],
+      "confusion": [
+        [
+          70,
+          7,
+          5
+        ],
+        [
+          16,
+          59,
+          6
+        ],
+        [
+          14,
+          16,
+          111
+        ]
+      ]
+    },
+    "fit_seconds": 1.7241520829993533,
+    "predict_seconds": 0.15256950000184588,
+    "preprocessing_seconds": 0.0013227919989731163,
+    "resources": {
+      "qubits": 4,
+      "trainable": 8,
+      "frozen_quantum": 0,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "objective_evaluations": 569,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "encoding": "ry",
+      "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+      "entangling_blocks": 1,
+      "ry_parameter_banks": 2,
+      "optimizer": "COBYLA",
+      "gradient_evaluations": 0,
+      "native_operator_builds": 569,
+      "logical_field_probability_evaluations": 347090,
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "Return from COBYLA because the trust region radius reaches its lower bound.",
+      "success": true,
+      "nfev": 569,
+      "njev": 0,
+      "nit": 465
+    },
+    "initial_weights": [
+      0.8605556614246863,
+      -1.4464727375963786,
+      -2.8841484100105235,
+      -3.03774645687452,
+      1.968334964119786,
+      2.5934197786078093,
+      0.6700123395200415,
+      1.4419694200229025
+    ],
+    "final_weights": [
+      1.319181856207299,
+      -0.14001183660441568,
+      -4.082162388212052,
+      -4.798336705427438,
+      3.1971433014486106,
+      2.9099590611997845,
+      0.5833750927535166,
+      0.9772021987539083
+    ]
+  }
+]

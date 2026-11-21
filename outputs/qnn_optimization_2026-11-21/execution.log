@@ -1,0 +1,33 @@
+Training-only selection: 5 configurations x 3 folds, training seed 0. Validation is not scored.
+CV A fold=0 F1=0.765677 fit=0.36s evaluations=100
+CV A fold=1 F1=0.784432 fit=0.33s evaluations=100
+CV A fold=2 F1=0.785742 fit=0.34s evaluations=100
+CV B fold=0 F1=0.869071 fit=0.79s evaluations=17
+CV B fold=1 F1=0.858424 fit=0.79s evaluations=17
+CV B fold=2 F1=0.844845 fit=0.80s evaluations=17
+CV C fold=0 F1=0.890240 fit=0.35s evaluations=100
+CV C fold=1 F1=0.845973 fit=0.35s evaluations=100
+CV C fold=2 F1=0.874863 fit=0.35s evaluations=100
+CV D fold=0 F1=0.869971 fit=3.04s evaluations=45
+CV D fold=1 F1=0.863507 fit=2.24s evaluations=33
+CV D fold=2 F1=0.881071 fit=1.85s evaluations=27
+CV E fold=0 F1=0.780637 fit=2.38s evaluations=801
+CV E fold=1 F1=0.792511 fit=2.29s evaluations=745
+CV E fold=2 F1=0.779088 fit=1.72s evaluations=569
+SELECTION LOCKED FROM TRAINING ONLY: D. Now evaluating predefined full-training runs.
+FULL A seed=0 F1=0.847300 recall=[0.86, 0.86, 0.82] fit=0.48s evaluations=100 probability_passes=100
+FULL A seed=1 F1=0.858608 recall=[0.9, 0.94, 0.74] fit=0.48s evaluations=100 probability_passes=100
+FULL A seed=2 F1=0.861174 recall=[0.9, 0.84, 0.84] fit=0.48s evaluations=100 probability_passes=100
+FULL B seed=0 F1=0.858095 recall=[0.96, 0.86, 0.76] fit=1.30s evaluations=19 probability_passes=323
+FULL B seed=1 F1=0.873991 recall=[0.88, 0.82, 0.92] fit=1.63s evaluations=24 probability_passes=408
+FULL B seed=2 F1=0.861174 recall=[0.9, 0.84, 0.84] fit=2.67s evaluations=40 probability_passes=680
+FULL C seed=0 F1=0.878764 recall=[0.92, 0.94, 0.78] fit=0.49s evaluations=100 probability_passes=100
+FULL C seed=1 F1=0.792037 recall=[0.88, 0.68, 0.82] fit=0.48s evaluations=100 probability_passes=100
+FULL C seed=2 F1=0.811287 recall=[0.96, 0.66, 0.82] fit=0.50s evaluations=100 probability_passes=100
+FULL D seed=0 F1=0.887329 recall=[0.92, 0.86, 0.88] fit=4.73s evaluations=48 probability_passes=1200
+FULL D seed=1 F1=0.867331 recall=[0.9, 0.84, 0.86] fit=3.86s evaluations=39 probability_passes=975
+FULL D seed=2 F1=0.887329 recall=[0.92, 0.86, 0.88] fit=3.78s evaluations=38 probability_passes=950
+FULL E seed=0 F1=0.861174 recall=[0.9, 0.84, 0.84] fit=3.25s evaluations=732 probability_passes=732
+FULL E seed=1 F1=0.858095 recall=[0.96, 0.86, 0.76] fit=1.34s evaluations=277 probability_passes=277
+FULL E seed=2 F1=0.861174 recall=[0.9, 0.84, 0.84] fit=2.60s evaluations=558 probability_passes=558
+Training and verification complete. Original code, notebook, data and organizer results unchanged.

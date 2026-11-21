@@ -1,0 +1,38 @@
+seed,sample_id,target,baseline_prediction,selected_prediction,change
+0,r2_7405944331908784,maize,alfalfa,maize,repaired
+0,r2_8579e12576443070,wheat,alfalfa,wheat,repaired
+0,r2_ee157cdc50ccd1a5,alfalfa,maize,alfalfa,repaired
+0,r2_f4a3878c8cf5eb02,alfalfa,maize,alfalfa,repaired
+0,r2_614f27a98e1657c5,wheat,alfalfa,wheat,repaired
+0,r2_47a4274b239df0f5,wheat,alfalfa,wheat,repaired
+0,r2_a96c37162f9aeb7c,wheat,maize,wheat,repaired
+0,r2_82c66fcb67c81f70,alfalfa,maize,alfalfa,repaired
+0,r2_9bfbff01f01c3a53,alfalfa,maize,alfalfa,repaired
+0,r2_f637d7dd1c2a9eee,maize,maize,alfalfa,newly wrong
+0,r2_0790857e45338bc4,wheat,wheat,maize,newly wrong
+0,r2_0de3209a64d34cd0,alfalfa,alfalfa,wheat,newly wrong
+1,r2_f904671661d1dd1b,maize,wheat,maize,repaired
+1,r2_844045b6860a664c,wheat,maize,wheat,repaired
+1,r2_ee157cdc50ccd1a5,alfalfa,maize,alfalfa,repaired
+1,r2_614f27a98e1657c5,wheat,maize,wheat,repaired
+1,r2_325709a3ce03383b,wheat,maize,wheat,repaired
+1,r2_4b9fd0c7ab234b6d,wheat,maize,wheat,repaired
+1,r2_798f07d93e442a69,wheat,maize,wheat,repaired
+1,r2_a96c37162f9aeb7c,wheat,maize,wheat,repaired
+1,r2_7a98a9781c72cb62,maize,maize,wheat,newly wrong
+1,r2_9a3d12655b924357,maize,maize,wheat,newly wrong
+1,r2_0f0d5893227ca21d,maize,maize,wheat,newly wrong
+1,r2_1f036cbcc9c718d1,maize,maize,wheat,newly wrong
+1,r2_19678996b95020df,maize,maize,wheat,newly wrong
+1,r2_9b14920f9008617a,maize,maize,wheat,newly wrong
+1,r2_8e3cafefd3c2952b,alfalfa,alfalfa,wheat,newly wrong
+2,r2_7a98a9781c72cb62,maize,alfalfa,maize,repaired
+2,r2_7405944331908784,maize,alfalfa,maize,repaired
+2,r2_8579e12576443070,wheat,alfalfa,wheat,repaired
+2,r2_ee157cdc50ccd1a5,alfalfa,maize,alfalfa,repaired
+2,r2_f4a3878c8cf5eb02,alfalfa,maize,alfalfa,repaired
+2,r2_614f27a98e1657c5,wheat,alfalfa,wheat,repaired
+2,r2_47a4274b239df0f5,wheat,alfalfa,wheat,repaired
+2,r2_f637d7dd1c2a9eee,maize,maize,alfalfa,newly wrong
+2,r2_0790857e45338bc4,wheat,wheat,maize,newly wrong
+2,r2_0de3209a64d34cd0,alfalfa,alfalfa,wheat,newly wrong

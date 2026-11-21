@@ -1,0 +1,145 @@
+{
+  "status": "complete",
+  "started_at": "2026-11-21T01:03:06.115366+00:00",
+  "branch": "research/quantum-model-optimization",
+  "starting_commit": "ba2a8c3d1b9718841b96e0c875f0365b5718609d",
+  "protocol": {
+    "hypothesis": "Gradient-based optimization may improve the existing standalone QNN; a separate depth factor tests whether extra capacity helps.",
+    "configurations": [
+      {
+        "name": "A",
+        "entangling_blocks": 1,
+        "optimizer": "COBYLA",
+        "max_evals": 100
+      },
+      {
+        "name": "B",
+        "entangling_blocks": 1,
+        "optimizer": "L-BFGS-B",
+        "max_evals": 100
+      },
+      {
+        "name": "C",
+        "entangling_blocks": 2,
+        "optimizer": "COBYLA",
+        "max_evals": 100
+      },
+      {
+        "name": "D",
+        "entangling_blocks": 2,
+        "optimizer": "L-BFGS-B",
+        "max_evals": 100
+      },
+      {
+        "name": "E",
+        "entangling_blocks": 1,
+        "optimizer": "COBYLA",
+        "max_evals": 1700,
+        "purpose": "Matched maximum logical probability-pass budget against B, which has at most 100*(1+2*8)=1700 passes; actual convergence can stop earlier."
+      }
+    ],
+    "max_objective_evaluations": 100,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "encoding": "original (pi/2)*(1+tanh(z)); no scale change",
+    "preprocessing": "StandardScaler -> PCA(4, full SVD) -> StandardScaler",
+    "selection": {
+      "method": "3-fold stratified training-only CV",
+      "random_state": 2026,
+      "training_seed": 0,
+      "metric": "macro_f1",
+      "limitation": "Training spatial group identifiers are not supplied; these CV folds are not spatial."
+    },
+    "validation_policy": "Evaluate the predeclared configurations only after training-only selection is recorded. Do not tune on validation.",
+    "test_predictions": false,
+    "budget_disclosure": "A gradient call uses 2*p additional shifted circuit passes. Equal objective caps are NOT equal quantum-work budgets. Report actual counts and runtime.",
+    "historical_prototype": "Earlier 0.8807/0.8885 claims remain unverified; no independent prototype archive available in this checkout."
+  },
+  "protected_sha256": {
+    "challenge/metrics.py": "181a22b977e481427c300bdf15571ce835879388d342f00ea08a2fa2fb4f7796",
+    "challenge/models.py": "83acbee52ba937debf249020b22aec3034976ca658410d0744cc2c00e1bc4c22",
+    "challenge/submission.py": "45c640391844df0a69c1f69606a4bbc6c93eaeef7d280d0799badc9db3eec369",
+    "challenge/__init__.py": "41e071de3fcc46d468802d1100b4e157e8d57eaedb83ac393689d87ae3c2605d",
+    "challenge/coverage.py": "92725c4e06409310d018435d6e7c5e2328e16f43343a3af7c4d003f250bc7041",
+    "challenge/classical.py": "58eb070dfb2ccf3486f37e47f007256c37edfce6d6150f83e1d147b1f2ad5e52",
+    "challenge/hardware.py": "2ef7347e74a3eeec6f55061f55a0bbb6f30037df078d6071150ec678c37d6750",
+    "challenge/data.py": "af131b7df1c164dfa9c88a537c34c510cb7aadd53ac450094f585c04d7398d8f",
+    "data/validation.csv": "44e42c2dff522cadffb0e4c77042d4764806500ddaa732c561b9c1d995ef88e9",
+    "data/starter_ids.json": "5a353267b685eabca3f54ccbefe216eed0d6452bb2b9c1690bfe1dd3891140e5",
+    "data/validation_groups.json": "7a687c9cab31032c2fa65bf58ece505e32cddaaa37dfe44b84cd63b708bf865f",
+    "data/test.csv": "bf215bc0a1e15f1ac0a355f3cc5735d08d72774ac8848c3bd95e459e77c6a043",
+    "data/README.md": "789135ef141a073d022a3f7543679708cdbaec52b431c2ff16c2e2f107f482e0",
+    "data/manifest.json": "6f1744f9d117c71f8efe3afaab36a57d3a03821f7ca4e43885eb4b702fc24b15",
+    "data/training_600_ids.json": "5e32d3a8b314b60101e7f53d79346126a10aab597c64015fb491bdc1eaf2afb7",
+    "data/train.csv": "94865bb59af911ada473b7cde99b43238921419b5b6bf1602a659a8f19ca42d1",
+    "data/views/pca8.npz": "af7c9b3d4e9d1eb4a5151248a619df83893e44d4ed5fc870f5059bb0783976c6",
+    "data/views/pca4.npz": "106c3ee63561e76151bc85db327cdc12436db55704ea6cc0b9f40bdd584744ac",
+    "configs/reference.json": "193f99daebd0b11fff2f11a53f19636fbdc5aeaf4d7ba8dd835d87dcdd32ec55",
+    "configs/pilot.json": "1159c024c2a988142fdeb47633102f366e06f0138c9350563464623c016fe423",
+    "results/matched_head_2_predictions.csv": "625d9cf4f79a6d971b9dce89d396ca74e9d37742c894121c1d947614a0825aa5",
+    "results/summary.json": "76e6a87a6ec70920c65f6e1869852480a9cc4f67c3dfba49ae5d99be51856595",
+    "results/reference_1_predictions.csv": "9e8db58ec9ccf9a9aa5251b685cc7f6b1536952797b1a86175d4989044bfda6c",
+    "results/qnn_1_predictions.csv": "2b13788587b00c27859a55957198c8adb11ea99b9062a62e1b8b765cd5ce31ee",
+    "results/matched_head_1_history.json": "596ca85371e6259f1a1c6342e15ffaacaa6a85dcc460be9628842140ba936324",
+    "results/reference_0_predictions.csv": "9e8db58ec9ccf9a9aa5251b685cc7f6b1536952797b1a86175d4989044bfda6c",
+    "results/qnn_1_history.json": "c0d0cc6cd598e2238a5126c2b6a89b5b0147459eff1f3c2d4ddbe6091f3e2a3e",
+    "results/qnn_0_predictions.csv": "58a16fcac167f5d487fa7f29f73ac6c8ae8f8498f09d65ba66b1cab96c9cc5f3",
+    "results/dummy_stratified_2_predictions.csv": "c23143763e6478d13558a6523898aaf7e3531e6a2575c67ef58897a3fab56ebf",
+    "results/matched_head_0_history.json": "bc14e501fb89d3464a6b9bf74800966722356d36902f71c1954672a1927bd926",
+    "results/dummy_majority_2_predictions.csv": "76fb3abbe2d9c23ef3b216c22c969da60722612776e99c197899ce011bc6779b",
+    "results/qnn_0_history.json": "7b62f1e5478056c04aff981350c66b1f5b43a4857dd6dd7b39469bf106be7ddb",
+    "results/matched_head_2_history.json": "5368ecd5ee172bca94e88428f2801b0100b173ef79b38af61885b9d870225ca5",
+    "results/reference_2_predictions.csv": "9e8db58ec9ccf9a9aa5251b685cc7f6b1536952797b1a86175d4989044bfda6c",
+    "results/qnn_2_predictions.csv": "540aae92fa98e0f3a74e5699b7acbc576e4ad29d3a36d6b936c70c595f65a005",
+    "results/dummy_stratified_0_predictions.csv": "1514d4405850dd1992dc74182f1761f1098656d0ea7dac5d4603ee3ee185e43d",
+    "results/qnn_2_history.json": "91443a636c18a1dfbb9e5577fa78320dbf96cb9f8353a7e617af5c43147d6a50",
+    "results/matched_head_1_predictions.csv": "f99b8a7922f2234c6e8133ec246907501837175932fc1693de84874dfa5684f3",
+    "results/dummy_majority_0_predictions.csv": "76fb3abbe2d9c23ef3b216c22c969da60722612776e99c197899ce011bc6779b",
+    "results/matched_head_0_predictions.csv": "1de4a3aefd40e6e817b1546f15ca68c8180038ba50c7ecdce66b795da740e40d",
+    "results/dummy_majority_1_predictions.csv": "76fb3abbe2d9c23ef3b216c22c969da60722612776e99c197899ce011bc6779b",
+    "results/learning_curve_summary.json": "c46ad60e971da7107cbd98d9dea23138602671df8677cc21ccc6de05732ec037",
+    "results/runs.json": "dff772742165b064d7324397bf0e592e222ee5ed2ec242d914e1a85916bfb344",
+    "results/dummy_stratified_1_predictions.csv": "0315346edbdcd38cc65b96685796619bc82d9ff18de6bdd9565f47d10c3d27df",
+    "notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb": "9a59ec50bbe30f8cdc9383607bca9ef1801a960bee3aad57bf15c24201cc149a",
+    "README.md": "ab70449469cdee234c16c57c774fedddda20300d83d7ee53d551501dad7fc29e"
+  },
+  "platform": "macOS-27.2.1-arm64-arm-64bit",
+  "package_versions": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "qiskit": "2.4.2",
+    "qiskit-machine-learning": "0.9.1"
+  },
+  "historical_prototype": "unavailable; no claimed reproduction of its scores",
+  "test_inference": false,
+  "selection_sha256": "11d966c6ddb08f886e48036bd159afdc4722d4e161c442ffc7ba09fb40a9974b",
+  "selected_configuration": "D",
+  "completed_at": "2026-11-21T01:03:57.227625+00:00",
+  "wall_seconds": 51.07359749999887,
+  "protected_files_unchanged": true,
+  "initializations_verified": true,
+  "probabilities_verified": true,
+  "implementation_sha256": {
+    "experiments/qnn_optimization/run.py": "b5968b476f9df2c3767e826ca264789306cf03357ed7938b39aec86b7c7e504a",
+    "experiments/qnn_optimization/model.py": "6c34de7316a9fc0c9f69d16fff5377c0f7f0cf10273acb33e79e2bd02cd47b9d",
+    "experiments/qnn_optimization/README.md": "33672224a85ec0d2561ff53e9b1f3cd83d7933883cda1049c79bc053284c0469",
+    "experiments/qnn_optimization/verify_artifacts.py": "6822a08b9679bfcc4054bc12055730f02ab5f7f3e56e943aa1cca9d15c4a8761",
+    "experiments/qnn_optimization/protocol.json": "3e93c9e3a18bc31eb173e8e88756e0b90d3cc8da7b3cf94bf3b551ebf3f780e9",
+    "experiments/qnn_optimization/verify.py": "f4de362bf8d3654a86f0e78403e6fa7df2ab5afa2977d1e6a9d30d6bdfabb69d",
+    "experiments/qnn_optimization/analyze.py": "1cd107b390de40d12a2521dfc294d5d3ae8f13ee2d6460ec3174ce6d22b0792e"
+  },
+  "saved_parameter_replay_verified": true,
+  "saved_validation_rows_reproduced": 2250,
+  "figures_visually_reviewed": [
+    "01_circuit_2_blocks.png",
+    "02_macro_f1_runtime.png",
+    "03_training_only_selection.png",
+    "05_selected_crop_tradeoffs.png",
+    "06_loss_and_work.png",
+    "07_selected_confusion.png"
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "models": 15,
+  "validation_rows_reproduced": 2250,
+  "checks": [
+    {
+      "configuration": "A",
+      "seed": 0,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "4594a88e22971c38bb387d4a75ec90494e9067c49cf76571ffeb0a4861a1acf4"
+    },
+    {
+      "configuration": "A",
+      "seed": 1,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "0cecc2f13e4b51afcb6080e3c27b1427b1cce6709fe3f504bde2924e9b69cb8a"
+    },
+    {
+      "configuration": "A",
+      "seed": 2,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "f1849f74758898f78e50fe71c88c1baf0d4ba7cb368c1d779ea433c62bc45cd5"
+    },
+    {
+      "configuration": "B",
+      "seed": 0,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "ab16a6173d85617c21f94ff77dc90f57bc12f604d83f8ff74df234185174b532"
+    },
+    {
+      "configuration": "B",
+      "seed": 1,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "2702e79a4f2c8b20fa65438c8d5432d3cd4213dd999950f0c23470caaf80e668"
+    },
+    {
+      "configuration": "B",
+      "seed": 2,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "b0a3b3f87947e8a0cdde8ca60bbc03717f91c1ca63a649b2dc77fe92e6d6f1bb"
+    },
+    {
+      "configuration": "C",
+      "seed": 0,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "02836a2b4ceaf4a2c3361568dabff99d217d6f95664adbf4f2563202142991ca"
+    },
+    {
+      "configuration": "C",
+      "seed": 1,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "d3afee9343bc77209d9e6fba93c154e970f3a94fa2dee73b542a3b619dbebe15"
+    },
+    {
+      "configuration": "C",
+      "seed": 2,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "30c46044b003b16f580c8bd1270694387ff3919f65bde52575b4deb7dfa49037"
+    },
+    {
+      "configuration": "D",
+      "seed": 0,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "15b7ce7221902979425971749b685e00fb912c597d8c5f06db0944135508a7d9"
+    },
+    {
+      "configuration": "D",
+      "seed": 1,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "b1d85c25b377f27981261893d377183d18da9f7e6897cf888f4b36af187d2541"
+    },
+    {
+      "configuration": "D",
+      "seed": 2,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "a9dc1fb5d08ed9be3f13824d541286904dd150b8608e17f5623edc7923a48ad5"
+    },
+    {
+      "configuration": "E",
+      "seed": 0,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "7d15e55536760cc0af8ac53ea8230d1c2f527c3bae068bf5d20eff484ea04089"
+    },
+    {
+      "configuration": "E",
+      "seed": 1,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "fa3f5cc61a50525a9952cae7ec567fdf86ee03803b4bc175ae222cfd2f69ee9a"
+    },
+    {
+      "configuration": "E",
+      "seed": 2,
+      "rows": 150,
+      "status": "passed",
+      "weights_sha256": "bb786a38e2dffa92a86fc8c5cf131d8df91feddd5f73ab6519fbd74f4679fff2"
+    }
+  ],
+  "protected_files_unchanged": true,
+  "test_inference": false
+}

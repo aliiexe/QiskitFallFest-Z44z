@@ -1,0 +1,55 @@
+{
+  "hypothesis": "Gradient-based optimization may improve the existing standalone QNN; a separate depth factor tests whether extra capacity helps.",
+  "configurations": [
+    {
+      "name": "A",
+      "entangling_blocks": 1,
+      "optimizer": "COBYLA",
+      "max_evals": 100
+    },
+    {
+      "name": "B",
+      "entangling_blocks": 1,
+      "optimizer": "L-BFGS-B",
+      "max_evals": 100
+    },
+    {
+      "name": "C",
+      "entangling_blocks": 2,
+      "optimizer": "COBYLA",
+      "max_evals": 100
+    },
+    {
+      "name": "D",
+      "entangling_blocks": 2,
+      "optimizer": "L-BFGS-B",
+      "max_evals": 100
+    },
+    {
+      "name": "E",
+      "entangling_blocks": 1,
+      "optimizer": "COBYLA",
+      "max_evals": 1700,
+      "purpose": "Matched maximum logical probability-pass budget against B, which has at most 100*(1+2*8)=1700 passes; actual convergence can stop earlier."
+    }
+  ],
+  "max_objective_evaluations": 100,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "encoding": "original (pi/2)*(1+tanh(z)); no scale change",
+  "preprocessing": "StandardScaler -> PCA(4, full SVD) -> StandardScaler",
+  "selection": {
+    "method": "3-fold stratified training-only CV",
+    "random_state": 2026,
+    "training_seed": 0,
+    "metric": "macro_f1",
+    "limitation": "Training spatial group identifiers are not supplied; these CV folds are not spatial."
+  },
+  "validation_policy": "Evaluate the predeclared configurations only after training-only selection is recorded. Do not tune on validation.",
+  "test_predictions": false,
+  "budget_disclosure": "A gradient call uses 2*p additional shifted circuit passes. Equal objective caps are NOT equal quantum-work budgets. Report actual counts and runtime.",
+  "historical_prototype": "Earlier 0.8807/0.8885 claims remain unverified; no independent prototype archive available in this checkout."
+}
