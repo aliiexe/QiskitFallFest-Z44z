@@ -8,29 +8,60 @@
 
 **Qiskit Fall Fest · EMSI · Quantum Africa**
 
-Build a quantum or hybrid model to classify **alfalfa, maize and wheat** from satellite features. You receive **914 training, 150 validation and 221 unlabeled test fields**. Start with the [student brief (PDF)](Student_Challenge_Brief.pdf), then work through [the notebook](notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb).
+**Start with [QFF_Final_Ring_Demo.ipynb](notebooks/QFF_Final_Ring_Demo.ipynb)** — our final four-qubit solution. It loads verified weights, draws the circuit, evaluates all three seeds and predicts real validation fields. Optional fast retraining is at the end. No hardware credentials are required.
 
-The simple starter QNN performs worse than the classical baseline. Your task is to improve the approach **or replace it with another quantum or hybrid model**. You do not have to extend this QNN. A well-supported comparison can earn full analysis credit even if it does not beat the baseline.
+The [organizers' notebook](notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb), original implementation, data and reference results remain unchanged. These are the only two notebooks in this clean release. Older research notebooks and experiments remain on the research branch. See the [student brief (PDF)](Student_Challenge_Brief.pdf) for the challenge rules.
 
-## Install and run
+## Install and run in VS Code
 
-Clone the repository, then create a Python 3.12 environment:
+Use Python **3.12**, VS Code's Python extension and Jupyter extension:
 
 ```bash
-git clone https://github.com/walid-mk/QiskitFallFest_EMSI_QuantumAfrica.git
-cd QiskitFallFest_EMSI_QuantumAfrica
+git clone --branch release/qff-final-demo https://github.com/aliiexe/QiskitFallFest-Z44z.git
+cd QiskitFallFest-Z44z
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python -m ipykernel install --user --name crop-challenge --display-name "Crop challenge"
 ```
 
-The notebook includes saved outputs for viewing directly on GitHub. To reproduce them, open `notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb` in a notebook editor, select **Crop challenge**, and run all cells. The pinned environment uses Qiskit 2.4.2 and Qiskit Machine Learning 0.9.1. All data is included; local simulation needs no IBM token. To execute and export without an editor:
+Open this folder in VS Code. Open **`notebooks/QFF_Final_Ring_Demo.ipynb`**, click **Select Kernel → Python Environments → `.venv`**, then **Restart Kernel → Run All**. All data and models are included. The pinned environment includes Qiskit 2.4.2 and Qiskit Machine Learning 0.9.1. Default Run All performs fresh inference, without training.
+
+To retrain, set `RETRAIN = True` in the final code cell. It fits seeds 0/1/2 on all 914 training fields, checks validation predictions and saves separate timestamped artifacts under ignored `outputs/`. Bundled models are never overwritten.
+
+## Our final model and results
+
+**4 qubits · 4 PCA inputs · 12 trainable RY angles · 2 ring blocks · 8 CX gates · L-BFGS-B.** Encoding and the three-class readout match the starter. The fast matrix-adjoint trainer uses **classical simulation with Qiskit-generated operators and NumPy calculations**. It is not quantum hardware acceleration or an official Qiskit reverse-gradient primitive.
+
+Validation on the same 150 fields after training on all 914 fields, seeds 0/1/2:
+
+| Model | Mean macro-F1 | Mean accuracy |
+| --- | ---: | ---: |
+| Final 12-angle ring QNN | **0.8943** | **89.33%** |
+| Original 8-angle linear QNN | 0.8557 | 85.56% |
+| Classical RBF SVM, all 13 features | 0.8797 | 88.00% |
+
+At seed 0, the ring finds 46/50 wheat fields versus 42/50 for SVM, but finds one fewer maize and one fewer alfalfa field. Its wheat precision falls to 80.70% versus SVM's 84.00%. The notebook shows every crop's precision/recall, confusion matrices and all three seeds. SVM is deterministic.
+
+**Selection differs from reporting:** earlier training-only topology CV selected full connectivity; ring is our strongest *observed validation* candidate. The gradient engine was selected separately using training-only CV, preserving all baseline out-of-fold labels (mean macro-F1 **0.8527**). All seeds are reported; seed 0 is just the fixed demonstration seed. These are development-set findings, not unseen-test scores or quantum advantage.
+
+The recorded paired benchmark for the **same 12-angle ring** reduced median total CPU time from **5.705 s** to **0.177 s**; training alone fell from **5.605 s** to **0.082 s**, including all per-fit caches. Inference remains standard Qiskit SamplerQNN. Imports, saved-file loading and plotting are excluded. Timings depend on the machine. Original-QNN/SVM timings came from a separate session; the original-QNN replay used an equivalent cached evaluator, not the organizer's slower training loop.
+
+## Reproduce and inspect
 
 ```bash
-.venv/bin/python -m jupyter nbconvert --to html --execute notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb --output-dir outputs
+.venv/bin/python -m pip check
+.venv/bin/python scripts/verify_final_solution.py --reproduce-cv --execute-notebook
 ```
 
-The default fit uses 100 fixed training fields. Set `USE_FULL_TRAINING = True` for the main 914-field comparison. Later plots read saved full-training results, so changing the quick fit does not replace those plots. Your generated files go in `outputs/`.
+The verifier checks gradients against Qiskit and numerical differences, replays saved metrics, retrains all seeds with both gradient methods, reproduces training-only CV, and executes saved/fresh notebook workflows in separate fresh kernels. Generated reports go under ignored `outputs/release_check_*`; allow about a minute. See [configuration and reproducibility details](docs/FINAL_SOLUTION.md).
+
+| Location | Purpose |
+| --- | --- |
+| `notebooks/QFF_Final_Ring_Demo.ipynb` | Primary executable demonstration |
+| `notebooks/Qiskit_QuantumAfrica_Crop_Challenge.ipynb` | Unchanged organizer reference |
+| `qff_solution/` | Verified trainer and small loading helpers |
+| `artifacts/final_ring/` | Weights, fitted PCA/SVM, predictions, histories, CV evidence, configuration, checksums |
+| `requirements.txt` | Unchanged pinned dependencies; sufficient for this solution |
+| `data/`, `challenge/`, `configs/`, `results/` | Unchanged organizer files |
 
 ## Dataset in context
 
@@ -43,58 +74,6 @@ Ouassanouan et al. (2026) describe around **10,000 surveyed agricultural parcels
 </p>
 
 **Image source:** Figure 1 in Ouassanouan, Y., Elfarkh, J., Grich, S., Liblab, A. & Chehbouni, A., *Crop and irrigation types ground-truth dataset for Moroccan agricultural regions*, **Scientific Data 13, 746 (2026)**. [Original figure](https://www.nature.com/articles/s41597-026-06993-y/figures/1) · [DOI](https://doi.org/10.1038/s41597-026-06993-y). © The Author(s) 2026, reproduced unchanged under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/). The map describes the source dataset's coverage, not the challenge splits.
-
-## Inside the starter
-
-<p align="center">
-  <img src="assets/data-overview.png" alt="Training and validation class counts, alongside the first two training-fitted PCA components" width="820">
-</p>
-
-**Explore the data:** training classes are imbalanced; validation contains 50 fields per crop. PCA provides a compact feature view, fitted only on training data.
-
-<p align="center">
-  <img src="assets/starter-circuit.png" alt="Starter four-qubit circuit with RY input encoding, eight trainable angles and three CX gates" width="510">
-</p>
-
-**Understand the model:** four prepared features enter through RY gates, followed by eight trainable angles and three CX gates. The notebook explains the three-class readout and where you can change or replace this model.
-
-## Starting results
-
-Validation results using all 914 training fields and seeds 0, 1 and 2:
-
-| Model | Mean macro-F1 | Mean accuracy |
-| --- | ---: | ---: |
-| Classical baseline: RBF SVM | 0.8797 | 88.00% |
-| Simple four-qubit QNN | 0.8557 | 85.56% |
-| Small classical replacement control | 0.5814 | 65.11% |
-
-<p align="center">
-  <img src="assets/validation-performance.png" alt="Validation macro-F1 across three seeds and runtime comparison for the SVM, classical control and QNN" width="820">
-</p>
-
-**Read the comparison:** dots show seeds 0/1/2, error bars show seed standard deviation, and runtime uses a logarithmic scale. Timings depend on the machine. All three starter figures above are generated by the notebook from the supplied data and saved validation runs.
-
-The SVM is deterministic. The QNN has eight trainable angles; the control has eleven parameters, a disclosed 37.5% mismatch. Saved predictions, histories and scores are in `results/`. Keep them as reference results and save your own runs separately. These results do not demonstrate a quantum advantage.
-
-## Where to work
-
-- **Notebook:** explains each step and output, with a table mapping every Python file to the changes you can make.
-- **`challenge/models.py`:** encoding, QNN and classical control; **`challenge/submission.py`:** your final model's `fit`/`predict` interface.
-- **`challenge/coverage.py`:** reproducible training-size comparisons; see [coverage commands](docs/COVERAGE.md).
-- **`data/`:** supplied tables and PCA views; read [feature definitions and limitations](data/README.md). Keep these files unchanged.
-- **`configs/`:** baseline configuration and recorded starter settings. `reference.json` is loaded by the baseline; `pilot.json` records settings and is not an automatic configuration loader.
-
-Fit transformations on training data only. Use validation data for model selection and test data only for final predictions. “Development data” in the original brief means validation data. Keep all three classes and the supplied spatial splits; IDs are never model inputs. Larger datasets require a supplied, checked extension: adding rows alone cannot guarantee better accuracy.
-
-## Submit
-
-Submit one runnable notebook or code package with configurations and results, plus **three to five slides**. Run selected stochastic models and controls with seeds **0, 1 and 2**. Report macro-F1, accuracy, each class's precision/recall, confusion matrices, runtime and model resources.
-
-Judging: predictive performance **30**, experimental quality and analysis **40**, model design and reproducibility **30**. Optional verified IBM inference may earn **+5**. See the [evaluation guide](docs/EVALUATION.md) and [method ideas](docs/HINTS.md).
-
-Use exact local simulation with at most **eight qubits**. Plan for up to **15 minutes per starter seed** and **35 minutes per final seed**, including preprocessing and prediction; final judging-machine details will be announced. **Submission deadline, timezone and route: to be announced.**
-
-Hardware inference is optional and disabled by default. Only that section needs `requirements-hardware.txt`, credentials in your environment and permission to use the chosen account/backend. Train locally first.
 
 ## Data source
 

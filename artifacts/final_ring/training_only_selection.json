@@ -1,0 +1,46 @@
+{
+  "selected_method": "operator_adjoint",
+  "locked_at": "2026-11-21T10:08:05.314389+00:00",
+  "selection_scope": "914 training fields only, no validation scores",
+  "criterion": {
+    "data": "Only the 914 training fields; prior fixed three stratified folds (seed 2026), not spatial",
+    "fits": 27,
+    "quality_gate": "A faster method must reproduce ALL pooled OOF predicted labels of the unchanged baseline for every seed, and mean final training loss within 1e-7 bits; otherwise retain baseline",
+    "cost": "Lowest median across seeds of the sum of model construction + fold preprocessing + fit + standard inference over all three folds",
+    "ties": "Exact timing ties prefer the simpler batched-shift method",
+    "ordering": "Rotate method execution order across fold/seed pairs to reduce fixed-order bias",
+    "no_setting_tuning": "No additional optimizer/tolerance/budget grid; the change is derivative/evaluation method only"
+  },
+  "candidates": [
+    {
+      "method": "parameter_shift",
+      "mean_oof_macro_f1": 0.8526688138071893,
+      "seed_SD": 0.013425278902128435,
+      "mean_final_training_loss_bits": 0.6312611553276003,
+      "all_seed_OOF_predictions_match_baseline": true,
+      "quality_gate_passed": true,
+      "median_three_fold_total_seconds": 12.91513545702037,
+      "median_three_fold_fit_seconds": 12.348707166005624
+    },
+    {
+      "method": "batched_shift",
+      "mean_oof_macro_f1": 0.8526688138071893,
+      "seed_SD": 0.013425278902128435,
+      "mean_final_training_loss_bits": 0.6312611553276002,
+      "all_seed_OOF_predictions_match_baseline": true,
+      "quality_gate_passed": true,
+      "median_three_fold_total_seconds": 2.374595204979414,
+      "median_three_fold_fit_seconds": 1.82494041598693
+    },
+    {
+      "method": "operator_adjoint",
+      "mean_oof_macro_f1": 0.8526688138071893,
+      "seed_SD": 0.013425278902128435,
+      "mean_final_training_loss_bits": 0.6312611553275995,
+      "all_seed_OOF_predictions_match_baseline": true,
+      "quality_gate_passed": true,
+      "median_three_fold_total_seconds": 0.7136126659752335,
+      "median_three_fold_fit_seconds": 0.17435083398595452
+    }
+  ]
+}
