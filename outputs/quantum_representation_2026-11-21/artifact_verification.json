@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "oof_files_rescored": 9,
+  "oof_rows_rescored": 8226,
+  "cv_fits_checked": 27,
+  "reference_fold_checks": 9,
+  "same_initial_points_verified": true,
+  "cost_counters_verified": true,
+  "prior_files_unchanged": true,
+  "full_training_reference_checks": [
+    {
+      "seed": 0,
+      "prior_full_training_weights_match": true
+    },
+    {
+      "seed": 1,
+      "prior_full_training_weights_match": true
+    },
+    {
+      "seed": 2,
+      "prior_full_training_weights_match": true
+    }
+  ],
+  "analysis_source_sha256": "fdb84cc4c3d9f6cb20bcd19ecc9b6fba406fc3200a42b37cedcd514b5d22ec99",
+  "validation_or_test_scoring": false
+}

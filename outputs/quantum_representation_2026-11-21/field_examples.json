@@ -1,0 +1,282 @@
+[
+  {
+    "configuration": "selected4_q4",
+    "change": "repaired",
+    "sample_id": "r2_0cd6f4310c2fe7be",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.31242996281956753,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "repaired",
+    "sample_id": "r2_8ec1cb4c990985bb",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.25177329052058695,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "repaired",
+    "sample_id": "r2_531dff0786af660a",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.24537441804303534,
+    "baseline_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "repaired",
+    "sample_id": "r2_654adcb678a4464b",
+    "target": "wheat",
+    "seed_count": 2,
+    "NDVI": 0.26768044293998394,
+    "baseline_predictions": [
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "newly wrong",
+    "sample_id": "r2_b8877e485c482f9b",
+    "target": "maize",
+    "seed_count": 2,
+    "NDVI": 0.2880753936826466,
+    "baseline_predictions": [
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "newly wrong",
+    "sample_id": "r2_03e68037c5c3e9a9",
+    "target": "maize",
+    "seed_count": 1,
+    "NDVI": 0.3207570194957791,
+    "baseline_predictions": [
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "newly wrong",
+    "sample_id": "r2_57205ac0e9369c82",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.06964412897336308,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "alfalfa",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "selected4_q4",
+    "change": "newly wrong",
+    "sample_id": "r2_6db98d1ea4527c88",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.22395868366494298,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "repaired",
+    "sample_id": "r2_27bc278bfa663d58",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.2804812535809001,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "repaired",
+    "sample_id": "r2_33fae149c76f3652",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.2256467446306526,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "repaired",
+    "sample_id": "r2_0786546ce39aeece",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.27803225342691007,
+    "baseline_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "repaired",
+    "sample_id": "r2_a847341c833539e2",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.275170992381093,
+    "baseline_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "newly wrong",
+    "sample_id": "r2_7f615dc6fd9fbe65",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.30150134106867993,
+    "baseline_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "newly wrong",
+    "sample_id": "r2_07669f15977d2c1d",
+    "target": "maize",
+    "seed_count": 3,
+    "NDVI": 0.2584519823660605,
+    "baseline_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ],
+    "candidate_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "newly wrong",
+    "sample_id": "r2_57205ac0e9369c82",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.06964412897336308,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "alfalfa",
+      "alfalfa"
+    ]
+  },
+  {
+    "configuration": "first6_q6",
+    "change": "newly wrong",
+    "sample_id": "r2_256989b8685e29b2",
+    "target": "wheat",
+    "seed_count": 3,
+    "NDVI": 0.2763860793533266,
+    "baseline_predictions": [
+      "wheat",
+      "wheat",
+      "wheat"
+    ],
+    "candidate_predictions": [
+      "maize",
+      "maize",
+      "maize"
+    ]
+  }
+]

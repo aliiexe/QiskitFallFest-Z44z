@@ -1,0 +1,32 @@
+27 fresh quantum CV fits; training-only, no validation/test inference.
+first4_q4 seed=0 fold=0 F1=0.876422 fit=6.41s gradient_calls=89
+first4_q4 seed=0 fold=1 F1=0.866145 fit=6.21s gradient_calls=85
+first4_q4 seed=0 fold=2 F1=0.867805 fit=3.42s gradient_calls=47
+first4_q4 seed=1 fold=0 F1=0.869717 fit=3.94s gradient_calls=54
+first4_q4 seed=1 fold=1 F1=0.866145 fit=3.31s gradient_calls=45
+first4_q4 seed=1 fold=2 F1=0.867551 fit=3.34s gradient_calls=45
+first4_q4 seed=2 fold=0 F1=0.869717 fit=3.97s gradient_calls=54
+first4_q4 seed=2 fold=1 F1=0.866177 fit=3.53s gradient_calls=48
+first4_q4 seed=2 fold=2 F1=0.869640 fit=3.16s gradient_calls=43
+selected4_q4 seed=0 fold=0 F1=0.882913 fit=4.07s gradient_calls=55
+selected4_q4 seed=0 fold=1 F1=0.806486 fit=3.39s gradient_calls=46
+selected4_q4 seed=0 fold=2 F1=0.867805 fit=3.47s gradient_calls=47
+selected4_q4 seed=1 fold=0 F1=0.854027 fit=1.52s gradient_calls=20
+selected4_q4 seed=1 fold=1 F1=0.866091 fit=2.02s gradient_calls=27
+selected4_q4 seed=1 fold=2 F1=0.867551 fit=3.33s gradient_calls=45
+selected4_q4 seed=2 fold=0 F1=0.844330 fit=1.72s gradient_calls=23
+selected4_q4 seed=2 fold=1 F1=0.824911 fit=1.80s gradient_calls=24
+selected4_q4 seed=2 fold=2 F1=0.869640 fit=3.19s gradient_calls=43
+first6_q6 seed=0 fold=0 F1=0.867797 fit=9.88s gradient_calls=46
+first6_q6 seed=0 fold=1 F1=0.832615 fit=12.11s gradient_calls=56
+first6_q6 seed=0 fold=2 F1=0.848563 fit=8.19s gradient_calls=37
+first6_q6 seed=1 fold=0 F1=0.811735 fit=8.55s gradient_calls=39
+first6_q6 seed=1 fold=1 F1=0.822884 fit=12.31s gradient_calls=56
+first6_q6 seed=1 fold=2 F1=0.800926 fit=20.93s gradient_calls=95
+first6_q6 seed=2 fold=0 F1=0.824138 fit=12.36s gradient_calls=56
+first6_q6 seed=2 fold=1 F1=0.823330 fit=10.22s gradient_calls=47
+first6_q6 seed=2 fold=2 F1=0.838699 fit=10.41s gradient_calls=47
+Training-only selection locked: first4_q4. Saving three full-training fits without held-out release evaluation.
+Full-training saved seed=0 fit=7.50s; no validation/test scoring.
+Full-training saved seed=1 fit=4.91s; no validation/test scoring.
+Full-training saved seed=2 fit=7.72s; no validation/test scoring.

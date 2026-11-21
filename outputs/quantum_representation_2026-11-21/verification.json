@@ -1,0 +1,178 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "qubits": 4,
+      "gradient_max_absolute_error": 5.265451408220656e-10,
+      "sampler_max_absolute_error": 2.4494295480792516e-12,
+      "sampler_statevector_library_operator_agree": true,
+      "four_qubit_historical_model_agrees": true,
+      "benchmark_rows": 610,
+      "loss_and_gradient_seconds": [
+        0.07422537500679027,
+        0.07491108300018823,
+        0.09973754199745599
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 12,
+        "frozen_quantum": 0,
+        "depth": 13,
+        "two_qubit_gates": 12,
+        "one_qubit_gates": 16,
+        "state_dimension": 16,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "objective_evaluations": 0,
+        "gradient_evaluations": 0,
+        "probability_passes_per_loss_and_gradient": 25,
+        "native_operator_builds": 124,
+        "logical_field_probability_evaluations": 46191,
+        "topology": "full",
+        "entangling_blocks": 2,
+        "ry_parameter_banks": 3,
+        "ordered_cx_edges_per_block": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "optimizer": "L-BFGS-B",
+        "encoding": "RY(pi/2 * (1+tanh(z)))",
+        "compilation": "logical RY/CX; no hardware routing or noise",
+        "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+        "prediction_engine": "Qiskit SamplerQNN + QMLSampler(shots=None)"
+      }
+    },
+    {
+      "qubits": 6,
+      "gradient_max_absolute_error": 3.34073227414855e-10,
+      "sampler_max_absolute_error": 6.837697075212645e-12,
+      "sampler_statevector_library_operator_agree": true,
+      "four_qubit_historical_model_agrees": false,
+      "benchmark_rows": 610,
+      "loss_and_gradient_seconds": [
+        0.22853162499814061,
+        0.23018179099744884,
+        0.2238932920008665
+      ],
+      "resources": {
+        "qubits": 6,
+        "trainable": 18,
+        "frozen_quantum": 0,
+        "depth": 19,
+        "two_qubit_gates": 30,
+        "one_qubit_gates": 24,
+        "state_dimension": 64,
+        "readout_group_sizes": [
+          22,
+          21,
+          21
+        ],
+        "objective_evaluations": 0,
+        "gradient_evaluations": 0,
+        "probability_passes_per_loss_and_gradient": 37,
+        "native_operator_builds": 184,
+        "logical_field_probability_evaluations": 68367,
+        "topology": "full",
+        "entangling_blocks": 2,
+        "ry_parameter_banks": 3,
+        "ordered_cx_edges_per_block": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "optimizer": "L-BFGS-B",
+        "encoding": "RY(pi/2 * (1+tanh(z)))",
+        "compilation": "logical RY/CX; no hardware routing or noise",
+        "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+        "prediction_engine": "Qiskit SamplerQNN + QMLSampler(shots=None)"
+      }
+    }
+  ],
+  "training_only": true,
+  "implementation_sha256": {
+    "experiments/quantum_representation/model.py": "e21f702ac157cf4cb190addec16f3bf90ea5a55a26b35cc4b02bf9cc253a23f7",
+    "experiments/quantum_representation/verify.py": "9a689999071e2afab58b99e4659225e447b2c87667adb00c452f966381380dd8"
+  }
+}

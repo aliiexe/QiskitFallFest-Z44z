@@ -1,0 +1,77 @@
+{
+  "selected_configuration": "first4_q4",
+  "locked_at": "2026-11-21T02:12:32.315529+00:00",
+  "selection_scope": "training only",
+  "criterion": "Highest mean seed-specific pooled OOF macro-F1; exact ties favor fewer qubits then first4_q4. This is exploratory model selection on reused training folds, not an unbiased final performance estimate.",
+  "candidates": [
+    {
+      "name": "first4_q4",
+      "representation": "pca4",
+      "qubits": 4,
+      "mean_oof_macro_f1": 0.8688003239355578,
+      "seed_sd": 0.0009866745002398904
+    },
+    {
+      "name": "selected4_q4",
+      "representation": "selected4of8",
+      "qubits": 4,
+      "mean_oof_macro_f1": 0.8542649138210588,
+      "seed_sd": 0.006786844351524829
+    },
+    {
+      "name": "first6_q6",
+      "representation": "pca6",
+      "qubits": 6,
+      "mean_oof_macro_f1": 0.830599869335654,
+      "seed_sd": 0.0150321119173466
+    }
+  ],
+  "prior_full_connectivity_reference_checks": [
+    {
+      "seed": 0,
+      "fold": 0,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 0,
+      "fold": 1,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 0,
+      "fold": 2,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 1,
+      "fold": 0,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 1,
+      "fold": 1,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 1,
+      "fold": 2,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 2,
+      "fold": 0,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 2,
+      "fold": 1,
+      "prior_weights_and_metrics_match": true
+    },
+    {
+      "seed": 2,
+      "fold": 2,
+      "prior_weights_and_metrics_match": true
+    }
+  ],
+  "validation_or_test_inference": false
+}

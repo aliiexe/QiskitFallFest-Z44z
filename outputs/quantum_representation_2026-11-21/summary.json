@@ -1,0 +1,307 @@
+{
+  "scope": "Training-only model-selection evidence; no validation or test scoring",
+  "seed_sd": "Initialization variation on the same folds, not a confidence interval",
+  "selection": "first4_q4",
+  "metrics": [
+    {
+      "configuration": "first4_q4",
+      "macro_f1_mean": 0.8688003239355578,
+      "macro_f1_sd": 0.0009866745002398904,
+      "accuracy_mean": 0.8683442742523706,
+      "accuracy_sd": 0.0010315197391488503,
+      "cv_fit_seconds_mean": 12.431073582665704,
+      "cv_fit_seconds_sd": 2.558492608807994,
+      "gradient_calls_mean": 170.0,
+      "gradient_calls_sd": 36.0647565729573,
+      "probability_passes_mean": 4250.0,
+      "probability_passes_sd": 901.6189143239325,
+      "logical_field_evaluations_mean": 2589375.0,
+      "logical_field_evaluations_sd": 549121.0412255814,
+      "precision_alfalfa_mean": 0.9171415343383204,
+      "precision_alfalfa_sd": 0.0033046119082751593,
+      "recall_alfalfa_mean": 0.9109311740890688,
+      "recall_alfalfa_sd": 0.0033056541737964476,
+      "precision_maize_mean": 0.8122839321198211,
+      "precision_maize_sd": 0.003786615731200383,
+      "recall_maize_mean": 0.8402203856749312,
+      "recall_maize_sd": 0.007023442856188385,
+      "precision_wheat_mean": 0.8733453105391907,
+      "precision_wheat_sd": 0.003851239802509327,
+      "recall_wheat_mean": 0.859607843137255,
+      "recall_wheat_sd": 0.005869266489057136,
+      "confusion_sum_three_seeds": [
+        [
+          675,
+          15,
+          51
+        ],
+        [
+          8,
+          610,
+          108
+        ],
+        [
+          53,
+          126,
+          1096
+        ]
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 12,
+        "depth": 13,
+        "two_qubit_gates": 12,
+        "state_dimension": 16,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "probability_passes_per_loss_and_gradient": 25
+      },
+      "budget_caps_reached": 0,
+      "fold_selected_components": [
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "final_training_loss_bits_mean": 0.5695965694942967,
+      "termination_messages": [
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      ]
+    },
+    {
+      "configuration": "selected4_q4",
+      "macro_f1_mean": 0.8542649138210588,
+      "macro_f1_sd": 0.006786844351524829,
+      "accuracy_mean": 0.8563092633114514,
+      "accuracy_sd": 0.006080719183272463,
+      "cv_fit_seconds_mean": 8.173972778002886,
+      "cv_fit_seconds_sd": 1.9562949735024777,
+      "gradient_calls_mean": 110.0,
+      "gradient_calls_sd": 26.8824602048746,
+      "probability_passes_mean": 2750.0,
+      "probability_passes_sd": 672.0615051218651,
+      "logical_field_evaluations_mean": 1675875.0,
+      "logical_field_evaluations_sd": 409321.4160860224,
+      "precision_alfalfa_mean": 0.863103318250377,
+      "precision_alfalfa_sd": 0.037717391207788345,
+      "recall_alfalfa_mean": 0.8947368421052632,
+      "recall_alfalfa_sd": 0.011451121962535187,
+      "precision_maize_mean": 0.7863177779615388,
+      "precision_maize_sd": 0.014677569668124184,
+      "recall_maize_mean": 0.8539944903581267,
+      "recall_maize_sd": 0.026207021474435842,
+      "precision_wheat_mean": 0.9015326456516961,
+      "precision_wheat_sd": 0.024101756007808846,
+      "recall_wheat_mean": 0.8352941176470589,
+      "recall_wheat_sd": 0.026689724748507556,
+      "confusion_sum_three_seeds": [
+        [
+          663,
+          26,
+          52
+        ],
+        [
+          40,
+          620,
+          66
+        ],
+        [
+          67,
+          143,
+          1065
+        ]
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 12,
+        "depth": 13,
+        "two_qubit_gates": 12,
+        "state_dimension": 16,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "probability_passes_per_loss_and_gradient": 25
+      },
+      "budget_caps_reached": 0,
+      "fold_selected_components": [
+        [
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ]
+      ],
+      "final_training_loss_bits_mean": 0.6833404299930844,
+      "termination_messages": [
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      ]
+    },
+    {
+      "configuration": "first6_q6",
+      "macro_f1_mean": 0.830599869335654,
+      "macro_f1_sd": 0.0150321119173466,
+      "accuracy_mean": 0.8362509117432531,
+      "accuracy_sd": 0.012062607883691632,
+      "cv_fit_seconds_mean": 34.98332276333773,
+      "cv_fit_seconds_sd": 4.944284317088482,
+      "gradient_calls_mean": 159.66666666666666,
+      "gradient_calls_sd": 21.913973218524802,
+      "probability_passes_mean": 5907.666666666667,
+      "probability_passes_sd": 810.8170090854177,
+      "logical_field_evaluations_mean": 3599976.6666666665,
+      "logical_field_evaluations_sd": 494723.32040197536,
+      "precision_alfalfa_mean": 0.8544117647058824,
+      "precision_alfalfa_sd": 0.01701387662907857,
+      "recall_alfalfa_mean": 0.8974358974358975,
+      "recall_alfalfa_sd": 0.023913691156099006,
+      "precision_maize_mean": 0.7933740903485766,
+      "precision_maize_sd": 0.014605424966469271,
+      "recall_maize_mean": 0.7438016528925621,
+      "recall_maize_sd": 0.07399656208574815,
+      "precision_wheat_mean": 0.8494097545821684,
+      "precision_wheat_sd": 0.021162894143921248,
+      "recall_wheat_mean": 0.8533333333333334,
+      "recall_wheat_sd": 0.014161153008053172,
+      "confusion_sum_three_seeds": [
+        [
+          665,
+          26,
+          50
+        ],
+        [
+          42,
+          540,
+          144
+        ],
+        [
+          72,
+          115,
+          1088
+        ]
+      ],
+      "resources": {
+        "qubits": 6,
+        "trainable": 18,
+        "depth": 19,
+        "two_qubit_gates": 30,
+        "state_dimension": 64,
+        "readout_group_sizes": [
+          22,
+          21,
+          21
+        ],
+        "probability_passes_per_loss_and_gradient": 37
+      },
+      "budget_caps_reached": 0,
+      "fold_selected_components": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "final_training_loss_bits_mean": 0.8376488952346866,
+      "termination_messages": [
+        "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL"
+      ]
+    }
+  ],
+  "paired_changes": {
+    "selected4_q4": [
+      {
+        "seed": 0,
+        "macro_f1_delta": -0.015881888978599212,
+        "repaired": 25,
+        "newly_wrong": 35
+      },
+      {
+        "seed": 1,
+        "macro_f1_delta": -0.005169934184247049,
+        "repaired": 17,
+        "newly_wrong": 22
+      },
+      {
+        "seed": 2,
+        "macro_f1_delta": -0.022554407180650715,
+        "repaired": 11,
+        "newly_wrong": 29
+      }
+    ],
+    "first6_q6": [
+      {
+        "seed": 0,
+        "macro_f1_delta": -0.020550714186148955,
+        "repaired": 41,
+        "newly_wrong": 58
+      },
+      {
+        "seed": 1,
+        "macro_f1_delta": -0.05494756981980031,
+        "repaired": 36,
+        "newly_wrong": 78
+      },
+      {
+        "seed": 2,
+        "macro_f1_delta": -0.039103079793762374,
+        "repaired": 41,
+        "newly_wrong": 70
+      }
+    ]
+  },
+  "limitations": [
+    "Adaptive follow-up study on reused training data and folds",
+    "Stratified, not geographic cross-validation",
+    "Ideal exact simulation, not hardware performance",
+    "Width changes parameter count, gates and modulo-3 readout group proportions"
+  ]
+}

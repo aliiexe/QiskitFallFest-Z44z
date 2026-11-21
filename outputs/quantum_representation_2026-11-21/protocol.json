@@ -1,0 +1,58 @@
+{
+  "question": "Can a standalone native Qiskit QNN exploit the crop information shown by training-only classical representation diagnostics?",
+  "candidates": [
+    {
+      "name": "first4_q4",
+      "representation": "pca4",
+      "qubits": 4
+    },
+    {
+      "name": "selected4_q4",
+      "representation": "selected4of8",
+      "qubits": 4
+    },
+    {
+      "name": "first6_q6",
+      "representation": "pca6",
+      "qubits": 6
+    }
+  ],
+  "cv": "Three previous fixed stratified training folds, random_state=2026, not spatial",
+  "initialization_seeds": [
+    0,
+    1,
+    2
+  ],
+  "initialization": "default_rng(seed).uniform(-pi,pi,3*qubits); identical for same-width candidates",
+  "preprocessing": "StandardScaler -> full-SVD PCA -> StandardScaler, fitted within each training fold; optional SelectKBest(f_classif,k=4) fitted there too",
+  "topology": "full, ordered lexicographic directed CX edges, two blocks and three RY banks; selected by previous training-only CV, not by validation",
+  "angle_map": "pi/2 * (1+tanh(z))",
+  "optimizer": "Verified native L-BFGS-B with exact parameter-shift CE gradient",
+  "optimizer_settings": {
+    "max_objective_evaluations": 100,
+    "maxiter": 100,
+    "maxfun": 100,
+    "ftol": 1e-09,
+    "gtol": 1e-05,
+    "maxls": 20,
+    "bounds": null
+  },
+  "budget_interpretation": "Same maximum objective/gradient calls, not equal elementary computation; 4q needs 25 probability passes per gradient, 6q needs 37",
+  "selection": "Highest mean seed-specific pooled OOF macro-F1; exact ties favor fewer qubits then first4_q4. This is exploratory model selection on reused training folds, not an unbiased final performance estimate.",
+  "final_fit": "Fit the training-selected candidate on all 914 training fields for seeds 0,1,2; save preprocessing and weights without any validation/test inference",
+  "reference_check": "Fresh first4_q4 CV must match prior full-connectivity OOF predictions, metrics and final weights",
+  "width_confounders": [
+    "number of trainable angles",
+    "number and ordering of CNOT gates",
+    "readout modulo-3 group sizes",
+    "state dimension and gradient work"
+  ],
+  "deferred": [
+    "eight qubits",
+    "data re-uploading",
+    "hybrid models",
+    "new validation scoring",
+    "test inference",
+    "slides"
+  ]
+}

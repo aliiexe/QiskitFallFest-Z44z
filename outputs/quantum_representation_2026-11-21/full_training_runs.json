@@ -1,0 +1,224 @@
+[
+  {
+    "configuration": "first4_q4",
+    "seed": 0,
+    "training_rows": 914,
+    "selected_components": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "selection_sha256": "15c3c27343f5900b3090e345cbb2a7e11a085635f034cb27e49e683c817cf990",
+    "fit_seconds": 7.495696665995638,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 13,
+      "two_qubit_gates": 12,
+      "one_qubit_gates": 16,
+      "state_dimension": 16,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "objective_evaluations": 69,
+      "gradient_evaluations": 69,
+      "probability_passes_per_loss_and_gradient": 25,
+      "native_operator_builds": 1725,
+      "logical_field_probability_evaluations": 1576650,
+      "topology": "full",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "ordered_cx_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "optimizer": "L-BFGS-B",
+      "encoding": "RY(pi/2 * (1+tanh(z)))",
+      "compilation": "logical RY/CX; no hardware routing or noise",
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 69,
+      "njev": 69,
+      "nit": 51
+    },
+    "validation_or_test_inference": false
+  },
+  {
+    "configuration": "first4_q4",
+    "seed": 1,
+    "training_rows": 914,
+    "selected_components": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "selection_sha256": "15c3c27343f5900b3090e345cbb2a7e11a085635f034cb27e49e683c817cf990",
+    "fit_seconds": 4.909923082996102,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 13,
+      "two_qubit_gates": 12,
+      "one_qubit_gates": 16,
+      "state_dimension": 16,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "objective_evaluations": 45,
+      "gradient_evaluations": 45,
+      "probability_passes_per_loss_and_gradient": 25,
+      "native_operator_builds": 1125,
+      "logical_field_probability_evaluations": 1028250,
+      "topology": "full",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "ordered_cx_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "optimizer": "L-BFGS-B",
+      "encoding": "RY(pi/2 * (1+tanh(z)))",
+      "compilation": "logical RY/CX; no hardware routing or noise",
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 45,
+      "njev": 45,
+      "nit": 37
+    },
+    "validation_or_test_inference": false
+  },
+  {
+    "configuration": "first4_q4",
+    "seed": 2,
+    "training_rows": 914,
+    "selected_components": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "selection_sha256": "15c3c27343f5900b3090e345cbb2a7e11a085635f034cb27e49e683c817cf990",
+    "fit_seconds": 7.716578833002131,
+    "resources": {
+      "qubits": 4,
+      "trainable": 12,
+      "frozen_quantum": 0,
+      "depth": 13,
+      "two_qubit_gates": 12,
+      "one_qubit_gates": 16,
+      "state_dimension": 16,
+      "readout_group_sizes": [
+        6,
+        5,
+        5
+      ],
+      "objective_evaluations": 72,
+      "gradient_evaluations": 72,
+      "probability_passes_per_loss_and_gradient": 25,
+      "native_operator_builds": 1800,
+      "logical_field_probability_evaluations": 1645200,
+      "topology": "full",
+      "entangling_blocks": 2,
+      "ry_parameter_banks": 3,
+      "ordered_cx_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "optimizer": "L-BFGS-B",
+      "encoding": "RY(pi/2 * (1+tanh(z)))",
+      "compilation": "logical RY/CX; no hardware routing or noise",
+      "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+      "prediction_engine": "Qiskit SamplerQNN + QMLSampler(shots=None)"
+    },
+    "termination": {
+      "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+      "success": true,
+      "nfev": 72,
+      "njev": 72,
+      "nit": 58
+    },
+    "validation_or_test_inference": false
+  }
+]
