@@ -1,0 +1,65 @@
+{
+  "status": "passed",
+  "focus": "ring only",
+  "notebook_cells": 25,
+  "executed_code_cells": 12,
+  "inline_figures": 4,
+  "default_mode": "saved",
+  "modes_verified_in_fresh_kernels": {
+    "full": {
+      "status": "passed",
+      "mode": "full",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "crop-challenge",
+      "executed_code_cells": 12,
+      "notebook_cells": 25,
+      "inline_png_outputs": 4,
+      "wall_seconds": 19.63294974999735,
+      "fresh_kernel": true,
+      "errors": 0,
+      "executed_notebook": "outputs/research_notebook_verification/20261121T025356Z_e66cff97/QFF_Quantum_Crop_Research_full.ipynb"
+    },
+    "quick": {
+      "status": "passed",
+      "mode": "quick",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "crop-challenge",
+      "executed_code_cells": 12,
+      "notebook_cells": 25,
+      "inline_png_outputs": 4,
+      "wall_seconds": 4.460520207998343,
+      "fresh_kernel": true,
+      "errors": 0,
+      "executed_notebook": "outputs/research_notebook_verification/20261121T072100Z_d70d8f97/QFF_Quantum_Crop_Research_quick.ipynb"
+    },
+    "saved": {
+      "status": "passed",
+      "mode": "saved",
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "kernel": "crop-challenge",
+      "executed_code_cells": 12,
+      "notebook_cells": 25,
+      "inline_png_outputs": 4,
+      "wall_seconds": 2.8888750420010183,
+      "fresh_kernel": true,
+      "errors": 0,
+      "executed_notebook": "notebooks/QFF_Quantum_Crop_Research.ipynb"
+    }
+  },
+  "all_full_training_seeds_reproduce_saved_probabilities_labels_and_metrics": true,
+  "original_project_and_prior_experiments_unchanged": true,
+  "notebook_sha256": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+  "new_architecture_experiments": false
+}

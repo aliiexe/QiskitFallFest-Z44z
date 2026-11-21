@@ -1,0 +1,15 @@
+{
+  "description": "Verified ring archives; no original files modified",
+  "sha256": {
+    "outputs/entanglement_topology_2026-11-21/runs.json": "61984141f178af4b4af82a591b5b40d1a30304e3f2693ef1b53f6564bc9b90ae",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_0_weights.npz": "c20d5475679d1052db868585e7f10139ae46af99c7c1d5387d8a8c2012df764b",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_0_history.json": "494d0ecd194cbe60b2ddea093236fd200e0b709a6ca4840710b1566aad6d95ca",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_0_predictions.csv": "f92f6c16437ccdbdcb37f1348e543677b3f6a51298669861fc596822c7beccbf",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_1_weights.npz": "6a37f9a4f9f7bcc6a45a3187aba6a1ce60459279bbe1dca5d573e2cfdf2f126c",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_1_history.json": "71db82f6130afa0f09e65215c832cec68862a8318d1b5aeb019f8cc42ad4c53a",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_1_predictions.csv": "0db7c1dcae945bf496291867915e53ab555e0b002717262ece278f013191b8cb",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_2_weights.npz": "73b3734503e0763f55990f520163e396b5e642e0c0e02971a10909b293bdb0b6",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_2_history.json": "4f087e8969829193891cef842f651c1dfa3444e8e7d7a48c2e3b0afab6f14c13",
+    "outputs/entanglement_topology_2026-11-21/ring_seed_2_predictions.csv": "a9339cff754828005da03a0b80c3c1d182d1d424f399afac90b3cff8f3311bb4"
+  }
+}
