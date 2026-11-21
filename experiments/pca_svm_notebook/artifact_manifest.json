@@ -1,0 +1,27 @@
+{
+  "identified_experiment": "Nested-SVM 4/6/8-PC training-only feature study, commit 233f2ee",
+  "confirmed_by_user": "PCA/SVM feature study (classical precision gains)",
+  "sha256": {
+    "notebooks/QFF_Quantum_Crop_Research.ipynb": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+    "experiments/feature_representation/models.py": "984e6545893e87adcae6b404299e630ee114dd3924f7224280fd943800fa9426",
+    "experiments/feature_representation/protocol.json": "f40db1691dcf4f808069b817de23449e46836b0be5e0398ba0164e57d6672b62",
+    "outputs/feature_representation_2026-11-21/repeat_runs.json": "8db5e7ea32b6ff06522b60bac8f26a214e5dc41408145b5f49bb2cc86d15eec6",
+    "outputs/feature_representation_2026-11-21/fold_runs.json": "7031bb9a2930b81db8fb75533c26020bbab27037b222df2380c4b8a2714e1b7d",
+    "outputs/feature_representation_2026-11-21/summary.json": "fe4f5330f0b54be2e3b1c7afd6df77ba161bd5d8368e0b45be4723503d484a9d",
+    "outputs/feature_representation_2026-11-21/outer_fold_assignments.csv": "f8343bd45142fc9b9c239b1be1a6cdb951297a70419dce87e9a382abb23c3008",
+    "outputs/feature_representation_2026-11-21/metadata.json": "63c94b59d00e0d2cff660d88e41c5a04de38eaeb2ceb25466dd0c3b0095c8822",
+    "outputs/feature_representation_2026-11-21/verification.json": "6d00b4e98acccf36bab0d85565c236c1d1147525a8fb9b126c745308264325d1",
+    "outputs/feature_representation_2026-11-21/protocol.json": "d49a13bfe31cb9f477c676ccce5249fca127fd072ae3665d3822c420a47365a5",
+    "outputs/feature_representation_2026-11-21/full_training_pca4_svm.joblib": "393c6a692b06854d8947f589e2f0e8459d545359a9e7bafa704a3385c5342520",
+    "outputs/feature_representation_2026-11-21/full_training_pca4_parameters.json": "dcc1eee99d3d568f15e9c79ab454cf3b8f365ef69b90bb3fed506d6fed0d892d",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca4_repeat_0_oof.csv": "35b09ecfcc69a621a162485da82714281604bc159cffeff40b05bd7e9f91bd04",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca4_repeat_1_oof.csv": "6f6cf86382678c79000fc3691ef910f71acc422e6e33b90e6de223f983fc2610",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca4_repeat_2_oof.csv": "3c43708d2e341116f4d13196b88198a4a2b3e67717fb2c4a2e7a2788de4eae9a",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca6_repeat_0_oof.csv": "6454fed3a6e552be8efb0801940364f5dd2064b251827871b44bace3a119a44c",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca6_repeat_1_oof.csv": "2dbda675fc41ad39d2f3d886dfd1ec48da274b63df76f790014e2d5b9020b1b0",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca6_repeat_2_oof.csv": "26f8012ff9ccb7a4e764a41af53b8ceec2cc8568666f440504b94c9902e502b4",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca8_repeat_0_oof.csv": "ed12c93875cb27b19b9e187bfd3321228efdd2871429b8cc302b4b41d3b1c1eb",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca8_repeat_1_oof.csv": "402e506207ea8694ccbb465e62720005f402d5e3959845fd8feada6de0d4388c",
+    "outputs/feature_representation_2026-11-21/svm_nested_pca8_repeat_2_oof.csv": "b6cf2a1d8344e4c58736f505190811b55875b9c840e454373195d4a15bd49753"
+  }
+}

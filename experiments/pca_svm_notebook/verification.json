@@ -1,0 +1,107 @@
+{
+  "status": "passed",
+  "identified_experiment": "Nested-SVM 4/6/8-PC training-only feature study, commit 233f2ee",
+  "confirmed_by_user": "PCA/SVM feature study (classical precision gains)",
+  "notebook": "notebooks/QFF_PCA_SVM_Feature_Research.ipynb",
+  "notebook_sha256": "642063560cfb51752709ebbad149b6017420b509572bedf87f6b93877fc7f6cc",
+  "structure_reference": "notebooks/QFF_Quantum_Crop_Research.ipynb",
+  "first_notebook_sha256_unchanged": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+  "same_cell_type_order": true,
+  "notebook_cells": 25,
+  "code_cells": 12,
+  "section_numbers": "1 through 7",
+  "inline_figures": 4,
+  "modes_verified": {
+    "quick": {
+      "status": "passed",
+      "mode": "quick",
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "split_seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "fresh_kernel": true,
+      "kernel": "crop-challenge",
+      "notebook_cells": 25,
+      "executed_code_cells": 12,
+      "inline_figures": 4,
+      "errors": 0,
+      "same_cell_layout_as_first_notebook": true,
+      "first_notebook_sha256_unchanged": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+      "archived_OOF_files_rescored": 9,
+      "full_outer_folds_parameters_inner_scores_predictions_reproduced": 0,
+      "session_record": "outputs/pca_svm_notebook/20261121T090333Z_b340aeb7/session.json",
+      "wall_seconds": 13.034642458995222,
+      "executed_notebook": "outputs/pca_svm_notebook_verification/20261121T090322Z_8ab5b7fb/QFF_PCA_SVM_Feature_Research_quick.ipynb"
+    },
+    "full": {
+      "status": "passed",
+      "mode": "full",
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "split_seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "fresh_kernel": true,
+      "kernel": "crop-challenge",
+      "notebook_cells": 25,
+      "executed_code_cells": 12,
+      "inline_figures": 4,
+      "errors": 0,
+      "same_cell_layout_as_first_notebook": true,
+      "first_notebook_sha256_unchanged": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+      "archived_OOF_files_rescored": 9,
+      "full_outer_folds_parameters_inner_scores_predictions_reproduced": 27,
+      "session_record": "outputs/pca_svm_notebook/20261121T090337Z_2dfb31e8/session.json",
+      "wall_seconds": 5.506353292003041,
+      "executed_notebook": "outputs/pca_svm_notebook_verification/20261121T090335Z_9f11d94a/QFF_PCA_SVM_Feature_Research_full.ipynb"
+    },
+    "saved": {
+      "status": "passed",
+      "mode": "saved",
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "split_seeds": [
+        2026,
+        2027,
+        2028
+      ],
+      "fresh_kernel": true,
+      "kernel": "crop-challenge",
+      "notebook_cells": 25,
+      "executed_code_cells": 12,
+      "inline_figures": 4,
+      "errors": 0,
+      "same_cell_layout_as_first_notebook": true,
+      "first_notebook_sha256_unchanged": "c43b77d94fdea32888d60fc116da46d6f6fcf6dd7d626e865e8451175ba0db42",
+      "archived_OOF_files_rescored": 9,
+      "full_outer_folds_parameters_inner_scores_predictions_reproduced": 0,
+      "session_record": "outputs/pca_svm_notebook/20261121T090342Z_057c1084/session.json",
+      "wall_seconds": 2.815244832992903,
+      "executed_notebook": "notebooks/QFF_PCA_SVM_Feature_Research.ipynb"
+    }
+  },
+  "mean_metrics_match_archive": true,
+  "old_project_and_experiment_files_unchanged": true,
+  "figures_visually_reviewed": [
+    "01_pipeline_and_quantum_reference",
+    "02_training_cv_tuning_curve",
+    "03_training_only_confusion_matrices",
+    "04_field_0_pca6"
+  ],
+  "validation_use": "Individual-field fresh demonstration only; no aggregate validation ranking",
+  "no_new_quantum_architecture": true
+}
