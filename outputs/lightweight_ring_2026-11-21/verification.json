@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "gradient_max_error": 5.829445259841748e-10,
+  "sampler_max_error": 3.80556697265888e-12,
+  "library_operator_matches": true,
+  "resources": {
+    "qubits": 4,
+    "trainable": 8,
+    "frozen_quantum": 0,
+    "depth": 7,
+    "two_qubit_gates": 4,
+    "objective_evaluations": 0,
+    "readout_group_sizes": [
+      6,
+      5,
+      5
+    ],
+    "encoding": "ry",
+    "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+    "entangling_blocks": 1,
+    "ry_parameter_banks": 2,
+    "optimizer": "L-BFGS-B",
+    "gradient_evaluations": 0,
+    "native_operator_builds": 33,
+    "logical_field_probability_evaluations": 297,
+    "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+    "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)",
+    "topology": "ring",
+    "ordered_cx_edges_per_block": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "probability_passes_per_loss_gradient": 17,
+    "state_preparation_seconds": null
+  },
+  "verified_sources": {
+    "experiments/lightweight_ring/model.py": "ea483ffd9fa75ed7524af80fddbc6375f2818872e3c120125b525d02174a70a4",
+    "experiments/lightweight_ring/protocol.json": "135325c2e89c158368e9aa7d7004bcc01df3260f00f9fe4469d958da4d88fa38"
+  }
+}

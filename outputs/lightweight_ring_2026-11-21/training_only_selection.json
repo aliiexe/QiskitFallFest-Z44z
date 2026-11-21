@@ -1,0 +1,116 @@
+{
+  "selected_configuration": "C100",
+  "selected_config": {
+    "name": "C100",
+    "optimizer": "COBYLA",
+    "max_evals": 100
+  },
+  "locked_at": "2026-11-21T09:32:03.618487+00:00",
+  "selection_data": "914 training fields only; no validation scores used",
+  "rule": {
+    "metric": "Mean of three seed-specific pooled OOF macro-F1 scores",
+    "quality_tolerance": 0.01,
+    "eligible": "Eight-angle mean OOF F1 >= best mean among all tested quantum candidates minus .01; worst-seed OOF F1 >= twelve-angle ring worst-seed OOF F1 minus .01",
+    "cost": "Median of the three seed-specific sums of preprocess+fit+inference seconds over three folds",
+    "choice": "Lowest cost among eligible eight-angle candidates; exact cost ties favor higher mean F1 then lower call cap",
+    "fallback": "If none qualify, choose the highest-mean-F1 eight-angle candidate for honest evaluation, label quality criterion unmet; do not claim success",
+    "pareto": "Record nondominated mean-F1/cost candidates including the twelve-angle reference",
+    "uncertainty": "Three initialization seeds on reused training folds; no independent-sample confidence claim"
+  },
+  "quality_criterion_met": true,
+  "candidates": [
+    {
+      "name": "C100",
+      "optimizer": "COBYLA",
+      "max_evals": 100,
+      "maximum_probability_passes": 100,
+      "mean_oof_macro_f1": 0.8429999659709475,
+      "seed_SD": 0.006172741894854201,
+      "worst_seed_macro_f1": 0.8351549415529854,
+      "median_three_fold_total_seconds": 1.4593668339948636,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": true
+    },
+    {
+      "name": "C340",
+      "optimizer": "COBYLA",
+      "max_evals": 340,
+      "maximum_probability_passes": 340,
+      "mean_oof_macro_f1": 0.8457824908955917,
+      "seed_SD": 0.0016567775060566732,
+      "worst_seed_macro_f1": 0.8446109722861417,
+      "median_three_fold_total_seconds": 2.5812125420052325,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": true
+    },
+    {
+      "name": "C850",
+      "optimizer": "COBYLA",
+      "max_evals": 850,
+      "maximum_probability_passes": 850,
+      "mean_oof_macro_f1": 0.8457824908955917,
+      "seed_SD": 0.0016567775060566732,
+      "worst_seed_macro_f1": 0.8446109722861417,
+      "median_three_fold_total_seconds": 2.6094650420127437,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": false
+    },
+    {
+      "name": "L20",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 20,
+      "maximum_probability_passes": 340,
+      "mean_oof_macro_f1": 0.8460956030763956,
+      "seed_SD": 0.0020995849986938883,
+      "worst_seed_macro_f1": 0.8446109722861417,
+      "median_three_fold_total_seconds": 3.0324491249921266,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": true
+    },
+    {
+      "name": "L50",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 50,
+      "maximum_probability_passes": 850,
+      "mean_oof_macro_f1": 0.8457824908955917,
+      "seed_SD": 0.0016567775060566732,
+      "worst_seed_macro_f1": 0.8446109722861417,
+      "median_three_fold_total_seconds": 3.108573627003352,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": false
+    },
+    {
+      "name": "L100",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 100,
+      "maximum_probability_passes": 1700,
+      "mean_oof_macro_f1": 0.8457824908955917,
+      "seed_SD": 0.0016567775060566732,
+      "worst_seed_macro_f1": 0.8446109722861417,
+      "median_three_fold_total_seconds": 3.1849988749891054,
+      "trainable": 8,
+      "eligible_eight_angle": true,
+      "pareto_nondominated": false
+    },
+    {
+      "name": "ring12",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 100,
+      "mean_oof_macro_f1": 0.8526688138071893,
+      "seed_SD": 0.013425278902128435,
+      "worst_seed_macro_f1": 0.8343051729779418,
+      "median_three_fold_total_seconds": 12.799991499021417,
+      "trainable": 12,
+      "eligible_eight_angle": false,
+      "pareto_nondominated": true
+    }
+  ],
+  "best_quantum_mean_oof_macro_f1": 0.8526688138071893,
+  "eligibility_mean_floor": 0.8426688138071893,
+  "worst_seed_floor": 0.8243051729779418
+}

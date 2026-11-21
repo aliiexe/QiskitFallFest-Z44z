@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "cv_quantum_fits_checked": 63,
+  "CV_OOF_files_rescored": 21,
+  "validation_runs_rescored": 12,
+  "ring12_reference_CV_reproductions": 9,
+  "old_files_unchanged": true,
+  "standard_cached_probability_equality": true,
+  "selection_sha256_unchanged": "0f9ed54d3e6bfff45d4b8a4eb9d81e133b371f1b340c730237addcf0f5252bf0",
+  "test_inference": false
+}

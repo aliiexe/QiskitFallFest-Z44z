@@ -1,0 +1,884 @@
+{
+  "scope": "Fresh same-machine cached-Qiskit training; same standard SamplerQNN inference; SVM is classical",
+  "selection": {
+    "selected_configuration": "C100",
+    "selected_config": {
+      "name": "C100",
+      "optimizer": "COBYLA",
+      "max_evals": 100
+    },
+    "locked_at": "2026-11-21T09:32:03.618487+00:00",
+    "selection_data": "914 training fields only; no validation scores used",
+    "rule": {
+      "metric": "Mean of three seed-specific pooled OOF macro-F1 scores",
+      "quality_tolerance": 0.01,
+      "eligible": "Eight-angle mean OOF F1 >= best mean among all tested quantum candidates minus .01; worst-seed OOF F1 >= twelve-angle ring worst-seed OOF F1 minus .01",
+      "cost": "Median of the three seed-specific sums of preprocess+fit+inference seconds over three folds",
+      "choice": "Lowest cost among eligible eight-angle candidates; exact cost ties favor higher mean F1 then lower call cap",
+      "fallback": "If none qualify, choose the highest-mean-F1 eight-angle candidate for honest evaluation, label quality criterion unmet; do not claim success",
+      "pareto": "Record nondominated mean-F1/cost candidates including the twelve-angle reference",
+      "uncertainty": "Three initialization seeds on reused training folds; no independent-sample confidence claim"
+    },
+    "quality_criterion_met": true,
+    "candidates": [
+      {
+        "name": "C100",
+        "optimizer": "COBYLA",
+        "max_evals": 100,
+        "maximum_probability_passes": 100,
+        "mean_oof_macro_f1": 0.8429999659709475,
+        "seed_SD": 0.006172741894854201,
+        "worst_seed_macro_f1": 0.8351549415529854,
+        "median_three_fold_total_seconds": 1.4593668339948636,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": true
+      },
+      {
+        "name": "C340",
+        "optimizer": "COBYLA",
+        "max_evals": 340,
+        "maximum_probability_passes": 340,
+        "mean_oof_macro_f1": 0.8457824908955917,
+        "seed_SD": 0.0016567775060566732,
+        "worst_seed_macro_f1": 0.8446109722861417,
+        "median_three_fold_total_seconds": 2.5812125420052325,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": true
+      },
+      {
+        "name": "C850",
+        "optimizer": "COBYLA",
+        "max_evals": 850,
+        "maximum_probability_passes": 850,
+        "mean_oof_macro_f1": 0.8457824908955917,
+        "seed_SD": 0.0016567775060566732,
+        "worst_seed_macro_f1": 0.8446109722861417,
+        "median_three_fold_total_seconds": 2.6094650420127437,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": false
+      },
+      {
+        "name": "L20",
+        "optimizer": "L-BFGS-B",
+        "max_evals": 20,
+        "maximum_probability_passes": 340,
+        "mean_oof_macro_f1": 0.8460956030763956,
+        "seed_SD": 0.0020995849986938883,
+        "worst_seed_macro_f1": 0.8446109722861417,
+        "median_three_fold_total_seconds": 3.0324491249921266,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": true
+      },
+      {
+        "name": "L50",
+        "optimizer": "L-BFGS-B",
+        "max_evals": 50,
+        "maximum_probability_passes": 850,
+        "mean_oof_macro_f1": 0.8457824908955917,
+        "seed_SD": 0.0016567775060566732,
+        "worst_seed_macro_f1": 0.8446109722861417,
+        "median_three_fold_total_seconds": 3.108573627003352,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": false
+      },
+      {
+        "name": "L100",
+        "optimizer": "L-BFGS-B",
+        "max_evals": 100,
+        "maximum_probability_passes": 1700,
+        "mean_oof_macro_f1": 0.8457824908955917,
+        "seed_SD": 0.0016567775060566732,
+        "worst_seed_macro_f1": 0.8446109722861417,
+        "median_three_fold_total_seconds": 3.1849988749891054,
+        "trainable": 8,
+        "eligible_eight_angle": true,
+        "pareto_nondominated": false
+      },
+      {
+        "name": "ring12",
+        "optimizer": "L-BFGS-B",
+        "max_evals": 100,
+        "mean_oof_macro_f1": 0.8526688138071893,
+        "seed_SD": 0.013425278902128435,
+        "worst_seed_macro_f1": 0.8343051729779418,
+        "median_three_fold_total_seconds": 12.799991499021417,
+        "trainable": 12,
+        "eligible_eight_angle": false,
+        "pareto_nondominated": true
+      }
+    ],
+    "best_quantum_mean_oof_macro_f1": 0.8526688138071893,
+    "eligibility_mean_floor": 0.8426688138071893,
+    "worst_seed_floor": 0.8243051729779418
+  },
+  "validation_metrics": [
+    {
+      "model": "selected8",
+      "selected_candidate": "C100",
+      "macro_f1_mean": 0.86075535011061,
+      "macro_f1_seed_SD": 0.01103087562116112,
+      "accuracy_mean": 0.86,
+      "worst_seed_macro_f1": 0.8451553362023132,
+      "metrics_by_seed": [
+        {
+          "seed": 0,
+          "metrics": {
+            "macro_f1": 0.8685553570647584,
+            "accuracy": 0.8666666666666667,
+            "precision": [
+              0.8823529411764706,
+              1.0,
+              0.7627118644067796
+            ],
+            "recall": [
+              0.9,
+              0.8,
+              0.9
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                45,
+                0,
+                5
+              ],
+              [
+                1,
+                40,
+                9
+              ],
+              [
+                5,
+                0,
+                45
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 1,
+          "metrics": {
+            "macro_f1": 0.8685553570647584,
+            "accuracy": 0.8666666666666667,
+            "precision": [
+              0.8823529411764706,
+              1.0,
+              0.7627118644067796
+            ],
+            "recall": [
+              0.9,
+              0.8,
+              0.9
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                45,
+                0,
+                5
+              ],
+              [
+                1,
+                40,
+                9
+              ],
+              [
+                5,
+                0,
+                45
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 2,
+          "metrics": {
+            "macro_f1": 0.8451553362023132,
+            "accuracy": 0.8466666666666667,
+            "precision": [
+              0.8823529411764706,
+              0.8181818181818182,
+              0.8409090909090909
+            ],
+            "recall": [
+              0.9,
+              0.9,
+              0.74
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                45,
+                2,
+                3
+              ],
+              [
+                1,
+                45,
+                4
+              ],
+              [
+                5,
+                8,
+                37
+              ]
+            ]
+          }
+        }
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 8,
+        "frozen_quantum": 0,
+        "depth": 7,
+        "two_qubit_gates": 4,
+        "objective_evaluations": 100,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "encoding": "ry",
+        "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+        "entangling_blocks": 1,
+        "ry_parameter_banks": 2,
+        "optimizer": "COBYLA",
+        "gradient_evaluations": 0,
+        "native_operator_builds": 100,
+        "logical_field_probability_evaluations": 91400,
+        "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+        "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)",
+        "topology": "ring",
+        "ordered_cx_edges_per_block": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "probability_passes_per_loss_gradient": 1,
+        "state_preparation_seconds": 0.06138137499510776
+      },
+      "preprocessing_seconds_mean": 0.001073805333968873,
+      "preprocessing_seconds_median": 0.0010742080048657954,
+      "fit_seconds_mean": 0.48577006966903963,
+      "fit_seconds_median": 0.4852132499945583,
+      "inference_seconds_mean": 0.08335087499775302,
+      "inference_seconds_median": 0.08506533400213812,
+      "total_seconds_mean": 0.5701947500007615,
+      "total_seconds_median": 0.5723356659873389,
+      "precision_alfalfa_mean": 0.8823529411764706,
+      "recall_alfalfa_mean": 0.9,
+      "precision_maize_mean": 0.9393939393939394,
+      "recall_maize_mean": 0.8333333333333334,
+      "precision_wheat_mean": 0.7887776065742167,
+      "recall_wheat_mean": 0.8466666666666667,
+      "objective_evaluations_mean": 100.0,
+      "gradient_evaluations_mean": 0.0,
+      "native_operator_builds_mean": 100.0,
+      "logical_field_probability_evaluations_mean": 91400.0
+    },
+    {
+      "model": "ring12",
+      "selected_candidate": null,
+      "macro_f1_mean": 0.8943462968545876,
+      "macro_f1_seed_SD": 0.0,
+      "accuracy_mean": 0.8933333333333332,
+      "worst_seed_macro_f1": 0.8943462968545876,
+      "metrics_by_seed": [
+        {
+          "seed": 0,
+          "metrics": {
+            "macro_f1": 0.8943462968545876,
+            "accuracy": 0.8933333333333333,
+            "precision": [
+              0.92,
+              0.9767441860465116,
+              0.8070175438596491
+            ],
+            "recall": [
+              0.92,
+              0.84,
+              0.92
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                46,
+                0,
+                4
+              ],
+              [
+                1,
+                42,
+                7
+              ],
+              [
+                3,
+                1,
+                46
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 1,
+          "metrics": {
+            "macro_f1": 0.8943462968545876,
+            "accuracy": 0.8933333333333333,
+            "precision": [
+              0.92,
+              0.9767441860465116,
+              0.8070175438596491
+            ],
+            "recall": [
+              0.92,
+              0.84,
+              0.92
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                46,
+                0,
+                4
+              ],
+              [
+                1,
+                42,
+                7
+              ],
+              [
+                3,
+                1,
+                46
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 2,
+          "metrics": {
+            "macro_f1": 0.8943462968545876,
+            "accuracy": 0.8933333333333333,
+            "precision": [
+              0.92,
+              0.9767441860465116,
+              0.8070175438596491
+            ],
+            "recall": [
+              0.92,
+              0.84,
+              0.92
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                46,
+                0,
+                4
+              ],
+              [
+                1,
+                42,
+                7
+              ],
+              [
+                3,
+                1,
+                46
+              ]
+            ]
+          }
+        }
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 12,
+        "frozen_quantum": 0,
+        "depth": 12,
+        "two_qubit_gates": 8,
+        "objective_evaluations": 47,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "encoding": "ry",
+        "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+        "entangling_blocks": 2,
+        "ry_parameter_banks": 3,
+        "optimizer": "L-BFGS-B",
+        "gradient_evaluations": 47,
+        "native_operator_builds": 1175,
+        "logical_field_probability_evaluations": 1073950,
+        "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+        "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)",
+        "topology": "ring",
+        "ordered_cx_edges_per_block": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "probability_passes_per_loss_and_gradient": 25
+      },
+      "preprocessing_seconds_mean": 0.0011941526706020038,
+      "preprocessing_seconds_median": 0.001247457999852486,
+      "fit_seconds_mean": 5.782585389000208,
+      "fit_seconds_median": 5.637985374996788,
+      "inference_seconds_mean": 0.09353834734065458,
+      "inference_seconds_median": 0.09492520900676027,
+      "total_seconds_mean": 5.877317889011465,
+      "total_seconds_median": 5.734187292007846,
+      "precision_alfalfa_mean": 0.92,
+      "recall_alfalfa_mean": 0.92,
+      "precision_maize_mean": 0.9767441860465116,
+      "recall_maize_mean": 0.84,
+      "precision_wheat_mean": 0.8070175438596491,
+      "recall_wheat_mean": 0.92,
+      "objective_evaluations_mean": 56.666666666666664,
+      "gradient_evaluations_mean": 56.666666666666664,
+      "native_operator_builds_mean": 1416.6666666666667,
+      "logical_field_probability_evaluations_mean": 1294833.3333333333
+    },
+    {
+      "model": "original8",
+      "selected_candidate": null,
+      "macro_f1_mean": 0.8556942724191511,
+      "macro_f1_seed_SD": 0.006027139053849285,
+      "accuracy_mean": 0.8555555555555555,
+      "worst_seed_macro_f1": 0.8473003848003847,
+      "metrics_by_seed": [
+        {
+          "seed": 0,
+          "metrics": {
+            "macro_f1": 0.8473003848003847,
+            "accuracy": 0.8466666666666667,
+            "precision": [
+              0.7818181818181819,
+              0.8775510204081632,
+              0.8913043478260869
+            ],
+            "recall": [
+              0.86,
+              0.86,
+              0.82
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                43,
+                4,
+                3
+              ],
+              [
+                5,
+                43,
+                2
+              ],
+              [
+                7,
+                2,
+                41
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 1,
+          "metrics": {
+            "macro_f1": 0.8586080187595945,
+            "accuracy": 0.86,
+            "precision": [
+              0.9183673469387755,
+              0.7966101694915254,
+              0.8809523809523809
+            ],
+            "recall": [
+              0.9,
+              0.94,
+              0.74
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                45,
+                2,
+                3
+              ],
+              [
+                1,
+                47,
+                2
+              ],
+              [
+                3,
+                10,
+                37
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 2,
+          "metrics": {
+            "macro_f1": 0.861174413697474,
+            "accuracy": 0.86,
+            "precision": [
+              0.7758620689655172,
+              0.9333333333333333,
+              0.8936170212765957
+            ],
+            "recall": [
+              0.9,
+              0.84,
+              0.84
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                45,
+                2,
+                3
+              ],
+              [
+                6,
+                42,
+                2
+              ],
+              [
+                7,
+                1,
+                42
+              ]
+            ]
+          }
+        }
+      ],
+      "resources": {
+        "qubits": 4,
+        "trainable": 8,
+        "frozen_quantum": 0,
+        "depth": 6,
+        "two_qubit_gates": 3,
+        "objective_evaluations": 100,
+        "readout_group_sizes": [
+          6,
+          5,
+          5
+        ],
+        "encoding": "ry",
+        "compilation": "logical decomposed H/P/RY/CX; no backend routing",
+        "entangling_blocks": 1,
+        "ry_parameter_banks": 2,
+        "optimizer": "COBYLA",
+        "gradient_evaluations": 0,
+        "native_operator_builds": 100,
+        "logical_field_probability_evaluations": 91400,
+        "training_engine": "Qiskit Statevector.evolve(Qiskit Operator(bound ansatz)); fixed input-state cache",
+        "prediction_engine": "original Qiskit SamplerQNN + QMLSampler(shots=None)"
+      },
+      "preprocessing_seconds_mean": 0.0011098193305466946,
+      "preprocessing_seconds_median": 0.0010740410070866346,
+      "fit_seconds_mean": 0.4911478196639412,
+      "fit_seconds_median": 0.48968837498978246,
+      "inference_seconds_mean": 0.08134787533587466,
+      "inference_seconds_median": 0.08115345900296234,
+      "total_seconds_mean": 0.5736055143303626,
+      "total_seconds_median": 0.5741180409968365,
+      "precision_alfalfa_mean": 0.8253491992408248,
+      "recall_alfalfa_mean": 0.8866666666666667,
+      "precision_maize_mean": 0.8691648410776741,
+      "recall_maize_mean": 0.8799999999999999,
+      "precision_wheat_mean": 0.8886245833516879,
+      "recall_wheat_mean": 0.7999999999999999,
+      "objective_evaluations_mean": 100.0,
+      "gradient_evaluations_mean": 0.0,
+      "native_operator_builds_mean": 100.0,
+      "logical_field_probability_evaluations_mean": 91400.0
+    },
+    {
+      "model": "svm",
+      "selected_candidate": null,
+      "macro_f1_mean": 0.8797397657892102,
+      "macro_f1_seed_SD": 0.0,
+      "accuracy_mean": 0.88,
+      "worst_seed_macro_f1": 0.8797397657892102,
+      "metrics_by_seed": [
+        {
+          "seed": 0,
+          "metrics": {
+            "macro_f1": 0.8797397657892102,
+            "accuracy": 0.88,
+            "precision": [
+              0.8867924528301887,
+              0.9148936170212766,
+              0.84
+            ],
+            "recall": [
+              0.94,
+              0.86,
+              0.84
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                47,
+                0,
+                3
+              ],
+              [
+                2,
+                43,
+                5
+              ],
+              [
+                4,
+                4,
+                42
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 1,
+          "metrics": {
+            "macro_f1": 0.8797397657892102,
+            "accuracy": 0.88,
+            "precision": [
+              0.8867924528301887,
+              0.9148936170212766,
+              0.84
+            ],
+            "recall": [
+              0.94,
+              0.86,
+              0.84
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                47,
+                0,
+                3
+              ],
+              [
+                2,
+                43,
+                5
+              ],
+              [
+                4,
+                4,
+                42
+              ]
+            ]
+          }
+        },
+        {
+          "seed": 2,
+          "metrics": {
+            "macro_f1": 0.8797397657892102,
+            "accuracy": 0.88,
+            "precision": [
+              0.8867924528301887,
+              0.9148936170212766,
+              0.84
+            ],
+            "recall": [
+              0.94,
+              0.86,
+              0.84
+            ],
+            "support": [
+              50,
+              50,
+              50
+            ],
+            "confusion": [
+              [
+                47,
+                0,
+                3
+              ],
+              [
+                2,
+                43,
+                5
+              ],
+              [
+                4,
+                4,
+                42
+              ]
+            ]
+          }
+        }
+      ],
+      "resources": {
+        "inputs": 13,
+        "qubits": 0,
+        "trainable_quantum": 0,
+        "support_vectors": 217
+      },
+      "preprocessing_seconds_mean": 0.0002984163341655706,
+      "preprocessing_seconds_median": 0.00029116599762346596,
+      "fit_seconds_mean": 0.004769444329819332,
+      "fit_seconds_median": 0.004793249987415038,
+      "inference_seconds_mean": 0.0008961803396232426,
+      "inference_seconds_median": 0.00088825001148507,
+      "total_seconds_mean": 0.005964041003608145,
+      "total_seconds_median": 0.006000415989547037,
+      "precision_alfalfa_mean": 0.8867924528301887,
+      "recall_alfalfa_mean": 0.94,
+      "precision_maize_mean": 0.9148936170212766,
+      "recall_maize_mean": 0.86,
+      "precision_wheat_mean": 0.84,
+      "recall_wheat_mean": 0.84
+    }
+  ],
+  "selected_mean_macro_f1_gap_vs_ring12": -0.03359094674397756,
+  "selected_median_total_speedup_vs_ring12": 10.018923566672667,
+  "selected_median_fit_speedup_vs_ring12": 11.619603081861467,
+  "selected_median_total_reduction_fraction": 0.9001888782417267,
+  "validation_target_0_88_reached_in_mean": false,
+  "higher_COBYLA_ceiling_same_CV_predictions": true,
+  "evaluator_microbenchmark": [
+    {
+      "model": "selected8",
+      "fields": 914,
+      "weights_seed": 0,
+      "input_state_preparation_seconds": 0.06230808299733326,
+      "cached_forward_seconds": [
+        0.004128374988795258,
+        0.004314958001486957,
+        0.004262374990503304
+      ],
+      "standard_sampler_forward_seconds": [
+        0.4804362909926567,
+        0.47851512499619275,
+        0.47614966599212494
+      ],
+      "probabilities_match": true,
+      "scope": "one fixed-weight full-training forward pass; not optimizer training"
+    },
+    {
+      "model": "ring12",
+      "fields": 914,
+      "weights_seed": 0,
+      "input_state_preparation_seconds": 0.06086804201186169,
+      "cached_forward_seconds": [
+        0.004309666997869499,
+        0.004331707998062484,
+        0.004271166995749809
+      ],
+      "standard_sampler_forward_seconds": [
+        0.5702247089939192,
+        0.5435883750033099,
+        0.5459737920027692
+      ],
+      "probabilities_match": true,
+      "scope": "one fixed-weight full-training forward pass; not optimizer training"
+    },
+    {
+      "model": "original8",
+      "fields": 914,
+      "weights_seed": 0,
+      "input_state_preparation_seconds": 0.06181920800008811,
+      "cached_forward_seconds": [
+        0.004026042006444186,
+        0.004280583001673222,
+        0.00428979100252036
+      ],
+      "standard_sampler_forward_seconds": [
+        0.4653438750101486,
+        0.4706866249907762,
+        0.4727789589960594
+      ],
+      "probabilities_match": true,
+      "scope": "one fixed-weight full-training forward pass; not optimizer training"
+    }
+  ],
+  "standard_training_runtime": "not measured; fixed-weight forward-pass timing is separate",
+  "limitations": [
+    "Selection reuses prior nonspatial training folds",
+    "Three initialization seeds, not independent cohorts",
+    "Exact ideal simulator, not hardware speed or quantum advantage",
+    "SVM uses all 13 inputs",
+    "Historical validation is development evidence; no validation-driven reselection performed"
+  ],
+  "test_inference": false
+}

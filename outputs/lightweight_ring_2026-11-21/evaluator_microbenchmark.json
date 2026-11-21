@@ -1,0 +1,56 @@
+[
+  {
+    "model": "selected8",
+    "fields": 914,
+    "weights_seed": 0,
+    "input_state_preparation_seconds": 0.06230808299733326,
+    "cached_forward_seconds": [
+      0.004128374988795258,
+      0.004314958001486957,
+      0.004262374990503304
+    ],
+    "standard_sampler_forward_seconds": [
+      0.4804362909926567,
+      0.47851512499619275,
+      0.47614966599212494
+    ],
+    "probabilities_match": true,
+    "scope": "one fixed-weight full-training forward pass; not optimizer training"
+  },
+  {
+    "model": "ring12",
+    "fields": 914,
+    "weights_seed": 0,
+    "input_state_preparation_seconds": 0.06086804201186169,
+    "cached_forward_seconds": [
+      0.004309666997869499,
+      0.004331707998062484,
+      0.004271166995749809
+    ],
+    "standard_sampler_forward_seconds": [
+      0.5702247089939192,
+      0.5435883750033099,
+      0.5459737920027692
+    ],
+    "probabilities_match": true,
+    "scope": "one fixed-weight full-training forward pass; not optimizer training"
+  },
+  {
+    "model": "original8",
+    "fields": 914,
+    "weights_seed": 0,
+    "input_state_preparation_seconds": 0.06181920800008811,
+    "cached_forward_seconds": [
+      0.004026042006444186,
+      0.004280583001673222,
+      0.00428979100252036
+    ],
+    "standard_sampler_forward_seconds": [
+      0.4653438750101486,
+      0.4706866249907762,
+      0.4727789589960594
+    ],
+    "probabilities_match": true,
+    "scope": "one fixed-weight full-training forward pass; not optimizer training"
+  }
+]

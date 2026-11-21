@@ -1,0 +1,125 @@
+{
+  "objective": "Find an eight-parameter four-qubit ring QNN with a defensible accuracy-runtime balance, without assuming it improves the existing model.",
+  "candidates": [
+    {
+      "name": "C100",
+      "optimizer": "COBYLA",
+      "max_evals": 100,
+      "maximum_probability_passes": 100
+    },
+    {
+      "name": "C340",
+      "optimizer": "COBYLA",
+      "max_evals": 340,
+      "maximum_probability_passes": 340
+    },
+    {
+      "name": "C850",
+      "optimizer": "COBYLA",
+      "max_evals": 850,
+      "maximum_probability_passes": 850
+    },
+    {
+      "name": "L20",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 20,
+      "maximum_probability_passes": 340
+    },
+    {
+      "name": "L50",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 50,
+      "maximum_probability_passes": 850
+    },
+    {
+      "name": "L100",
+      "optimizer": "L-BFGS-B",
+      "max_evals": 100,
+      "maximum_probability_passes": 1700
+    }
+  ],
+  "fixed": {
+    "qubits": 4,
+    "PCA_components": 4,
+    "trainable_angles": 8,
+    "entangling_blocks": 1,
+    "CX_gates": 4,
+    "ordered_ring_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "encoding": "Original RY: pi/2*(1+tanh(z))",
+    "readout": "Basis integer modulo 3, class order alfalfa/maize/wheat; groups 6/5/5",
+    "preprocessing": "StandardScaler -> full-SVD PCA4 -> StandardScaler; fit inside each training fold",
+    "initialization": "default_rng(seed).uniform(-pi,pi,8), identical across eight-angle candidates",
+    "probabilities": "Exact, no noise or finite-shot sampling",
+    "optimizer_implementation": "Reuse verified NativeQiskitClassifier.fit/loss_gradient; no optimizer or gradient changes"
+  },
+  "training_CV": {
+    "folds": "Previous 3 stratified training folds (split seed 2026); not geographic",
+    "initialization_seeds": [
+      0,
+      1,
+      2
+    ],
+    "new_eight_angle_fits": 54,
+    "reference": "Fresh nine CV fits of verified two-block, twelve-angle ring, L-BFGS-B cap 100; require historical reproduction",
+    "SVM": "Original fixed 13-feature RBF-SVM; three folds, deterministic (no artificial seed replicates)"
+  },
+  "selection": {
+    "metric": "Mean of three seed-specific pooled OOF macro-F1 scores",
+    "quality_tolerance": 0.01,
+    "eligible": "Eight-angle mean OOF F1 >= best mean among all tested quantum candidates minus .01; worst-seed OOF F1 >= twelve-angle ring worst-seed OOF F1 minus .01",
+    "cost": "Median of the three seed-specific sums of preprocess+fit+inference seconds over three folds",
+    "choice": "Lowest cost among eligible eight-angle candidates; exact cost ties favor higher mean F1 then lower call cap",
+    "fallback": "If none qualify, choose the highest-mean-F1 eight-angle candidate for honest evaluation, label quality criterion unmet; do not claim success",
+    "pareto": "Record nondominated mean-F1/cost candidates including the twelve-angle reference",
+    "uncertainty": "Three initialization seeds on reused training folds; no independent-sample confidence claim"
+  },
+  "post_selection_evaluation": {
+    "selection_locked_before_validation": true,
+    "train_fields": 914,
+    "validation_fields": 150,
+    "models": [
+      "Selected eight-angle ring only",
+      "Twelve-angle ring reference",
+      "Original eight-angle LINEAR QNN using same cached evaluator",
+      "Original frozen 13-feature SVM"
+    ],
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "policy": "No validation-based candidate/seed reselection, budget extension, or architecture tuning; no test inference"
+  },
+  "runtime": {
+    "main_training": "Same local Qiskit Statevector.evolve(Operator(bound ansatz)) cached-input evaluator for every quantum candidate/reference; serial fits",
+    "inference": "Same standard SamplerQNN + QMLSampler(shots=None) for all quantum candidates; no input-state cache in reported inference",
+    "reported": "Preprocessing, fit (including input-state preparation), inference, total; objective calls, gradient calls, probability passes and logical field evaluations",
+    "engine_microbenchmark": "Three fixed-weight 914-field forward passes per quantum architecture: cached Qiskit evaluator versus standard SamplerQNN, with equality checks; this is not measured standard optimizer training time",
+    "historical": "0.8557/0.8797/0.8943 and ~6.25s are labeled historical; current comparisons use fresh same-machine runs"
+  },
+  "deferred": [
+    "More qubits",
+    "New feature representations",
+    "Data re-uploading",
+    "Hybrid heads",
+    "Dashboards",
+    "Extra research notebooks"
+  ]
+}

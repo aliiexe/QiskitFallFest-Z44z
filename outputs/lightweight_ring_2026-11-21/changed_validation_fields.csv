@@ -1,0 +1,30 @@
+sample_id,seed,actual,ring12_prediction,selected8_prediction,change
+r2_b2d9a81ca9899515,0,wheat,maize,wheat,repaired relative to ring12
+r2_7405944331908784,0,maize,maize,wheat,new error relative to ring12
+r2_f4a3878c8cf5eb02,0,alfalfa,alfalfa,wheat,new error relative to ring12
+r2_47a4274b239df0f5,0,wheat,wheat,alfalfa,new error relative to ring12
+r2_48ca668ac4ce4fe8,0,maize,maize,wheat,new error relative to ring12
+r2_556b34fe7ffa6c7b,0,wheat,wheat,alfalfa,new error relative to ring12
+r2_b2d9a81ca9899515,1,wheat,maize,wheat,repaired relative to ring12
+r2_7405944331908784,1,maize,maize,wheat,new error relative to ring12
+r2_f4a3878c8cf5eb02,1,alfalfa,alfalfa,wheat,new error relative to ring12
+r2_47a4274b239df0f5,1,wheat,wheat,alfalfa,new error relative to ring12
+r2_48ca668ac4ce4fe8,1,maize,maize,wheat,new error relative to ring12
+r2_556b34fe7ffa6c7b,1,wheat,wheat,alfalfa,new error relative to ring12
+r2_9a3d12655b924357,2,maize,wheat,maize,repaired relative to ring12
+r2_40b6d4ef6686da1a,2,maize,wheat,maize,repaired relative to ring12
+r2_9b14920f9008617a,2,maize,wheat,maize,repaired relative to ring12
+r2_8e3cafefd3c2952b,2,alfalfa,wheat,alfalfa,repaired relative to ring12
+r2_b72afa409591d641,2,alfalfa,wheat,alfalfa,repaired relative to ring12
+r2_844045b6860a664c,2,wheat,wheat,maize,new error relative to ring12
+r2_8579e12576443070,2,wheat,wheat,maize,new error relative to ring12
+r2_ee157cdc50ccd1a5,2,alfalfa,alfalfa,maize,new error relative to ring12
+r2_f4a3878c8cf5eb02,2,alfalfa,alfalfa,maize,new error relative to ring12
+r2_9b829c4afb67554c,2,alfalfa,alfalfa,wheat,new error relative to ring12
+r2_0790857e45338bc4,2,wheat,wheat,maize,new error relative to ring12
+r2_89f882698714ecba,2,wheat,wheat,maize,new error relative to ring12
+r2_325709a3ce03383b,2,wheat,wheat,maize,new error relative to ring12
+r2_4b9fd0c7ab234b6d,2,wheat,wheat,maize,new error relative to ring12
+r2_798f07d93e442a69,2,wheat,wheat,maize,new error relative to ring12
+r2_3ca61146e4628b05,2,wheat,wheat,alfalfa,new error relative to ring12
+r2_556b34fe7ffa6c7b,2,wheat,wheat,alfalfa,new error relative to ring12

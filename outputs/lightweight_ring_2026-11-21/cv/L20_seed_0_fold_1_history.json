@@ -1,0 +1,146 @@
+[
+  {
+    "evaluation": 1,
+    "objective_bits": 1.6268102565800657,
+    "seconds": 0.08658504199411254,
+    "gradient_norm": 0.6429594101650943,
+    "probability_passes": 17,
+    "logical_field_evaluations": 10353
+  },
+  {
+    "evaluation": 2,
+    "objective_bits": 1.1798844436976739,
+    "seconds": 0.1308979999885196,
+    "gradient_norm": 0.30257106933142836,
+    "probability_passes": 34,
+    "logical_field_evaluations": 20706
+  },
+  {
+    "evaluation": 3,
+    "objective_bits": 0.9858851799325652,
+    "seconds": 0.17524233399308287,
+    "gradient_norm": 0.4016925227191416,
+    "probability_passes": 51,
+    "logical_field_evaluations": 31059
+  },
+  {
+    "evaluation": 4,
+    "objective_bits": 0.9755930002582526,
+    "seconds": 0.2195098340016557,
+    "gradient_norm": 0.5123695475947408,
+    "probability_passes": 68,
+    "logical_field_evaluations": 41412
+  },
+  {
+    "evaluation": 5,
+    "objective_bits": 0.8316086547370363,
+    "seconds": 0.26438854199659545,
+    "gradient_norm": 0.35572282220612894,
+    "probability_passes": 85,
+    "logical_field_evaluations": 51765
+  },
+  {
+    "evaluation": 6,
+    "objective_bits": 0.7009375631587593,
+    "seconds": 0.30819374999555293,
+    "gradient_norm": 0.2048494365238858,
+    "probability_passes": 102,
+    "logical_field_evaluations": 62118
+  },
+  {
+    "evaluation": 7,
+    "objective_bits": 0.6618320868492789,
+    "seconds": 0.3535674999875482,
+    "gradient_norm": 0.1787920280279041,
+    "probability_passes": 119,
+    "logical_field_evaluations": 72471
+  },
+  {
+    "evaluation": 8,
+    "objective_bits": 0.6298481085036008,
+    "seconds": 0.3987113339971984,
+    "gradient_norm": 0.14293702783296838,
+    "probability_passes": 136,
+    "logical_field_evaluations": 82824
+  },
+  {
+    "evaluation": 9,
+    "objective_bits": 0.6137140808730277,
+    "seconds": 0.44338583399076015,
+    "gradient_norm": 0.06290450721994724,
+    "probability_passes": 153,
+    "logical_field_evaluations": 93177
+  },
+  {
+    "evaluation": 10,
+    "objective_bits": 0.6114560559077695,
+    "seconds": 0.4876700839959085,
+    "gradient_norm": 0.024313154168512877,
+    "probability_passes": 170,
+    "logical_field_evaluations": 103530
+  },
+  {
+    "evaluation": 11,
+    "objective_bits": 0.6109900618237862,
+    "seconds": 0.5324510419886792,
+    "gradient_norm": 0.01934820131300714,
+    "probability_passes": 187,
+    "logical_field_evaluations": 113883
+  },
+  {
+    "evaluation": 12,
+    "objective_bits": 0.6102009950983069,
+    "seconds": 0.5776976669876603,
+    "gradient_norm": 0.011088631711757323,
+    "probability_passes": 204,
+    "logical_field_evaluations": 124236
+  },
+  {
+    "evaluation": 13,
+    "objective_bits": 0.6100757809782786,
+    "seconds": 0.6229423749900889,
+    "gradient_norm": 0.0035352637250899853,
+    "probability_passes": 221,
+    "logical_field_evaluations": 134589
+  },
+  {
+    "evaluation": 14,
+    "objective_bits": 0.6100590416800551,
+    "seconds": 0.6673775419913,
+    "gradient_norm": 0.001540875891737904,
+    "probability_passes": 238,
+    "logical_field_evaluations": 144942
+  },
+  {
+    "evaluation": 15,
+    "objective_bits": 0.6100571138743379,
+    "seconds": 0.7112762499891687,
+    "gradient_norm": 0.0005577864808134664,
+    "probability_passes": 255,
+    "logical_field_evaluations": 155295
+  },
+  {
+    "evaluation": 16,
+    "objective_bits": 0.6100566967612049,
+    "seconds": 0.7559304169990355,
+    "gradient_norm": 0.00021129917508739543,
+    "probability_passes": 272,
+    "logical_field_evaluations": 165648
+  },
+  {
+    "evaluation": 17,
+    "objective_bits": 0.6100566302104077,
+    "seconds": 0.799881541999639,
+    "gradient_norm": 3.629429680829105e-05,
+    "probability_passes": 289,
+    "logical_field_evaluations": 176001
+  },
+  {
+    "evaluation": 18,
+    "objective_bits": 0.610056629140827,
+    "seconds": 0.8446885839948663,
+    "gradient_norm": 5.597735645423209e-06,
+    "probability_passes": 306,
+    "logical_field_evaluations": 186354
+  }
+]
