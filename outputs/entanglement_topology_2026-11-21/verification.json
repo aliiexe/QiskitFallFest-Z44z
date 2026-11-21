@@ -1,0 +1,157 @@
+{
+  "status": "passed",
+  "training_rows_checked": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    206,
+    282,
+    285,
+    376,
+    423,
+    735
+  ],
+  "validation_or_test_used": false,
+  "models": [
+    {
+      "topology": "linear",
+      "qubits": 4,
+      "trainable": 12,
+      "two_qubit_gates": 6,
+      "depth": 9,
+      "ordered_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "parameter_order": [
+        "theta[0]",
+        "theta[1]",
+        "theta[2]",
+        "theta[3]",
+        "theta[4]",
+        "theta[5]",
+        "theta[6]",
+        "theta[7]",
+        "theta[8]",
+        "theta[9]",
+        "theta[10]",
+        "theta[11]"
+      ],
+      "max_sampler_probability_error": 4.324207658612522e-12,
+      "max_direct_statevector_error": 3.3306690738754696e-16,
+      "max_library_unitary_error": 0.0,
+      "max_cross_entropy_gradient_error": 4.789485474887556e-11
+    },
+    {
+      "topology": "ring",
+      "qubits": 4,
+      "trainable": 12,
+      "two_qubit_gates": 8,
+      "depth": 12,
+      "ordered_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "parameter_order": [
+        "theta[0]",
+        "theta[1]",
+        "theta[2]",
+        "theta[3]",
+        "theta[4]",
+        "theta[5]",
+        "theta[6]",
+        "theta[7]",
+        "theta[8]",
+        "theta[9]",
+        "theta[10]",
+        "theta[11]"
+      ],
+      "max_sampler_probability_error": 2.9891089603495402e-12,
+      "max_direct_statevector_error": 6.661338147750939e-16,
+      "max_library_unitary_error": 0.0,
+      "max_cross_entropy_gradient_error": 5.738584607506425e-11
+    },
+    {
+      "topology": "full",
+      "qubits": 4,
+      "trainable": 12,
+      "two_qubit_gates": 12,
+      "depth": 13,
+      "ordered_edges_per_block": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "parameter_order": [
+        "theta[0]",
+        "theta[1]",
+        "theta[2]",
+        "theta[3]",
+        "theta[4]",
+        "theta[5]",
+        "theta[6]",
+        "theta[7]",
+        "theta[8]",
+        "theta[9]",
+        "theta[10]",
+        "theta[11]"
+      ],
+      "max_sampler_probability_error": 5.0175419374909325e-12,
+      "max_direct_statevector_error": 5.551115123125783e-16,
+      "max_library_unitary_error": 0.0,
+      "max_cross_entropy_gradient_error": 8.322820210793225e-11
+    }
+  ],
+  "linear_matches_verified_model_D": true
+}
