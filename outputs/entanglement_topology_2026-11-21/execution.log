@@ -1,0 +1,39 @@
+Training-only selection: 3 topologies x 3 seeds x 3 identical folds. No validation scoring yet.
+CV linear seed=0 fold=0 F1=0.869971 fit=3.36s evals=45
+CV linear seed=0 fold=1 F1=0.863507 fit=2.46s evals=33
+CV linear seed=0 fold=2 F1=0.881071 fit=2.01s evals=27
+CV linear seed=1 fold=0 F1=0.860860 fit=3.39s evals=47
+CV linear seed=1 fold=1 F1=0.863507 fit=5.04s evals=68
+CV linear seed=1 fold=2 F1=0.763323 fit=2.27s evals=30
+CV linear seed=2 fold=0 F1=0.894556 fit=3.46s evals=46
+CV linear seed=2 fold=1 F1=0.863507 fit=2.68s evals=36
+CV linear seed=2 fold=2 F1=0.854728 fit=3.31s evals=44
+CV ring seed=0 fold=0 F1=0.869912 fit=3.70s evals=49
+CV ring seed=0 fold=1 F1=0.771264 fit=3.35s evals=45
+CV ring seed=0 fold=2 F1=0.858488 fit=4.21s evals=56
+CV ring seed=1 fold=0 F1=0.872590 fit=4.03s evals=54
+CV ring seed=1 fold=1 F1=0.867292 fit=5.09s evals=70
+CV ring seed=1 fold=2 F1=0.858488 fit=4.76s evals=65
+CV ring seed=2 fold=0 F1=0.839409 fit=5.54s evals=75
+CV ring seed=2 fold=1 F1=0.875601 fit=3.82s evals=52
+CV ring seed=2 fold=2 F1=0.858488 fit=3.43s evals=47
+CV full seed=0 fold=0 F1=0.876422 fit=6.88s evals=89
+CV full seed=0 fold=1 F1=0.866145 fit=6.56s evals=85
+CV full seed=0 fold=2 F1=0.867805 fit=3.64s evals=47
+CV full seed=1 fold=0 F1=0.869717 fit=4.13s evals=54
+CV full seed=1 fold=1 F1=0.866145 fit=3.54s evals=45
+CV full seed=1 fold=2 F1=0.867551 fit=3.61s evals=45
+CV full seed=2 fold=0 F1=0.869717 fit=4.05s evals=54
+CV full seed=2 fold=1 F1=0.866177 fit=3.57s evals=48
+CV full seed=2 fold=2 F1=0.869640 fit=3.21s evals=43
+SELECTION LOCKED: full. Now refitting all nine predefined full-training models.
+FULL linear seed=0 F1=0.887329 recall=[0.92, 0.86, 0.88] fit=5.04s evals=48 passes=1200
+FULL linear seed=1 F1=0.867331 recall=[0.9, 0.84, 0.86] fit=4.03s evals=39 passes=975
+FULL linear seed=2 F1=0.887329 recall=[0.92, 0.86, 0.88] fit=4.18s evals=38 passes=950
+FULL ring seed=0 F1=0.894346 recall=[0.92, 0.84, 0.92] fit=5.31s evals=47 passes=1175
+FULL ring seed=1 F1=0.894346 recall=[0.92, 0.84, 0.92] fit=7.26s evals=68 passes=1700
+FULL ring seed=2 F1=0.894346 recall=[0.92, 0.84, 0.92] fit=5.89s evals=55 passes=1375
+FULL full seed=0 F1=0.874835 recall=[0.9, 0.84, 0.88] fit=7.50s evals=69 passes=1725
+FULL full seed=1 F1=0.874835 recall=[0.9, 0.84, 0.88] fit=4.80s evals=45 passes=1125
+FULL full seed=2 F1=0.867763 recall=[0.88, 0.84, 0.88] fit=7.86s evals=72 passes=1800
+Complete: all previous experiments and organizer files unchanged; linear reproduces verified Model D.

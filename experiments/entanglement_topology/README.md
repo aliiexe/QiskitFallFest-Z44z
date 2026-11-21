@@ -74,9 +74,112 @@ Use a NEW results directory when fitting again. Existing runs are not overwritte
 ```bash
 .venv/bin/python experiments/entanglement_topology/verify.py --output outputs/my_topology_run/verification.json
 MPLCONFIGDIR=/private/tmp/qiskit-baseline-mpl .venv/bin/python experiments/entanglement_topology/run.py --results outputs/my_topology_run
+MPLCONFIGDIR=/private/tmp/qiskit-baseline-mpl .venv/bin/python experiments/entanglement_topology/analyze.py outputs/my_topology_run
 ```
 
 Verification uses only training examples, including extreme PCA values.
 Source, data, notebook and earlier experiment hashes are checked before and
 after fitting. Protocol, folds, initialization/final weights, CV outcomes,
 probabilities, predictions, loss histories, timing and resources are saved.
+
+## Locally executed results, 21 November 2026
+
+All 27 training-fold fits and nine full-training fits were executed locally
+using Qiskit. The fitting/selection/verification stage took 163.95 seconds,
+excluding later plotting and artifact replay. All nine full fits converged
+under the gradient tolerance, below the 100-evaluation cap. Fresh linear fits
+reproduce prior Model D weights, predictions and metrics; its seed-0 OOF
+predictions also reproduce the previous training-fold experiment.
+
+| Topology | Mean training-only OOF F1 | Validation F1 seed 0 | Seed 1 | Seed 2 | Mean F1 +/- seed SD | Accuracy |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Linear | 0.856768 | 0.887329 | 0.867331 | 0.887329 | 0.880663 +/- 0.009427 | 88.00% |
+| Ring | 0.852669 | 0.894346 | 0.894346 | 0.894346 | 0.894346 +/- 0.000000 | 89.33% |
+| Full | **0.868800** | 0.874835 | 0.874835 | 0.867763 | 0.872477 +/- 0.003334 | 87.11% |
+
+**Training-only CV selected full. Ring had the best observed validation result.**
+The selection record was locked before validation and is not rewritten to call
+ring the CV winner. The study did not establish a training-selected improvement
+over Model D on validation. Ring remains an exploratory candidate requiring
+confirmation; none of the previous model or submission implementations changed.
+
+The three ring fits produced identical predicted labels on all 150 validation
+fields, not just equal scores. Their training-fold results were less stable:
+ring's seed-specific pooled OOF F1 scores were 0.834305, 0.866027 and 0.857675.
+Full's were 0.870125, 0.867758 and 0.868518. All-data initialization stability is
+therefore different from behavior when training on different field subsets.
+The training subsets contain 609-610 fields and have fold-specific PCA fits;
+this study does not isolate why the CV ranking and validation ranking differ.
+
+## Crop trade-offs
+
+| Topology | Alfalfa recall | Maize recall | Wheat recall | Alfalfa precision | Maize precision | Wheat precision |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| Linear | 91.33% | 85.33% | 87.33% | 91.95% | 92.11% | 80.86% |
+| Ring | 92.00% | 84.00% | 92.00% | 92.00% | 97.67% | 80.70% |
+| Full | 89.33% | 84.00% | 88.00% | 88.76% | 96.23% | 78.57% |
+
+Across the three repeated validation runs, ring repaired nine linear mistakes
+and introduced three new mistakes, a net six correct decisions. Five distinct
+fields were repaired in at least one seed; one distinct field was newly wrong.
+Ring's mean F1 changes versus the matching linear seed were +0.007017,
++0.027015 and +0.007017. Thus the observed validation gain occurred in 3/3 seeds.
+Full repaired seven decisions and introduced eleven: it improved in only 1/3
+paired seeds and had lower mean validation F1 than linear.
+
+Concrete examples from the real validation data:
+
+- Wheat `r2_0790857e45338bc4`, NDVI 0.235449: linear predicts maize for every
+  seed; ring predicts wheat for every seed.
+- Wheat `r2_89f882698714ecba`, NDVI 0.277658: same consistent repair.
+- Maize `r2_40b6d4ef6686da1a`, NDVI 0.279126: linear predicts maize correctly
+  in every seed; ring incorrectly predicts wheat in every seed.
+
+Similar NDVI values do not establish identical 13-feature or PCA inputs. These
+examples illustrate actual decision trade-offs, not a proven causal explanation
+of how a particular CX edge acts. Confusion matrices show wheat->maize errors
+falling from 10 to 3 decisions, while maize->wheat errors rise from 19 to 21.
+Counts pooled over seeds describe the SAME fields, not 450 independent fields.
+
+## Work, convergence and uncertainty
+
+| Topology | Mean gradient evaluations | Mean probability passes | Mean preprocess+fit+predict seconds | CX gates | Depth |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Linear | 41.67 | 1041.67 | 4.511 | 6 | 9 |
+| Ring | 56.67 | 1416.67 | 6.252 | 8 | 12 |
+| Full | 62.00 | 1550.00 | 6.826 | 12 | 13 |
+
+All configurations have the same 25 passes per loss/gradient call. Denser
+connectivity did not save time and did not guarantee a better classifier.
+Their mean final training losses were similar (approximately 0.382, 0.384,
+0.381 nats for linear/ring/full). Lower training cross-entropy does not
+guarantee higher validation macro-F1: the metrics measure different things
+and refer to different field sets. Convergence is not proof of a global optimum.
+
+Paired spatial-block resampling of the 18 validation blocks, 2000 draws,
+RNG 2026, gives exploratory two-sided percentile intervals:
+
+- Ring minus linear mean F1: +0.013683, interval [-0.018543, +0.046175].
+- Full minus linear mean F1: -0.008186, interval [-0.057815, +0.025699].
+
+Both include zero. Zero seed SD for ring does not imply zero uncertainty on
+new fields. Intervals are conditional on these fitted models, without a
+multiple-comparison correction. Training CV is not spatial, validation has
+been inspected in prior work, and no hidden test labels or test predictions
+were used. No quantum advantage or universal topology ranking is claimed.
+Results apply to these explicit directed gate orders and fixed optimizer budget.
+
+## Saved evidence and review
+
+The result directory contains protocol/environment/source hashes, unchanged
+prior-file hashes, all fold assignments, 27 CV records and parameter sets,
+nine full-model initial/final parameter files, all predictions/probabilities,
+loss histories, per-seed/summary metrics, paired errors, field examples,
+convergence status, timings and native Qiskit circuit diagrams. Analysis
+reconstructs all nine models from saved weights and preprocessing, reproducing
+1350 validation probability rows and labels, and verifies gradient pass counts.
+
+Figures show connectivity, exact native circuits, CV selection, validation
+scores/runtime/gradient work, per-crop metrics, confusion matrices, every
+seed's training curves and paired error changes. No slides, eight-qubit models,
+data re-uploading or hybrid models were started.

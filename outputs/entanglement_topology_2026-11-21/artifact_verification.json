@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "models_replayed": 9,
+  "validation_rows_reproduced": 1350,
+  "identical_initializations": true,
+  "probabilities_labels_metrics_reproduced": true,
+  "gradient_pass_counts_verified": true,
+  "previous_files_unchanged": true,
+  "models": [
+    {
+      "topology": "linear",
+      "seed": 0,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "15b7ce7221902979425971749b685e00fb912c597d8c5f06db0944135508a7d9"
+    },
+    {
+      "topology": "linear",
+      "seed": 1,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "b1d85c25b377f27981261893d377183d18da9f7e6897cf888f4b36af187d2541"
+    },
+    {
+      "topology": "linear",
+      "seed": 2,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "a9dc1fb5d08ed9be3f13824d541286904dd150b8608e17f5623edc7923a48ad5"
+    },
+    {
+      "topology": "ring",
+      "seed": 0,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "c20d5475679d1052db868585e7f10139ae46af99c7c1d5387d8a8c2012df764b"
+    },
+    {
+      "topology": "ring",
+      "seed": 1,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "6a37f9a4f9f7bcc6a45a3187aba6a1ce60459279bbe1dca5d573e2cfdf2f126c"
+    },
+    {
+      "topology": "ring",
+      "seed": 2,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "73b3734503e0763f55990f520163e396b5e642e0c0e02971a10909b293bdb0b6"
+    },
+    {
+      "topology": "full",
+      "seed": 0,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "9bca1d4d3d758b57d149ea0b733785a0d2aee3094d1a02da032c9e26aeb2d648"
+    },
+    {
+      "topology": "full",
+      "seed": 1,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "a13fd1c7d793167423f3aaa2dc3301c4a8a18f546dbb65fab35ae1f0328e6f23"
+    },
+    {
+      "topology": "full",
+      "seed": 2,
+      "status": "passed",
+      "validation_rows": 150,
+      "weights_sha256": "915b44d53621650c518ba3e68493048b6b7bc2ac244b2569bfed41e838b56ba4"
+    }
+  ]
+}

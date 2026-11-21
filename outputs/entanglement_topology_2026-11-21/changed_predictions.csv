@@ -1,0 +1,33 @@
+topology,seed,sample_id,target,NDVI,linear_prediction,candidate_prediction,change
+ring,0,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+ring,0,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+ring,0,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+ring,1,r2_7a98a9781c72cb62,maize,0.2838963966424479,wheat,maize,repaired
+ring,1,r2_8579e12576443070,wheat,0.4997354623844514,maize,wheat,repaired
+ring,1,r2_f4a3878c8cf5eb02,alfalfa,0.4493089121604574,maize,alfalfa,repaired
+ring,1,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+ring,1,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+ring,1,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+ring,2,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+ring,2,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+ring,2,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+full,0,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+full,0,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+full,0,r2_8579e12576443070,wheat,0.4997354623844514,wheat,alfalfa,newly wrong
+full,0,r2_f4a3878c8cf5eb02,alfalfa,0.4493089121604574,alfalfa,wheat,newly wrong
+full,0,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+full,0,r2_47a4274b239df0f5,wheat,0.4808100233045904,wheat,alfalfa,newly wrong
+full,1,r2_7a98a9781c72cb62,maize,0.2838963966424479,wheat,maize,repaired
+full,1,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+full,1,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+full,1,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+full,1,r2_47a4274b239df0f5,wheat,0.4808100233045904,wheat,alfalfa,newly wrong
+full,1,r2_8579e12576443070,wheat,0.4997354623844514,maize,alfalfa,changed but still wrong
+full,1,r2_f4a3878c8cf5eb02,alfalfa,0.4493089121604574,maize,wheat,changed but still wrong
+full,2,r2_0790857e45338bc4,wheat,0.2354494529395593,maize,wheat,repaired
+full,2,r2_89f882698714ecba,wheat,0.2776581425652839,maize,wheat,repaired
+full,2,r2_8579e12576443070,wheat,0.4997354623844514,wheat,maize,newly wrong
+full,2,r2_ee157cdc50ccd1a5,alfalfa,0.6566182468687884,alfalfa,maize,newly wrong
+full,2,r2_f4a3878c8cf5eb02,alfalfa,0.4493089121604574,alfalfa,wheat,newly wrong
+full,2,r2_40b6d4ef6686da1a,maize,0.27912637745709734,maize,wheat,newly wrong
+full,2,r2_47a4274b239df0f5,wheat,0.4808100233045904,wheat,alfalfa,newly wrong

@@ -1,0 +1,111 @@
+{
+  "experiment": "Experiment 1: entanglement topology optimization",
+  "reference": "Verified Model D, experiments/qnn_optimization, commit 603aa09",
+  "hypothesis": "At fixed inputs, parameter count and optimizer settings, additional direct CX interactions may improve maize-wheat separation; they may also harm stability or increase cost.",
+  "topologies": [
+    "linear",
+    "ring",
+    "full"
+  ],
+  "ordered_cx_edges_per_block": {
+    "linear": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "ring": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "full": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ]
+  },
+  "fixed": {
+    "training_fields": 914,
+    "validation_fields": 150,
+    "features": "original StandardScaler -> PCA(4, full SVD) -> StandardScaler",
+    "encoding": "original (pi/2)*(1+tanh(z)), applied once",
+    "qubits": 4,
+    "trainable_angles": 12,
+    "rotation_banks": 3,
+    "entangling_blocks": 2,
+    "class_readout": "basis outcome modulo 3; alfalfa, maize, wheat; group sizes 6/5/5",
+    "optimizer": "L-BFGS-B",
+    "maximum_objective_and_gradient_evaluations": 100,
+    "maximum_iterations": 100,
+    "ftol": 1e-09,
+    "gtol": 1e-05,
+    "maxls": 20,
+    "initialization": "default_rng(seed).uniform(-pi,pi,12), exactly identical across topologies per seed",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "sampler": "QMLSampler(shots=None)",
+    "training_engine": "inherited verified native Qiskit Statevector/Operator cache; no custom gate simulator"
+  },
+  "selection": {
+    "folds": "reuse previous Model D 3-fold stratified assignments, random_state=2026",
+    "training_seeds_in_every_fold": [
+      0,
+      1,
+      2
+    ],
+    "criterion": "mean of three seed-specific pooled out-of-fold macro-F1 scores",
+    "tie_break": "fewer CX gates, then listed topology order",
+    "limitation": "Training spatial grouping is unavailable; folds are not spatial."
+  },
+  "evaluation": "Lock training-only selection before scoring the predefined candidates on validation, then refit all topologies on all 914 fields for seeds 0/1/2.",
+  "budget_disclosure": "Every gradient costs 24 shifted plus one unshifted probability pass. Actual evaluation counts, convergence, CX count, depth and runtime can differ by topology.",
+  "test_predictions": false,
+  "eight_qubit_experiments": false,
+  "data_reuploading_experiments": false
+}
