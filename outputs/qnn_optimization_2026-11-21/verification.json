@@ -1,0 +1,398 @@
+{
+  "status": "passed",
+  "historical_independent_prototype_equivalence": "NOT VERIFIED: archive not available locally",
+  "test_data_used": false,
+  "training_rows_checked": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    206,
+    282,
+    285,
+    376,
+    423,
+    735
+  ],
+  "models": [
+    {
+      "entangling_blocks": 1,
+      "parameters": 8,
+      "qubits": 4,
+      "depth": 6,
+      "two_qubit_gates": 3,
+      "max_sampler_probability_error": 4.196309966175704e-12,
+      "max_direct_statevector_error": 4.440892098500626e-16,
+      "max_library_unitary_error": 0.0,
+      "max_cross_entropy_gradient_error": 4.647465745577506e-11,
+      "parameter_order": [
+        "theta[0]",
+        "theta[1]",
+        "theta[2]",
+        "theta[3]",
+        "theta[4]",
+        "theta[5]",
+        "theta[6]",
+        "theta[7]"
+      ],
+      "gates": [
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "x[0]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "x[1]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "x[2]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "x[3]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "theta[0]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "theta[1]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "theta[2]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "theta[3]"
+          ]
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "theta[4]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "theta[5]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "theta[6]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "theta[7]"
+          ]
+        }
+      ]
+    },
+    {
+      "entangling_blocks": 2,
+      "parameters": 12,
+      "qubits": 4,
+      "depth": 9,
+      "two_qubit_gates": 6,
+      "max_sampler_probability_error": 4.324207658612522e-12,
+      "max_direct_statevector_error": 3.3306690738754696e-16,
+      "max_library_unitary_error": 0.0,
+      "max_cross_entropy_gradient_error": 4.789485474887556e-11,
+      "parameter_order": [
+        "theta[0]",
+        "theta[1]",
+        "theta[2]",
+        "theta[3]",
+        "theta[4]",
+        "theta[5]",
+        "theta[6]",
+        "theta[7]",
+        "theta[8]",
+        "theta[9]",
+        "theta[10]",
+        "theta[11]"
+      ],
+      "gates": [
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "x[0]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "x[1]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "x[2]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "x[3]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "theta[0]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "theta[1]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "theta[2]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "theta[3]"
+          ]
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "theta[4]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "theta[5]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "theta[6]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "theta[7]"
+          ]
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            0,
+            1
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            1,
+            2
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "cx",
+          "qubits": [
+            2,
+            3
+          ],
+          "parameters": []
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            0
+          ],
+          "parameters": [
+            "theta[8]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            1
+          ],
+          "parameters": [
+            "theta[9]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            2
+          ],
+          "parameters": [
+            "theta[10]"
+          ]
+        },
+        {
+          "gate": "ry",
+          "qubits": [
+            3
+          ],
+          "parameters": [
+            "theta[11]"
+          ]
+        }
+      ]
+    }
+  ]
+}
