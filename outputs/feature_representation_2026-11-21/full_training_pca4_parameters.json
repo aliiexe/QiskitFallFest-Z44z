@@ -1,0 +1,14 @@
+{
+  "view": "pca4",
+  "best_parameters": {
+    "classifier__C": 10,
+    "classifier__gamma": 0.1
+  },
+  "selected_components": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "used_for_validation_prediction": false
+}

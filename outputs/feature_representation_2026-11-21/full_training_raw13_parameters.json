@@ -1,0 +1,9 @@
+{
+  "view": "raw13",
+  "best_parameters": {
+    "classifier__C": 100,
+    "classifier__gamma": 0.1
+  },
+  "selected_components": null,
+  "used_for_validation_prediction": false
+}

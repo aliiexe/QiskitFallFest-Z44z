@@ -1,0 +1,1471 @@
+{
+  "scope": "training-only repeated nested CV; NO validation/test evaluation",
+  "repeat_sd": "Variation across overlapping CV partitions; not an independent-sample standard error",
+  "metrics": [
+    {
+      "learner": "logistic",
+      "view": "pca4",
+      "macro_f1_mean": 0.8634502915895901,
+      "macro_f1_sd": 0.003908917951937934,
+      "accuracy_mean": 0.862873814733771,
+      "accuracy_sd": 0.003719197311154469,
+      "fit_and_search_seconds_mean": 0.009849625326751266,
+      "fit_and_search_seconds_sd": 0.002247480564262115,
+      "precision_alfalfa_mean": 0.9174694979206257,
+      "precision_alfalfa_sd": 0.004829592982198475,
+      "recall_alfalfa_mean": 0.9149797570850202,
+      "recall_alfalfa_sd": 0.0033056541737964476,
+      "precision_maize_mean": 0.8096250857086883,
+      "precision_maize_sd": 0.008347038535837669,
+      "recall_maize_mean": 0.8195592286501377,
+      "recall_maize_sd": 0.007791810261008814,
+      "precision_wheat_mean": 0.8620159861252498,
+      "precision_wheat_sd": 0.005094126908930778,
+      "recall_wheat_mean": 0.8572549019607844,
+      "recall_wheat_sd": 0.003999230991053149,
+      "confusion_sum_three_repeats": [
+        [
+          678,
+          14,
+          49
+        ],
+        [
+          5,
+          595,
+          126
+        ],
+        [
+          56,
+          126,
+          1093
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "pca6",
+      "macro_f1_mean": 0.877821651715884,
+      "macro_f1_sd": 0.00203178325015355,
+      "accuracy_mean": 0.8781911013858498,
+      "accuracy_sd": 0.00185959865557726,
+      "fit_and_search_seconds_mean": 0.008441347999905702,
+      "fit_and_search_seconds_sd": 0.0002629938214587196,
+      "precision_alfalfa_mean": 0.9188439486423009,
+      "precision_alfalfa_sd": 0.005224254297490046,
+      "recall_alfalfa_mean": 0.9163292847503374,
+      "recall_alfalfa_sd": 0.0019085203270892152,
+      "precision_maize_mean": 0.8530849541898761,
+      "precision_maize_sd": 0.004771463240087807,
+      "recall_maize_mean": 0.8236914600550964,
+      "recall_maize_sd": 0.0019479525652521905,
+      "precision_wheat_mean": 0.8686753753532521,
+      "precision_wheat_sd": 0.0026530596368564696,
+      "recall_wheat_mean": 0.8870588235294118,
+      "recall_wheat_sd": 0.0033275613232307687,
+      "confusion_sum_three_repeats": [
+        [
+          679,
+          7,
+          55
+        ],
+        [
+          12,
+          598,
+          116
+        ],
+        [
+          48,
+          96,
+          1131
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "pca8",
+      "macro_f1_mean": 0.8965981712520547,
+      "macro_f1_sd": 0.0014280712389689195,
+      "accuracy_mean": 0.8975200583515681,
+      "accuracy_sd": 0.0013645723511210375,
+      "fit_and_search_seconds_mean": 0.008816486333671492,
+      "fit_and_search_seconds_sd": 0.00021564603394394786,
+      "precision_alfalfa_mean": 0.9155886791955421,
+      "precision_alfalfa_sd": 0.006008438178862695,
+      "recall_alfalfa_mean": 0.921727395411606,
+      "recall_alfalfa_sd": 0.0019085203270892152,
+      "precision_maize_mean": 0.8737782388197326,
+      "precision_maize_sd": 0.005377639883975387,
+      "recall_maize_mean": 0.8677685950413223,
+      "recall_maize_sd": 0.006747905627501846,
+      "precision_wheat_mean": 0.9004099355063034,
+      "precision_wheat_sd": 0.0035035535465302763,
+      "recall_wheat_mean": 0.9003921568627451,
+      "recall_wheat_sd": 0.0011091871077435894,
+      "confusion_sum_three_repeats": [
+        [
+          683,
+          15,
+          43
+        ],
+        [
+          12,
+          630,
+          84
+        ],
+        [
+          51,
+          76,
+          1148
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "pca13",
+      "macro_f1_mean": 0.9126672717423453,
+      "macro_f1_sd": 0.00207179533815964,
+      "accuracy_mean": 0.912107950401167,
+      "accuracy_sd": 0.0018595986555772093,
+      "fit_and_search_seconds_mean": 0.009917500331842652,
+      "fit_and_search_seconds_sd": 0.00016473572944804616,
+      "precision_alfalfa_mean": 0.9518369981555331,
+      "precision_alfalfa_sd": 0.004689967121218695,
+      "recall_alfalfa_mean": 0.9325236167341431,
+      "recall_alfalfa_sd": 0.005049470157589662,
+      "precision_maize_mean": 0.8814600682110988,
+      "precision_maize_sd": 0.003641760012558175,
+      "recall_maize_mean": 0.8911845730027549,
+      "recall_maize_sd": 0.008490928378745167,
+      "precision_wheat_mean": 0.9071782721249616,
+      "precision_wheat_sd": 0.002109234401275476,
+      "recall_wheat_mean": 0.912156862745098,
+      "recall_wheat_sd": 0.002218374215487179,
+      "confusion_sum_three_repeats": [
+        [
+          691,
+          5,
+          45
+        ],
+        [
+          5,
+          647,
+          74
+        ],
+        [
+          30,
+          82,
+          1163
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "raw13",
+      "macro_f1_mean": 0.8924960851947304,
+      "macro_f1_sd": 0.00039029128797210186,
+      "accuracy_mean": 0.8924142961342086,
+      "accuracy_sd": 0.0005157598695744251,
+      "fit_and_search_seconds_mean": 0.023487694998038933,
+      "fit_and_search_seconds_sd": 0.0010376112185411087,
+      "precision_alfalfa_mean": 0.9212028224045974,
+      "precision_alfalfa_sd": 0.001543056346985348,
+      "recall_alfalfa_mean": 0.9149797570850202,
+      "recall_alfalfa_sd": 0.0033056541737964476,
+      "precision_maize_mean": 0.863654034214628,
+      "precision_maize_sd": 0.006793264574204287,
+      "recall_maize_mean": 0.871900826446281,
+      "recall_maize_sd": 0.003373952813750923,
+      "precision_wheat_mean": 0.8924200466121931,
+      "precision_wheat_sd": 0.0050042846697082675,
+      "recall_wheat_mean": 0.8909803921568628,
+      "recall_wheat_sd": 0.0022183742154872313,
+      "confusion_sum_three_repeats": [
+        [
+          678,
+          11,
+          52
+        ],
+        [
+          8,
+          633,
+          85
+        ],
+        [
+          50,
+          89,
+          1136
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "late5_8",
+      "macro_f1_mean": 0.37257210293779,
+      "macro_f1_sd": 0.00922006886461454,
+      "accuracy_mean": 0.5043763676148796,
+      "accuracy_sd": 0.003573289194432053,
+      "fit_and_search_seconds_mean": 0.005211708664622468,
+      "fit_and_search_seconds_sd": 9.277681590164188e-05,
+      "precision_alfalfa_mean": 0.6177493746091307,
+      "precision_alfalfa_sd": 0.05607273751645812,
+      "recall_alfalfa_mean": 0.08367071524966263,
+      "recall_alfalfa_sd": 0.021507931782063738,
+      "precision_maize_mean": 0.4461538461538461,
+      "precision_maize_sd": 0.0054392829322042185,
+      "recall_maize_mean": 0.25206611570247933,
+      "recall_maize_sd": 0.011687715391513196,
+      "precision_wheat_mean": 0.5096312154784647,
+      "precision_wheat_sd": 0.00223092859187222,
+      "recall_wheat_mean": 0.8925490196078432,
+      "recall_wheat_sd": 0.0039992309910531635,
+      "confusion_sum_three_repeats": [
+        [
+          62,
+          99,
+          580
+        ],
+        [
+          28,
+          183,
+          515
+        ],
+        [
+          9,
+          128,
+          1138
+        ]
+      ]
+    },
+    {
+      "learner": "logistic",
+      "view": "selected4of8",
+      "macro_f1_mean": 0.8772273468815653,
+      "macro_f1_sd": 0.004075710059305857,
+      "accuracy_mean": 0.8770970094821298,
+      "accuracy_sd": 0.0037191973111544547,
+      "fit_and_search_seconds_mean": 0.009048319336822411,
+      "fit_and_search_seconds_sd": 0.00022395725828872976,
+      "precision_alfalfa_mean": 0.919168332577374,
+      "precision_alfalfa_sd": 0.008687331115422626,
+      "recall_alfalfa_mean": 0.9041835357624831,
+      "recall_alfalfa_sd": 0.0019085203270892152,
+      "precision_maize_mean": 0.833336742722266,
+      "precision_maize_sd": 0.006670601159545912,
+      "recall_maize_mean": 0.8539944903581267,
+      "recall_maize_sd": 0.008490928378745167,
+      "precision_wheat_mean": 0.8786427699003099,
+      "precision_wheat_sd": 0.002280096635039959,
+      "recall_wheat_mean": 0.8745098039215687,
+      "recall_wheat_sd": 0.004436748430974411,
+      "confusion_sum_three_repeats": [
+        [
+          670,
+          17,
+          54
+        ],
+        [
+          6,
+          620,
+          100
+        ],
+        [
+          53,
+          107,
+          1115
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "pca4",
+      "macro_f1_mean": 0.8958647166490694,
+      "macro_f1_sd": 0.0023848917574384432,
+      "accuracy_mean": 0.8956965718453684,
+      "accuracy_sd": 0.0022481451506086852,
+      "fit_and_search_seconds_mean": 0.00846674966790791,
+      "fit_and_search_seconds_sd": 0.00026599448561613257,
+      "precision_alfalfa_mean": 0.9033978591672597,
+      "precision_alfalfa_sd": 0.008433669061508274,
+      "recall_alfalfa_mean": 0.9203778677462888,
+      "recall_alfalfa_sd": 0.0019085203270892152,
+      "precision_maize_mean": 0.8688457056129225,
+      "precision_maize_sd": 0.003651667965467145,
+      "recall_maize_mean": 0.8939393939393939,
+      "recall_maize_sd": 0.007023442856188385,
+      "precision_wheat_mean": 0.9072583014986776,
+      "precision_wheat_sd": 0.0009846082376827416,
+      "recall_wheat_mean": 0.8823529411764706,
+      "recall_wheat_sd": 0.00508293388110424,
+      "confusion_sum_three_repeats": [
+        [
+          682,
+          13,
+          46
+        ],
+        [
+          8,
+          649,
+          69
+        ],
+        [
+          65,
+          85,
+          1125
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "pca6",
+      "macro_f1_mean": 0.9082080378171286,
+      "macro_f1_sd": 0.0013664409012140474,
+      "accuracy_mean": 0.9080962800875274,
+      "accuracy_sd": 0.0015472796087233277,
+      "fit_and_search_seconds_mean": 0.00894970832935845,
+      "fit_and_search_seconds_sd": 0.0001219089450521137,
+      "precision_alfalfa_mean": 0.9089758872367568,
+      "precision_alfalfa_sd": 0.003087458244828344,
+      "recall_alfalfa_mean": 0.9298245614035089,
+      "recall_alfalfa_sd": 0.0019085203270892152,
+      "precision_maize_mean": 0.9027241923984876,
+      "precision_maize_sd": 0.005755579186579588,
+      "recall_maize_mean": 0.8939393939393939,
+      "recall_maize_sd": 0.007023442856188385,
+      "precision_wheat_mean": 0.9106826573552168,
+      "precision_wheat_sd": 0.0015990988783301482,
+      "recall_wheat_mean": 0.903529411764706,
+      "recall_wheat_sd": 0.005763505277136905,
+      "confusion_sum_three_repeats": [
+        [
+          689,
+          3,
+          49
+        ],
+        [
+          13,
+          649,
+          64
+        ],
+        [
+          56,
+          67,
+          1152
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "pca8",
+      "macro_f1_mean": 0.9119607955471708,
+      "macro_f1_sd": 0.0022770590409289236,
+      "accuracy_mean": 0.912472647702407,
+      "accuracy_sd": 0.002363508642745406,
+      "fit_and_search_seconds_mean": 0.009341722334890315,
+      "fit_and_search_seconds_sd": 5.314165043800973e-05,
+      "precision_alfalfa_mean": 0.9102915881007213,
+      "precision_alfalfa_sd": 0.003668323863951974,
+      "recall_alfalfa_mean": 0.9311740890688259,
+      "recall_alfalfa_sd": 0.005725560981267593,
+      "precision_maize_mean": 0.9043473035746206,
+      "precision_maize_sd": 0.004992864216835042,
+      "recall_maize_mean": 0.8980716253443527,
+      "recall_maize_sd": 0.005153798053407616,
+      "precision_wheat_mean": 0.9184478826215768,
+      "precision_wheat_sd": 0.0010559082756615662,
+      "recall_wheat_mean": 0.9098039215686274,
+      "recall_wheat_sd": 0.004834834512132516,
+      "confusion_sum_three_repeats": [
+        [
+          690,
+          9,
+          42
+        ],
+        [
+          13,
+          652,
+          61
+        ],
+        [
+          55,
+          60,
+          1160
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "pca13",
+      "macro_f1_mean": 0.9199193483244885,
+      "macro_f1_sd": 0.0036697934729785766,
+      "accuracy_mean": 0.9204959883296864,
+      "accuracy_sd": 0.003610319087021017,
+      "fit_and_search_seconds_mean": 0.010695166999842817,
+      "fit_and_search_seconds_sd": 0.00032146189831957475,
+      "precision_alfalfa_mean": 0.9350783985725438,
+      "precision_alfalfa_sd": 0.005364803041619062,
+      "recall_alfalfa_mean": 0.9325236167341431,
+      "recall_alfalfa_sd": 0.00831904723747499,
+      "precision_maize_mean": 0.9035769392885636,
+      "precision_maize_sd": 0.0020479175008351956,
+      "recall_maize_mean": 0.9035812672176308,
+      "recall_maize_sd": 0.007023442856188385,
+      "precision_wheat_mean": 0.9217005991684375,
+      "precision_wheat_sd": 0.004251984000399528,
+      "recall_wheat_mean": 0.9231372549019609,
+      "recall_wheat_sd": 0.0029346332445285435,
+      "confusion_sum_three_repeats": [
+        [
+          691,
+          9,
+          41
+        ],
+        [
+          11,
+          656,
+          59
+        ],
+        [
+          37,
+          61,
+          1177
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "raw13",
+      "macro_f1_mean": 0.9118878721259653,
+      "macro_f1_sd": 0.004482523417006814,
+      "accuracy_mean": 0.9117432530999271,
+      "accuracy_sd": 0.004126078956595453,
+      "fit_and_search_seconds_mean": 0.007785069331778989,
+      "fit_and_search_seconds_sd": 0.0002124101350988695,
+      "precision_alfalfa_mean": 0.9117557547587428,
+      "precision_alfalfa_sd": 0.004273337074152448,
+      "recall_alfalfa_mean": 0.9338731443994602,
+      "recall_alfalfa_sd": 0.0050494701575896726,
+      "precision_maize_mean": 0.9056192866481809,
+      "precision_maize_sd": 0.006130273326460203,
+      "recall_maize_mean": 0.8994490358126722,
+      "recall_maize_sd": 0.019769559358687794,
+      "precision_wheat_mean": 0.9152990685228226,
+      "precision_wheat_sd": 0.008003269095595483,
+      "recall_wheat_mean": 0.9058823529411765,
+      "recall_wheat_sd": 0.0019211684257122716,
+      "confusion_sum_three_repeats": [
+        [
+          692,
+          6,
+          43
+        ],
+        [
+          9,
+          653,
+          64
+        ],
+        [
+          58,
+          62,
+          1155
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "late5_8",
+      "macro_f1_mean": 0.5306034995119298,
+      "macro_f1_sd": 0.004623290131007922,
+      "accuracy_mean": 0.5966447848285923,
+      "accuracy_sd": 0.0022481451506086852,
+      "fit_and_search_seconds_mean": 0.019030374666423693,
+      "fit_and_search_seconds_sd": 0.00012243860576682176,
+      "precision_alfalfa_mean": 0.7144523359851828,
+      "precision_alfalfa_sd": 0.010725004127941234,
+      "recall_alfalfa_mean": 0.4048582995951417,
+      "recall_alfalfa_sd": 0.0033056541737964476,
+      "precision_maize_mean": 0.6890823124865678,
+      "precision_maize_sd": 0.0018913343605688787,
+      "recall_maize_mean": 0.2685950413223141,
+      "recall_maize_sd": 0.010121858441252813,
+      "precision_wheat_mean": 0.5596073635617045,
+      "precision_wheat_sd": 0.002523061569441965,
+      "recall_wheat_mean": 0.8949019607843137,
+      "recall_wheat_sd": 0.002934633244528583,
+      "confusion_sum_three_repeats": [
+        [
+          300,
+          24,
+          417
+        ],
+        [
+          50,
+          195,
+          481
+        ],
+        [
+          70,
+          64,
+          1141
+        ]
+      ]
+    },
+    {
+      "learner": "svm_fixed",
+      "view": "selected4of8",
+      "macro_f1_mean": 0.8994780469392863,
+      "macro_f1_sd": 0.0026976612714742286,
+      "accuracy_mean": 0.8993435448577681,
+      "accuracy_sd": 0.002363508642745406,
+      "fit_and_search_seconds_mean": 0.009775679665229594,
+      "fit_and_search_seconds_sd": 0.000121461396524655,
+      "precision_alfalfa_mean": 0.9121139570668421,
+      "precision_alfalfa_sd": 0.0073371143181025075,
+      "recall_alfalfa_mean": 0.923076923076923,
+      "recall_alfalfa_sd": 0.00991696252138939,
+      "precision_maize_mean": 0.8660355573752421,
+      "precision_maize_sd": 0.008371992716300717,
+      "recall_maize_mean": 0.8994490358126722,
+      "recall_maize_sd": 0.01084574087329447,
+      "precision_wheat_mean": 0.9119936050881478,
+      "precision_wheat_sd": 0.0035877150156701488,
+      "recall_wheat_mean": 0.8854901960784313,
+      "recall_wheat_sd": 0.006175692450205365,
+      "confusion_sum_three_repeats": [
+        [
+          684,
+          12,
+          45
+        ],
+        [
+          9,
+          653,
+          64
+        ],
+        [
+          57,
+          89,
+          1129
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "pca4",
+      "macro_f1_mean": 0.8939115454862789,
+      "macro_f1_sd": 0.0022126761978701307,
+      "accuracy_mean": 0.8938730853391684,
+      "accuracy_sd": 0.002363508642745406,
+      "fit_and_search_seconds_mean": 0.2933558333364393,
+      "fit_and_search_seconds_sd": 0.0012401542342527242,
+      "precision_alfalfa_mean": 0.9026797715053764,
+      "precision_alfalfa_sd": 0.0057765532144959395,
+      "recall_alfalfa_mean": 0.9257759784075574,
+      "recall_alfalfa_sd": 0.011609075933930641,
+      "precision_maize_mean": 0.8612579714746897,
+      "precision_maize_sd": 0.007983837913801278,
+      "recall_maize_mean": 0.8884297520661159,
+      "recall_maize_sd": 0.00674790562750189,
+      "precision_wheat_mean": 0.9084250017414689,
+      "precision_wheat_sd": 0.004624002129628673,
+      "recall_wheat_mean": 0.8784313725490196,
+      "recall_wheat_sd": 0.009669669024265073,
+      "confusion_sum_three_repeats": [
+        [
+          686,
+          12,
+          43
+        ],
+        [
+          11,
+          645,
+          70
+        ],
+        [
+          63,
+          92,
+          1120
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "pca6",
+      "macro_f1_mean": 0.9094956211052004,
+      "macro_f1_sd": 0.0025666068634469974,
+      "accuracy_mean": 0.9095550692924873,
+      "accuracy_sd": 0.002248145150608679,
+      "fit_and_search_seconds_mean": 0.31300536133251927,
+      "fit_and_search_seconds_sd": 0.006929606304294888,
+      "precision_alfalfa_mean": 0.9136776913509981,
+      "precision_alfalfa_sd": 0.0019002740634415467,
+      "recall_alfalfa_mean": 0.9284750337381916,
+      "recall_alfalfa_sd": 0.003817040654178378,
+      "precision_maize_mean": 0.8969687568483344,
+      "precision_maize_sd": 0.003313216298169697,
+      "recall_maize_mean": 0.8994490358126721,
+      "recall_maize_sd": 0.013635667956765386,
+      "precision_wheat_mean": 0.9143818099159486,
+      "precision_wheat_sd": 0.004625337213444466,
+      "recall_wheat_mean": 0.9043137254901961,
+      "recall_wheat_sd": 0.002934633244528583,
+      "confusion_sum_three_repeats": [
+        [
+          688,
+          6,
+          47
+        ],
+        [
+          12,
+          653,
+          61
+        ],
+        [
+          53,
+          69,
+          1153
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "pca8",
+      "macro_f1_mean": 0.9105585805832203,
+      "macro_f1_sd": 0.0033891268602851154,
+      "accuracy_mean": 0.9106491611962072,
+      "accuracy_sd": 0.0033820636380363627,
+      "fit_and_search_seconds_mean": 0.32306981966879295,
+      "fit_and_search_seconds_sd": 0.01007861298044018,
+      "precision_alfalfa_mean": 0.91855421686747,
+      "precision_alfalfa_sd": 0.0020446461142743966,
+      "recall_alfalfa_mean": 0.9284750337381916,
+      "recall_alfalfa_sd": 0.003817040654178378,
+      "precision_maize_mean": 0.896013590239889,
+      "precision_maize_sd": 0.01393170102732572,
+      "recall_maize_mean": 0.8994490358126722,
+      "recall_maize_sd": 0.013635667956765383,
+      "precision_wheat_mean": 0.914651946341031,
+      "precision_wheat_sd": 0.0074066578523478924,
+      "recall_wheat_mean": 0.9066666666666666,
+      "recall_wheat_sd": 0.007998461982106311,
+      "confusion_sum_three_repeats": [
+        [
+          688,
+          11,
+          42
+        ],
+        [
+          7,
+          653,
+          66
+        ],
+        [
+          54,
+          65,
+          1156
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "pca13",
+      "macro_f1_mean": 0.9093070157723605,
+      "macro_f1_sd": 0.007322268335303249,
+      "accuracy_mean": 0.9099197665937272,
+      "accuracy_sd": 0.007165165100068727,
+      "fit_and_search_seconds_mean": 0.3772918326649233,
+      "fit_and_search_seconds_sd": 0.029767351211968753,
+      "precision_alfalfa_mean": 0.9215209411007845,
+      "precision_alfalfa_sd": 0.009190219879328746,
+      "recall_alfalfa_mean": 0.9338731443994602,
+      "recall_alfalfa_sd": 0.0050494701575896726,
+      "precision_maize_mean": 0.8799812757601623,
+      "precision_maize_sd": 0.016288706305286196,
+      "recall_maize_mean": 0.8966942148760331,
+      "recall_maize_sd": 0.008926640080451569,
+      "precision_wheat_mean": 0.9208802408331488,
+      "precision_wheat_sd": 0.007671873802273381,
+      "recall_wheat_mean": 0.903529411764706,
+      "recall_wheat_sd": 0.009605842128561493,
+      "confusion_sum_three_repeats": [
+        [
+          692,
+          11,
+          38
+        ],
+        [
+          14,
+          651,
+          61
+        ],
+        [
+          45,
+          78,
+          1152
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "raw13",
+      "macro_f1_mean": 0.9130408147531606,
+      "macro_f1_sd": 0.0042475607788619914,
+      "accuracy_mean": 0.9132020423048869,
+      "accuracy_sd": 0.004584173993426911,
+      "fit_and_search_seconds_mean": 0.2808323339971442,
+      "fit_and_search_seconds_sd": 0.012438746987152612,
+      "precision_alfalfa_mean": 0.9074136843664143,
+      "precision_alfalfa_sd": 0.002473747010716802,
+      "recall_alfalfa_mean": 0.9392712550607287,
+      "recall_alfalfa_sd": 0.009916962521389388,
+      "precision_maize_mean": 0.9048802215288486,
+      "precision_maize_sd": 0.019484365768446223,
+      "recall_maize_mean": 0.9008264462809917,
+      "recall_maize_sd": 0.006747905627501846,
+      "precision_wheat_mean": 0.9217224900137279,
+      "precision_wheat_sd": 0.0006292792863452943,
+      "recall_wheat_mean": 0.9050980392156863,
+      "recall_wheat_sd": 0.013493843556145304,
+      "confusion_sum_three_repeats": [
+        [
+          696,
+          7,
+          38
+        ],
+        [
+          12,
+          654,
+          60
+        ],
+        [
+          59,
+          62,
+          1154
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "late5_8",
+      "macro_f1_mean": 0.6157936499878865,
+      "macro_f1_sd": 0.0015414436273700845,
+      "accuracy_mean": 0.6462436177972283,
+      "accuracy_sd": 0.0049200355810474555,
+      "fit_and_search_seconds_mean": 0.5426497919979738,
+      "fit_and_search_seconds_sd": 0.017549325578559732,
+      "precision_alfalfa_mean": 0.699607238490299,
+      "precision_alfalfa_sd": 0.018051999620108356,
+      "recall_alfalfa_mean": 0.5492577597840756,
+      "recall_alfalfa_sd": 0.006881267899585418,
+      "precision_maize_mean": 0.6225265357751746,
+      "precision_maize_sd": 0.010627711618676006,
+      "recall_maize_mean": 0.44352617079889806,
+      "recall_maize_sd": 0.03042799178288503,
+      "precision_wheat_mean": 0.6352777528339727,
+      "precision_wheat_sd": 0.0035650996866978904,
+      "recall_wheat_mean": 0.8180392156862745,
+      "recall_wheat_sd": 0.024174172560662656,
+      "confusion_sum_three_repeats": [
+        [
+          407,
+          65,
+          269
+        ],
+        [
+          74,
+          322,
+          330
+        ],
+        [
+          101,
+          131,
+          1043
+        ]
+      ]
+    },
+    {
+      "learner": "svm_nested",
+      "view": "selected4of8",
+      "macro_f1_mean": 0.9007387796068308,
+      "macro_f1_sd": 0.002735027919639492,
+      "accuracy_mean": 0.9008023340627279,
+      "accuracy_sd": 0.002578799347872178,
+      "fit_and_search_seconds_mean": 0.3423782359993008,
+      "fit_and_search_seconds_sd": 0.006200211792254779,
+      "precision_alfalfa_mean": 0.9170164960918944,
+      "precision_alfalfa_sd": 0.011382658267246928,
+      "recall_alfalfa_mean": 0.9244264507422403,
+      "recall_alfalfa_sd": 0.010626191462903925,
+      "precision_maize_mean": 0.8628262872648991,
+      "precision_maize_sd": 0.00759872155790351,
+      "recall_maize_mean": 0.8994490358126722,
+      "recall_maize_sd": 0.01731378111567019,
+      "precision_wheat_mean": 0.9145287075404781,
+      "precision_wheat_sd": 0.009498096221208481,
+      "recall_wheat_mean": 0.8878431372549019,
+      "recall_wheat_sd": 0.006175692450205346,
+      "confusion_sum_three_repeats": [
+        [
+          685,
+          15,
+          41
+        ],
+        [
+          8,
+          653,
+          65
+        ],
+        [
+          54,
+          89,
+          1132
+        ]
+      ]
+    }
+  ],
+  "paired_differences": {
+    "logistic": {
+      "pca6": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.009572052706725453,
+          "recall_delta": {
+            "alfalfa": 0.004048582995951455,
+            "maize": -0.008264462809917328,
+            "wheat": 0.02588235294117658
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.01807028753850004,
+          "recall_delta": {
+            "alfalfa": 0.004048582995951344,
+            "maize": 0.008264462809917439,
+            "wheat": 0.03294117647058825
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.015471740133656264,
+          "recall_delta": {
+            "alfalfa": -0.004048582995951455,
+            "maize": 0.012396694214876103,
+            "wheat": 0.030588235294117583
+          }
+        }
+      ],
+      "pca8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.02795557068281307,
+          "recall_delta": {
+            "alfalfa": 0.00809716599190291,
+            "maize": 0.02892561983471076,
+            "wheat": 0.04235294117647059
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.04047211329120215,
+          "recall_delta": {
+            "alfalfa": 0.012145748987854255,
+            "maize": 0.06198347107438018,
+            "wheat": 0.04705882352941171
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.031015955013378393,
+          "recall_delta": {
+            "alfalfa": 0.0,
+            "maize": 0.05371900826446285,
+            "wheat": 0.039999999999999925
+          }
+        }
+      ],
+      "selected4of8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.011257679561436418,
+          "recall_delta": {
+            "alfalfa": -0.012145748987854255,
+            "maize": 0.024793388429752095,
+            "wheat": 0.018823529411764794
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.013729468317062121,
+          "recall_delta": {
+            "alfalfa": -0.004048582995951455,
+            "maize": 0.02892561983471076,
+            "wheat": 0.016470588235294126
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.01634401799742713,
+          "recall_delta": {
+            "alfalfa": -0.01619433198380571,
+            "maize": 0.04958677685950419,
+            "wheat": 0.016470588235294126
+          }
+        }
+      ]
+    },
+    "svm_fixed": {
+      "pca6": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.013381351994238289,
+          "recall_delta": {
+            "alfalfa": 0.0080971659919028,
+            "maize": 0.0,
+            "wheat": 0.02352941176470591
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.016284440923247767,
+          "recall_delta": {
+            "alfalfa": 0.012145748987854255,
+            "maize": 0.0,
+            "wheat": 0.028235294117647136
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.007364170586691254,
+          "recall_delta": {
+            "alfalfa": 0.0080971659919028,
+            "maize": 0.0,
+            "wheat": 0.0117647058823529
+          }
+        }
+      ],
+      "pca8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.01961021939249763,
+          "recall_delta": {
+            "alfalfa": 0.0161943319838056,
+            "maize": 0.008264462809917328,
+            "wheat": 0.028235294117647025
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.017566797027573244,
+          "recall_delta": {
+            "alfalfa": 0.0080971659919028,
+            "maize": 0.0,
+            "wheat": 0.03529411764705892
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.011111220274233169,
+          "recall_delta": {
+            "alfalfa": 0.0080971659919028,
+            "maize": 0.004132231404958664,
+            "wheat": 0.018823529411764683
+          }
+        }
+      ],
+      "selected4of8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.0012097298723676708,
+          "recall_delta": {
+            "alfalfa": 0.012145748987854255,
+            "maize": 0.0,
+            "wheat": -0.004705882352941226
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.005405375493832798,
+          "recall_delta": {
+            "alfalfa": 0.004048582995951455,
+            "maize": 0.008264462809917328,
+            "wheat": 0.004705882352941226
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.004224885504450437,
+          "recall_delta": {
+            "alfalfa": -0.0080971659919028,
+            "maize": 0.008264462809917328,
+            "wheat": 0.009411764705882342
+          }
+        }
+      ]
+    },
+    "svm_nested": {
+      "pca6": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.010093685710762967,
+          "recall_delta": {
+            "alfalfa": -0.0080971659919028,
+            "maize": 0.0,
+            "wheat": 0.028235294117647025
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.01889953177558401,
+          "recall_delta": {
+            "alfalfa": -0.004048582995951344,
+            "maize": 0.012396694214875992,
+            "wheat": 0.03529411764705881
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.0177590093704173,
+          "recall_delta": {
+            "alfalfa": 0.020242914979757054,
+            "maize": 0.02066115702479332,
+            "wheat": 0.014117647058823568
+          }
+        }
+      ],
+      "pca8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.009658122214228015,
+          "recall_delta": {
+            "alfalfa": -0.0080971659919028,
+            "maize": 0.004132231404958775,
+            "wheat": 0.02352941176470591
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.021730415032162664,
+          "recall_delta": {
+            "alfalfa": 0.004048582995951455,
+            "maize": 0.02066115702479343,
+            "wheat": 0.03294117647058825
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.01855256804443317,
+          "recall_delta": {
+            "alfalfa": 0.012145748987854255,
+            "maize": 0.008264462809917328,
+            "wheat": 0.028235294117647025
+          }
+        }
+      ],
+      "selected4of8": [
+        {
+          "repeat": 0,
+          "macro_f1_delta": 0.006996262934537922,
+          "recall_delta": {
+            "alfalfa": 0.0,
+            "maize": -0.004132231404958664,
+            "wheat": 0.016470588235294126
+          }
+        },
+        {
+          "repeat": 1,
+          "macro_f1_delta": 0.006019914851132291,
+          "recall_delta": {
+            "alfalfa": -0.012145748987854255,
+            "maize": 0.008264462809917328,
+            "wheat": 0.016470588235294126
+          }
+        },
+        {
+          "repeat": 2,
+          "macro_f1_delta": 0.007465524575985261,
+          "recall_delta": {
+            "alfalfa": 0.0080971659919028,
+            "maize": 0.02892561983471076,
+            "wheat": -0.004705882352941115
+          }
+        }
+      ]
+    }
+  },
+  "cv_is_spatial": false,
+  "component_selection_frequency": {
+    "logistic": {
+      "2": 9,
+      "3": 9,
+      "4": 9,
+      "8": 5,
+      "1": 3,
+      "7": 1
+    },
+    "svm_fixed": {
+      "2": 9,
+      "3": 9,
+      "4": 9,
+      "8": 5,
+      "1": 3,
+      "7": 1
+    },
+    "svm_nested": {
+      "2": 9,
+      "3": 9,
+      "4": 9,
+      "8": 5,
+      "1": 3,
+      "7": 1
+    }
+  },
+  "dummy_training_only_references": [
+    {
+      "repeat": 0,
+      "strategy": "most_frequent",
+      "metrics": {
+        "macro_f1": 0.21160069703759024,
+        "accuracy": 0.4649890590809628,
+        "precision": [
+          0.0,
+          0.0,
+          0.4649890590809628
+        ],
+        "recall": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            0,
+            0,
+            247
+          ],
+          [
+            0,
+            0,
+            242
+          ],
+          [
+            0,
+            0,
+            425
+          ]
+        ]
+      }
+    },
+    {
+      "repeat": 0,
+      "strategy": "stratified",
+      "metrics": {
+        "macro_f1": 0.3293749027790805,
+        "accuracy": 0.3479212253829322,
+        "precision": [
+          0.2737642585551331,
+          0.268,
+          0.4463840399002494
+        ],
+        "recall": [
+          0.291497975708502,
+          0.2768595041322314,
+          0.4211764705882353
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            72,
+            64,
+            111
+          ],
+          [
+            64,
+            67,
+            111
+          ],
+          [
+            127,
+            119,
+            179
+          ]
+        ]
+      }
+    },
+    {
+      "repeat": 1,
+      "strategy": "most_frequent",
+      "metrics": {
+        "macro_f1": 0.21160069703759024,
+        "accuracy": 0.4649890590809628,
+        "precision": [
+          0.0,
+          0.0,
+          0.4649890590809628
+        ],
+        "recall": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            0,
+            0,
+            247
+          ],
+          [
+            0,
+            0,
+            242
+          ],
+          [
+            0,
+            0,
+            425
+          ]
+        ]
+      }
+    },
+    {
+      "repeat": 1,
+      "strategy": "stratified",
+      "metrics": {
+        "macro_f1": 0.3337736205758957,
+        "accuracy": 0.3588621444201313,
+        "precision": [
+          0.270042194092827,
+          0.2821576763485477,
+          0.44954128440366975
+        ],
+        "recall": [
+          0.2591093117408907,
+          0.2809917355371901,
+          0.4611764705882353
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            64,
+            64,
+            119
+          ],
+          [
+            53,
+            68,
+            121
+          ],
+          [
+            120,
+            109,
+            196
+          ]
+        ]
+      }
+    },
+    {
+      "repeat": 2,
+      "strategy": "most_frequent",
+      "metrics": {
+        "macro_f1": 0.21160069703759024,
+        "accuracy": 0.4649890590809628,
+        "precision": [
+          0.0,
+          0.0,
+          0.4649890590809628
+        ],
+        "recall": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            0,
+            0,
+            247
+          ],
+          [
+            0,
+            0,
+            242
+          ],
+          [
+            0,
+            0,
+            425
+          ]
+        ]
+      }
+    },
+    {
+      "repeat": 2,
+      "strategy": "stratified",
+      "metrics": {
+        "macro_f1": 0.322616733251612,
+        "accuracy": 0.3533916849015317,
+        "precision": [
+          0.2777777777777778,
+          0.22916666666666666,
+          0.46136363636363636
+        ],
+        "recall": [
+          0.2631578947368421,
+          0.22727272727272727,
+          0.4776470588235294
+        ],
+        "support": [
+          247,
+          242,
+          425
+        ],
+        "confusion": [
+          [
+            65,
+            72,
+            110
+          ],
+          [
+            60,
+            55,
+            127
+          ],
+          [
+            109,
+            113,
+            203
+          ]
+        ]
+      }
+    }
+  ],
+  "changed_decisions": {
+    "pca6": {
+      "repaired": 102,
+      "newly wrong": 59
+    },
+    "pca8": {
+      "repaired": 119,
+      "newly wrong": 73
+    },
+    "selected4of8": {
+      "repaired": 58,
+      "newly wrong": 39
+    }
+  },
+  "pca_variance": [
+    {
+      "component": 1,
+      "variance_ratio": 0.5256052203863602,
+      "cumulative_variance": 0.5256052203863602,
+      "eta2_all_crops": 0.0357217715323791,
+      "eta2_maize_wheat": 0.023603090149756215
+    },
+    {
+      "component": 2,
+      "variance_ratio": 0.3713875239531424,
+      "cumulative_variance": 0.8969927443395025,
+      "eta2_all_crops": 0.6743835605771575,
+      "eta2_maize_wheat": 0.21985999838413553
+    },
+    {
+      "component": 3,
+      "variance_ratio": 0.0659213872726786,
+      "cumulative_variance": 0.9629141316121811,
+      "eta2_all_crops": 0.08588901612407326,
+      "eta2_maize_wheat": 0.097882468011738
+    },
+    {
+      "component": 4,
+      "variance_ratio": 0.028322123378488006,
+      "cumulative_variance": 0.9912362549906691,
+      "eta2_all_crops": 0.4639601488261018,
+      "eta2_maize_wheat": 0.4509736153407306
+    },
+    {
+      "component": 5,
+      "variance_ratio": 0.00396165756650052,
+      "cumulative_variance": 0.9951979125571696,
+      "eta2_all_crops": 0.028837121087074175,
+      "eta2_maize_wheat": 0.028522956452787133
+    },
+    {
+      "component": 6,
+      "variance_ratio": 0.0018522861557857687,
+      "cumulative_variance": 0.9970501987129554,
+      "eta2_all_crops": 0.02409946739404932,
+      "eta2_maize_wheat": 0.007055625373355198
+    },
+    {
+      "component": 7,
+      "variance_ratio": 0.0012623821780369515,
+      "cumulative_variance": 0.9983125808909924,
+      "eta2_all_crops": 4.617928982223887e-05,
+      "eta2_maize_wheat": 1.3644857273344642e-05
+    },
+    {
+      "component": 8,
+      "variance_ratio": 0.0010091740636140433,
+      "cumulative_variance": 0.9993217549546064,
+      "eta2_all_crops": 0.039632534023137725,
+      "eta2_maize_wheat": 0.049593933486372754
+    },
+    {
+      "component": 9,
+      "variance_ratio": 0.00031176774298024743,
+      "cumulative_variance": 0.9996335226975867,
+      "eta2_all_crops": 0.003405026679968223,
+      "eta2_maize_wheat": 1.6342466619472628e-05
+    },
+    {
+      "component": 10,
+      "variance_ratio": 0.0002071778752357886,
+      "cumulative_variance": 0.9998407005728225,
+      "eta2_all_crops": 0.004360637160459282,
+      "eta2_maize_wheat": 0.000938701541599866
+    },
+    {
+      "component": 11,
+      "variance_ratio": 7.977784195627861e-05,
+      "cumulative_variance": 0.9999204784147787,
+      "eta2_all_crops": 0.007165737999692406,
+      "eta2_maize_wheat": 0.0007893040957932505
+    },
+    {
+      "component": 12,
+      "variance_ratio": 6.678976328073345e-05,
+      "cumulative_variance": 0.9999872681780595,
+      "eta2_all_crops": 0.012513870167208455,
+      "eta2_maize_wheat": 7.879269667302207e-07
+    },
+    {
+      "component": 13,
+      "variance_ratio": 1.2731821940589264e-05,
+      "cumulative_variance": 1.0,
+      "eta2_all_crops": 0.0010226306666391508,
+      "eta2_maize_wheat": 0.00016741472282790314
+    }
+  ],
+  "selected_classical_representation": "raw13"
+}

@@ -1,0 +1,451 @@
+view,repeat,sample_id,target,NDVI,pca4_prediction,candidate_prediction,change
+pca6,0,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca6,0,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca6,0,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca6,0,r2_0786546ce39aeece,wheat,0.27803225342691007,maize,wheat,repaired
+pca6,0,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca6,0,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca6,0,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+pca6,0,r2_9e58d7bdb1389e3b,wheat,0.4117960660347795,maize,wheat,repaired
+pca6,0,r2_ba2b1d4a83ddc6c1,wheat,0.29954646949208985,maize,wheat,repaired
+pca6,0,r2_256989b8685e29b2,wheat,0.2763860793533266,maize,wheat,repaired
+pca6,0,r2_069389624ba82d04,alfalfa,0.6686036335676702,wheat,alfalfa,repaired
+pca6,0,r2_1cd4dcde3195aa91,wheat,0.29137537907005,maize,wheat,repaired
+pca6,0,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+pca6,0,r2_bfd9d361b77b069d,maize,0.3112332613909887,wheat,maize,repaired
+pca6,0,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca6,0,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca6,0,r2_6245752fce013e60,maize,0.32698995912254997,wheat,maize,repaired
+pca6,0,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+pca6,0,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+pca6,0,r2_7ae487ada9f09113,wheat,0.5146815198570477,alfalfa,wheat,repaired
+pca6,0,r2_2ff3841a7e3e6cf4,maize,0.21937739263323766,wheat,maize,repaired
+pca6,0,r2_3d7f828c93d99354,wheat,0.2920381339282394,maize,wheat,repaired
+pca6,0,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,wheat,alfalfa,repaired
+pca6,0,r2_48318d21e90b32ca,wheat,0.3103155769827568,maize,wheat,repaired
+pca6,0,r2_a33439534e902044,wheat,0.42430305905513654,alfalfa,wheat,repaired
+pca6,0,r2_ca654c9a52ce74ea,wheat,0.4200911039980301,alfalfa,wheat,repaired
+pca6,0,r2_56453b1e443ec40d,wheat,0.3067801652562193,maize,wheat,repaired
+pca6,0,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+pca6,0,r2_27bc278bfa663d58,maize,0.2804812535809001,wheat,maize,repaired
+pca6,0,r2_23effe0dbf9dccc6,wheat,0.4242932537063964,alfalfa,wheat,repaired
+pca6,0,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca6,0,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+pca6,0,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca6,0,r2_aa70cfb565bdd4dc,alfalfa,0.43011718596321674,wheat,alfalfa,repaired
+pca6,0,r2_ec5ff2e8329f3622,maize,0.24802772704343182,wheat,maize,repaired
+pca6,0,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca6,0,r2_ba004d66efad2472,maize,0.36725348511009304,maize,wheat,newly wrong
+pca6,0,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca6,0,r2_406890e8b561037e,wheat,0.2471986084324841,wheat,maize,newly wrong
+pca6,0,r2_c3443b8916f711d8,alfalfa,0.2887282174443778,alfalfa,wheat,newly wrong
+pca6,0,r2_795dbe64daf1393e,maize,0.33160366981689143,maize,wheat,newly wrong
+pca6,0,r2_fa0213ed3f030722,maize,0.3954590280434576,maize,wheat,newly wrong
+pca6,0,r2_47c36d89090318dc,maize,0.5119588691237029,maize,alfalfa,newly wrong
+pca6,0,r2_da5a095b3cc78e12,wheat,0.25813958267354387,wheat,maize,newly wrong
+pca6,0,r2_d0e13ab275fea61a,maize,0.18052820532621705,maize,wheat,newly wrong
+pca6,0,r2_cc3b759ea7b1b336,maize,0.3511816261994691,maize,wheat,newly wrong
+pca6,0,r2_55db94e511ec15ed,maize,0.39155182958046264,maize,wheat,newly wrong
+pca6,0,r2_a9308a0547ff7887,maize,0.2736360549154962,maize,wheat,newly wrong
+pca6,0,r2_e747a5c5dc0e04b6,maize,0.3218049819626843,maize,wheat,newly wrong
+pca6,0,r2_00cc763b3aa103a1,maize,0.25746437333760286,maize,wheat,newly wrong
+pca6,0,r2_b9635f849c560af2,wheat,0.23806573790828642,wheat,maize,newly wrong
+pca6,0,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca6,0,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,alfalfa,newly wrong
+pca6,0,r2_b5289b969fbf42b2,wheat,0.44924029110686536,wheat,alfalfa,newly wrong
+pca6,0,r2_382660019f00f55a,wheat,0.19239395474601134,wheat,maize,newly wrong
+pca6,0,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca6,0,r2_a2d020d286b4104c,alfalfa,0.29707788258956636,alfalfa,wheat,newly wrong
+pca6,0,r2_8e4ab80f29ea9d2e,wheat,0.2940884969279806,wheat,maize,newly wrong
+pca6,0,r2_b273d614e89406dd,wheat,0.5617981871056346,wheat,alfalfa,newly wrong
+pca6,0,r2_835cfddd49c5499c,alfalfa,0.4811344682948775,alfalfa,wheat,newly wrong
+pca6,0,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+pca6,0,r2_b48eeec50c3f3c5f,alfalfa,0.46306526422552097,alfalfa,wheat,newly wrong
+pca6,1,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca6,1,r2_2d4609b753898deb,wheat,0.3175414801659209,maize,wheat,repaired
+pca6,1,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca6,1,r2_406890e8b561037e,wheat,0.2471986084324841,maize,wheat,repaired
+pca6,1,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca6,1,r2_0786546ce39aeece,wheat,0.27803225342691007,maize,wheat,repaired
+pca6,1,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca6,1,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca6,1,r2_1c6135f87eb23875,wheat,0.2756458655865658,maize,wheat,repaired
+pca6,1,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+pca6,1,r2_cc5e2af72ff421e5,wheat,0.28475857323029563,maize,wheat,repaired
+pca6,1,r2_a8de9a03fb60dbc1,alfalfa,0.6857480051153131,maize,alfalfa,repaired
+pca6,1,r2_da5a095b3cc78e12,wheat,0.25813958267354387,maize,wheat,repaired
+pca6,1,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+pca6,1,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca6,1,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca6,1,r2_16f3a9f7fcb4dc35,maize,0.08575225174432714,alfalfa,maize,repaired
+pca6,1,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+pca6,1,r2_6c257c864145d31f,wheat,0.22433799614102906,maize,wheat,repaired
+pca6,1,r2_2ff3841a7e3e6cf4,maize,0.21937739263323766,wheat,maize,repaired
+pca6,1,r2_3d7f828c93d99354,wheat,0.2920381339282394,maize,wheat,repaired
+pca6,1,r2_ffc1819d14d991f1,wheat,0.2551490810416903,maize,wheat,repaired
+pca6,1,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,wheat,alfalfa,repaired
+pca6,1,r2_78b63512826d8a19,alfalfa,0.4726293759953147,wheat,alfalfa,repaired
+pca6,1,r2_a33439534e902044,wheat,0.42430305905513654,alfalfa,wheat,repaired
+pca6,1,r2_180a1e6ef825ec29,wheat,0.24215702449679258,maize,wheat,repaired
+pca6,1,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca6,1,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+pca6,1,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca6,1,r2_d4415bf56dd9516b,wheat,0.5650505427566478,alfalfa,wheat,repaired
+pca6,1,r2_e8d4bf2b8259e912,wheat,0.5181183968404708,alfalfa,wheat,repaired
+pca6,1,r2_ec5ff2e8329f3622,maize,0.24802772704343182,wheat,maize,repaired
+pca6,1,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca6,1,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca6,1,r2_fa0213ed3f030722,maize,0.3954590280434576,maize,wheat,newly wrong
+pca6,1,r2_d40e91de1ed61f6b,alfalfa,0.365745374647335,alfalfa,wheat,newly wrong
+pca6,1,r2_d0e13ab275fea61a,maize,0.18052820532621705,maize,wheat,newly wrong
+pca6,1,r2_76b70ed935a7a761,wheat,0.2114923588513106,wheat,maize,newly wrong
+pca6,1,r2_9c24fe5d3cd07bdc,alfalfa,0.4374848655725993,alfalfa,wheat,newly wrong
+pca6,1,r2_e747a5c5dc0e04b6,maize,0.3218049819626843,maize,wheat,newly wrong
+pca6,1,r2_b9635f849c560af2,wheat,0.23806573790828642,wheat,maize,newly wrong
+pca6,1,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca6,1,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,alfalfa,newly wrong
+pca6,1,r2_b5289b969fbf42b2,wheat,0.44924029110686536,wheat,alfalfa,newly wrong
+pca6,1,r2_d969f29bd6915100,maize,0.21983041894160316,maize,wheat,newly wrong
+pca6,1,r2_382660019f00f55a,wheat,0.19239395474601134,wheat,maize,newly wrong
+pca6,1,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca6,1,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+pca6,1,r2_1fce2848d8477aa5,alfalfa,0.4993317779583877,alfalfa,wheat,newly wrong
+pca6,2,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca6,2,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca6,2,r2_2df3da6cda2e92e3,wheat,0.27116433722014976,maize,wheat,repaired
+pca6,2,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca6,2,r2_0786546ce39aeece,wheat,0.27803225342691007,maize,wheat,repaired
+pca6,2,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca6,2,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca6,2,r2_5fe28d69a40e6863,wheat,0.30187639123498383,maize,wheat,repaired
+pca6,2,r2_1c6135f87eb23875,wheat,0.2756458655865658,maize,wheat,repaired
+pca6,2,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+pca6,2,r2_cc5e2af72ff421e5,wheat,0.28475857323029563,maize,wheat,repaired
+pca6,2,r2_ba2b1d4a83ddc6c1,wheat,0.29954646949208985,maize,wheat,repaired
+pca6,2,r2_6c35f134e64bca53,maize,0.23806572101642434,wheat,maize,repaired
+pca6,2,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca6,2,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca6,2,r2_16f3a9f7fcb4dc35,maize,0.08575225174432714,alfalfa,maize,repaired
+pca6,2,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+pca6,2,r2_7ae487ada9f09113,wheat,0.5146815198570477,alfalfa,wheat,repaired
+pca6,2,r2_6c257c864145d31f,wheat,0.22433799614102906,maize,wheat,repaired
+pca6,2,r2_791aaea3871338e0,maize,0.22165564425993814,wheat,maize,repaired
+pca6,2,r2_a4183413a7312312,alfalfa,0.5745126817753363,maize,alfalfa,repaired
+pca6,2,r2_b5289b969fbf42b2,wheat,0.44924029110686536,alfalfa,wheat,repaired
+pca6,2,r2_7207e2551dfb18a0,wheat,0.48107226497984074,alfalfa,wheat,repaired
+pca6,2,r2_9ab591c075b8ecfa,alfalfa,0.4100266135168306,wheat,alfalfa,repaired
+pca6,2,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+pca6,2,r2_3001177cce6494ab,maize,0.2778967733444567,wheat,maize,repaired
+pca6,2,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca6,2,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca6,2,r2_1589cd13f6bef542,alfalfa,0.4243327304757849,wheat,alfalfa,repaired
+pca6,2,r2_b3e36ca747f29088,alfalfa,0.49247497512700344,wheat,alfalfa,repaired
+pca6,2,r2_308eeca97b096411,alfalfa,0.5718108725293894,maize,alfalfa,repaired
+pca6,2,r2_fcae42c565c30726,alfalfa,0.5363568055620919,wheat,alfalfa,repaired
+pca6,2,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca6,2,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca6,2,r2_3a8c3e98c22ad7e0,maize,0.2580924011410686,maize,wheat,newly wrong
+pca6,2,r2_256989b8685e29b2,wheat,0.2763860793533266,wheat,maize,newly wrong
+pca6,2,r2_b260a7427656f397,maize,0.4161175353010431,maize,wheat,newly wrong
+pca6,2,r2_b2b9cb67c4c65f69,wheat,0.3317779294178365,wheat,maize,newly wrong
+pca6,2,r2_d0e13ab275fea61a,maize,0.18052820532621705,maize,wheat,newly wrong
+pca6,2,r2_8c37a93684e47ded,wheat,0.26494405392582027,wheat,maize,newly wrong
+pca6,2,r2_7ef4d8a91f1250e6,wheat,0.23254712586401405,wheat,maize,newly wrong
+pca6,2,r2_76b70ed935a7a761,wheat,0.2114923588513106,wheat,maize,newly wrong
+pca6,2,r2_6245752fce013e60,maize,0.32698995912254997,maize,alfalfa,newly wrong
+pca6,2,r2_840c17692d93b9c0,wheat,0.4689288147964682,wheat,alfalfa,newly wrong
+pca6,2,r2_b9635f849c560af2,wheat,0.23806573790828642,wheat,maize,newly wrong
+pca6,2,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca6,2,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,alfalfa,wheat,newly wrong
+pca6,2,r2_a06ae41cb8b85e9a,wheat,0.3282722711637825,wheat,maize,newly wrong
+pca6,2,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca6,2,r2_b273d614e89406dd,wheat,0.5617981871056346,wheat,alfalfa,newly wrong
+pca8,0,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca8,0,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca8,0,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca8,0,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca8,0,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca8,0,r2_8aeb8293c811b348,wheat,0.35101291202722207,maize,wheat,repaired
+pca8,0,r2_9e58d7bdb1389e3b,wheat,0.4117960660347795,maize,wheat,repaired
+pca8,0,r2_ba2b1d4a83ddc6c1,wheat,0.29954646949208985,maize,wheat,repaired
+pca8,0,r2_256989b8685e29b2,wheat,0.2763860793533266,maize,wheat,repaired
+pca8,0,r2_9c8ae2b2f46436ac,wheat,0.2741166996767994,maize,wheat,repaired
+pca8,0,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+pca8,0,r2_bfd9d361b77b069d,maize,0.3112332613909887,wheat,maize,repaired
+pca8,0,r2_8c37a93684e47ded,wheat,0.26494405392582027,maize,wheat,repaired
+pca8,0,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca8,0,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca8,0,r2_73ce37f28ecb7122,maize,0.293087616328703,wheat,maize,repaired
+pca8,0,r2_6245752fce013e60,maize,0.32698995912254997,wheat,maize,repaired
+pca8,0,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+pca8,0,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+pca8,0,r2_2ff3841a7e3e6cf4,maize,0.21937739263323766,wheat,maize,repaired
+pca8,0,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+pca8,0,r2_3d7f828c93d99354,wheat,0.2920381339282394,maize,wheat,repaired
+pca8,0,r2_ffc1819d14d991f1,wheat,0.2551490810416903,maize,wheat,repaired
+pca8,0,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,wheat,alfalfa,repaired
+pca8,0,r2_48318d21e90b32ca,wheat,0.3103155769827568,maize,wheat,repaired
+pca8,0,r2_ca654c9a52ce74ea,wheat,0.4200911039980301,alfalfa,wheat,repaired
+pca8,0,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+pca8,0,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca8,0,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+pca8,0,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca8,0,r2_1589cd13f6bef542,alfalfa,0.4243327304757849,wheat,alfalfa,repaired
+pca8,0,r2_1cc3a8dcd820561e,alfalfa,0.4053152797932234,wheat,alfalfa,repaired
+pca8,0,r2_c4c4de9227fadc35,wheat,0.5875759076976761,alfalfa,wheat,repaired
+pca8,0,r2_aa70cfb565bdd4dc,alfalfa,0.43011718596321674,wheat,alfalfa,repaired
+pca8,0,r2_ec5ff2e8329f3622,maize,0.24802772704343182,wheat,maize,repaired
+pca8,0,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca8,0,r2_ba004d66efad2472,maize,0.36725348511009304,maize,wheat,newly wrong
+pca8,0,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca8,0,r2_5818ac99ca668da9,wheat,0.33269623431999884,wheat,maize,newly wrong
+pca8,0,r2_c3443b8916f711d8,alfalfa,0.2887282174443778,alfalfa,wheat,newly wrong
+pca8,0,r2_795dbe64daf1393e,maize,0.33160366981689143,maize,wheat,newly wrong
+pca8,0,r2_fa0213ed3f030722,maize,0.3954590280434576,maize,wheat,newly wrong
+pca8,0,r2_ed0a700c8d600826,alfalfa,0.4340455972055635,alfalfa,wheat,newly wrong
+pca8,0,r2_d0e13ab275fea61a,maize,0.18052820532621705,maize,wheat,newly wrong
+pca8,0,r2_962031913a06f370,maize,0.2818917837450478,maize,wheat,newly wrong
+pca8,0,r2_7ef4d8a91f1250e6,wheat,0.23254712586401405,wheat,maize,newly wrong
+pca8,0,r2_cc3b759ea7b1b336,maize,0.3511816261994691,maize,wheat,newly wrong
+pca8,0,r2_a0b00b1cae39b074,maize,0.2617258703071321,maize,wheat,newly wrong
+pca8,0,r2_9c24fe5d3cd07bdc,alfalfa,0.4374848655725993,alfalfa,wheat,newly wrong
+pca8,0,r2_6c257c864145d31f,wheat,0.22433799614102906,wheat,maize,newly wrong
+pca8,0,r2_7bc8d5f4acf78994,maize,0.1822361864847813,maize,wheat,newly wrong
+pca8,0,r2_b9635f849c560af2,wheat,0.23806573790828642,wheat,maize,newly wrong
+pca8,0,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca8,0,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,alfalfa,newly wrong
+pca8,0,r2_b5289b969fbf42b2,wheat,0.44924029110686536,wheat,alfalfa,newly wrong
+pca8,0,r2_6fd2c35393e65b3d,maize,0.23408998180991658,maize,wheat,newly wrong
+pca8,0,r2_382660019f00f55a,wheat,0.19239395474601134,wheat,maize,newly wrong
+pca8,0,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca8,0,r2_a2d020d286b4104c,alfalfa,0.29707788258956636,alfalfa,wheat,newly wrong
+pca8,0,r2_b273d614e89406dd,wheat,0.5617981871056346,wheat,alfalfa,newly wrong
+pca8,0,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+pca8,0,r2_b48eeec50c3f3c5f,alfalfa,0.46306526422552097,alfalfa,wheat,newly wrong
+pca8,0,r2_341c26527f18c802,wheat,0.40474297716398905,wheat,maize,newly wrong
+pca8,1,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca8,1,r2_2d4609b753898deb,wheat,0.3175414801659209,maize,wheat,repaired
+pca8,1,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca8,1,r2_406890e8b561037e,wheat,0.2471986084324841,maize,wheat,repaired
+pca8,1,r2_c3443b8916f711d8,alfalfa,0.2887282174443778,wheat,alfalfa,repaired
+pca8,1,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca8,1,r2_0786546ce39aeece,wheat,0.27803225342691007,maize,wheat,repaired
+pca8,1,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca8,1,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca8,1,r2_1c6135f87eb23875,wheat,0.2756458655865658,maize,wheat,repaired
+pca8,1,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+pca8,1,r2_a8de9a03fb60dbc1,alfalfa,0.6857480051153131,maize,alfalfa,repaired
+pca8,1,r2_da5a095b3cc78e12,wheat,0.25813958267354387,maize,wheat,repaired
+pca8,1,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+pca8,1,r2_330569159902c097,maize,0.39583196814860316,wheat,maize,repaired
+pca8,1,r2_8c37a93684e47ded,wheat,0.26494405392582027,maize,wheat,repaired
+pca8,1,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca8,1,r2_5f985b223cc4eb94,maize,0.05090454420349607,wheat,maize,repaired
+pca8,1,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca8,1,r2_16f3a9f7fcb4dc35,maize,0.08575225174432714,alfalfa,maize,repaired
+pca8,1,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+pca8,1,r2_6c257c864145d31f,wheat,0.22433799614102906,maize,wheat,repaired
+pca8,1,r2_2ff3841a7e3e6cf4,maize,0.21937739263323766,wheat,maize,repaired
+pca8,1,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+pca8,1,r2_3d7f828c93d99354,wheat,0.2920381339282394,maize,wheat,repaired
+pca8,1,r2_ffc1819d14d991f1,wheat,0.2551490810416903,maize,wheat,repaired
+pca8,1,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,wheat,alfalfa,repaired
+pca8,1,r2_78b63512826d8a19,alfalfa,0.4726293759953147,wheat,alfalfa,repaired
+pca8,1,r2_48318d21e90b32ca,wheat,0.3103155769827568,maize,wheat,repaired
+pca8,1,r2_a33439534e902044,wheat,0.42430305905513654,alfalfa,wheat,repaired
+pca8,1,r2_9273ffc8059af648,maize,0.22477476661817541,alfalfa,maize,repaired
+pca8,1,r2_180a1e6ef825ec29,wheat,0.24215702449679258,maize,wheat,repaired
+pca8,1,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+pca8,1,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca8,1,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+pca8,1,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca8,1,r2_1589cd13f6bef542,alfalfa,0.4243327304757849,wheat,alfalfa,repaired
+pca8,1,r2_5b01d9de66529eaf,wheat,0.26973906260483166,maize,wheat,repaired
+pca8,1,r2_d4415bf56dd9516b,wheat,0.5650505427566478,alfalfa,wheat,repaired
+pca8,1,r2_c4c4de9227fadc35,wheat,0.5875759076976761,alfalfa,wheat,repaired
+pca8,1,r2_ec5ff2e8329f3622,maize,0.24802772704343182,wheat,maize,repaired
+pca8,1,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca8,1,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca8,1,r2_5818ac99ca668da9,wheat,0.33269623431999884,wheat,maize,newly wrong
+pca8,1,r2_aa6058c3bd9a4cb5,wheat,0.3999560601900414,wheat,maize,newly wrong
+pca8,1,r2_fa0213ed3f030722,maize,0.3954590280434576,maize,wheat,newly wrong
+pca8,1,r2_28d92a5765719d00,maize,0.5192958875446181,maize,alfalfa,newly wrong
+pca8,1,r2_b2b9cb67c4c65f69,wheat,0.3317779294178365,wheat,maize,newly wrong
+pca8,1,r2_d40e91de1ed61f6b,alfalfa,0.365745374647335,alfalfa,wheat,newly wrong
+pca8,1,r2_d0e13ab275fea61a,maize,0.18052820532621705,maize,wheat,newly wrong
+pca8,1,r2_962031913a06f370,maize,0.2818917837450478,maize,wheat,newly wrong
+pca8,1,r2_4955d0e4d3201929,maize,0.28727165056837195,maize,wheat,newly wrong
+pca8,1,r2_9c24fe5d3cd07bdc,alfalfa,0.4374848655725993,alfalfa,wheat,newly wrong
+pca8,1,r2_b9635f849c560af2,wheat,0.23806573790828642,wheat,maize,newly wrong
+pca8,1,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca8,1,r2_a4183413a7312312,alfalfa,0.5745126817753363,alfalfa,maize,newly wrong
+pca8,1,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,alfalfa,newly wrong
+pca8,1,r2_b5289b969fbf42b2,wheat,0.44924029110686536,wheat,alfalfa,newly wrong
+pca8,1,r2_8eb5585a5474a05f,wheat,0.2564937302804954,wheat,maize,newly wrong
+pca8,1,r2_382660019f00f55a,wheat,0.19239395474601134,wheat,maize,newly wrong
+pca8,1,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca8,1,r2_531dff0786af660a,wheat,0.24537441804303534,wheat,alfalfa,newly wrong
+pca8,1,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+pca8,1,r2_341c26527f18c802,wheat,0.40474297716398905,wheat,maize,newly wrong
+pca8,2,r2_c8673d4ea3572a8f,maize,0.3233235060201408,wheat,maize,repaired
+pca8,2,r2_6fd05193b9ff5d64,maize,0.22556497199715048,wheat,maize,repaired
+pca8,2,r2_2df3da6cda2e92e3,wheat,0.27116433722014976,maize,wheat,repaired
+pca8,2,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+pca8,2,r2_0786546ce39aeece,wheat,0.27803225342691007,maize,wheat,repaired
+pca8,2,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+pca8,2,r2_fd5b1fb3025c2f6c,wheat,0.29067274822520206,maize,wheat,repaired
+pca8,2,r2_5fe28d69a40e6863,wheat,0.30187639123498383,maize,wheat,repaired
+pca8,2,r2_1c6135f87eb23875,wheat,0.2756458655865658,maize,wheat,repaired
+pca8,2,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+pca8,2,r2_8aeb8293c811b348,wheat,0.35101291202722207,maize,wheat,repaired
+pca8,2,r2_9e58d7bdb1389e3b,wheat,0.4117960660347795,maize,wheat,repaired
+pca8,2,r2_ba2b1d4a83ddc6c1,wheat,0.29954646949208985,maize,wheat,repaired
+pca8,2,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+pca8,2,r2_330569159902c097,maize,0.39583196814860316,wheat,maize,repaired
+pca8,2,r2_eb56042dc99af617,maize,0.47824326716697996,wheat,maize,repaired
+pca8,2,r2_6c35f134e64bca53,maize,0.23806572101642434,wheat,maize,repaired
+pca8,2,r2_af759dd24f1d40c4,wheat,0.21393406727818665,maize,wheat,repaired
+pca8,2,r2_7024165a1af26e3d,maize,0.2620383863680053,wheat,maize,repaired
+pca8,2,r2_5f985b223cc4eb94,maize,0.05090454420349607,wheat,maize,repaired
+pca8,2,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+pca8,2,r2_54d0557438862827,maize,0.355327116978052,wheat,maize,repaired
+pca8,2,r2_16f3a9f7fcb4dc35,maize,0.08575225174432714,alfalfa,maize,repaired
+pca8,2,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+pca8,2,r2_6c257c864145d31f,wheat,0.22433799614102906,maize,wheat,repaired
+pca8,2,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+pca8,2,r2_3d7f828c93d99354,wheat,0.2920381339282394,maize,wheat,repaired
+pca8,2,r2_ffc1819d14d991f1,wheat,0.2551490810416903,maize,wheat,repaired
+pca8,2,r2_9273ffc8059af648,maize,0.22477476661817541,alfalfa,maize,repaired
+pca8,2,r2_9ab591c075b8ecfa,alfalfa,0.4100266135168306,wheat,alfalfa,repaired
+pca8,2,r2_fa81187f3c3fdf24,wheat,0.5806359759140958,alfalfa,wheat,repaired
+pca8,2,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+pca8,2,r2_3001177cce6494ab,maize,0.2778967733444567,wheat,maize,repaired
+pca8,2,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+pca8,2,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+pca8,2,r2_6468409bd2222d02,wheat,0.26541683511201486,maize,wheat,repaired
+pca8,2,r2_1589cd13f6bef542,alfalfa,0.4243327304757849,wheat,alfalfa,repaired
+pca8,2,r2_b3e36ca747f29088,alfalfa,0.49247497512700344,wheat,alfalfa,repaired
+pca8,2,r2_308eeca97b096411,alfalfa,0.5718108725293894,maize,alfalfa,repaired
+pca8,2,r2_aa70cfb565bdd4dc,alfalfa,0.43011718596321674,wheat,alfalfa,repaired
+pca8,2,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+pca8,2,r2_9fb8858fe8f18de8,maize,0.3079663669961945,maize,wheat,newly wrong
+pca8,2,r2_fa0213ed3f030722,maize,0.3954590280434576,maize,wheat,newly wrong
+pca8,2,r2_ca194963d95419a4,wheat,0.3363096081584105,wheat,alfalfa,newly wrong
+pca8,2,r2_b260a7427656f397,maize,0.4161175353010431,maize,wheat,newly wrong
+pca8,2,r2_9f73c2a7e9006a35,wheat,0.20902794467964306,wheat,alfalfa,newly wrong
+pca8,2,r2_28d92a5765719d00,maize,0.5192958875446181,maize,alfalfa,newly wrong
+pca8,2,r2_7d2107a28a677b38,wheat,0.2881512757878825,wheat,maize,newly wrong
+pca8,2,r2_f4a1f48ae3834ba9,maize,0.33300888920666977,maize,wheat,newly wrong
+pca8,2,r2_7ef4d8a91f1250e6,wheat,0.23254712586401405,wheat,maize,newly wrong
+pca8,2,r2_cc3b759ea7b1b336,maize,0.3511816261994691,maize,wheat,newly wrong
+pca8,2,r2_6245752fce013e60,maize,0.32698995912254997,maize,wheat,newly wrong
+pca8,2,r2_9c24fe5d3cd07bdc,alfalfa,0.4374848655725993,alfalfa,wheat,newly wrong
+pca8,2,r2_e747a5c5dc0e04b6,maize,0.3218049819626843,maize,wheat,newly wrong
+pca8,2,r2_1f00b3a6cbdca408,maize,0.25539261416121306,maize,wheat,newly wrong
+pca8,2,r2_1da35aa4b575dc80,wheat,0.27292802806742333,wheat,maize,newly wrong
+pca8,2,r2_a06ae41cb8b85e9a,wheat,0.3282722711637825,wheat,maize,newly wrong
+pca8,2,r2_6fd2c35393e65b3d,maize,0.23408998180991658,maize,wheat,newly wrong
+pca8,2,r2_4c6cb011227d7431,maize,0.25120189167793616,maize,wheat,newly wrong
+pca8,2,r2_0b1cd121c9ce926e,maize,0.3153636439437939,maize,wheat,newly wrong
+pca8,2,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+pca8,2,r2_835cfddd49c5499c,alfalfa,0.4811344682948775,alfalfa,wheat,newly wrong
+pca8,2,r2_e8d4bf2b8259e912,wheat,0.5181183968404708,wheat,alfalfa,newly wrong
+pca8,2,r2_ab6e5ce05dda80c3,wheat,0.27446103534145116,wheat,maize,newly wrong
+pca8,2,r2_341c26527f18c802,wheat,0.40474297716398905,wheat,maize,newly wrong
+selected4of8,0,r2_4bf745c59c964103,wheat,0.30562130141509625,maize,wheat,repaired
+selected4of8,0,r2_ba2b1d4a83ddc6c1,wheat,0.29954646949208985,maize,wheat,repaired
+selected4of8,0,r2_069389624ba82d04,alfalfa,0.6686036335676702,wheat,alfalfa,repaired
+selected4of8,0,r2_1cd4dcde3195aa91,wheat,0.29137537907005,maize,wheat,repaired
+selected4of8,0,r2_9c8ae2b2f46436ac,wheat,0.2741166996767994,maize,wheat,repaired
+selected4of8,0,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+selected4of8,0,r2_28d92a5765719d00,maize,0.5192958875446181,alfalfa,maize,repaired
+selected4of8,0,r2_d40e91de1ed61f6b,alfalfa,0.365745374647335,maize,alfalfa,repaired
+selected4of8,0,r2_54d0557438862827,maize,0.355327116978052,wheat,maize,repaired
+selected4of8,0,r2_76b70ed935a7a761,wheat,0.2114923588513106,maize,wheat,repaired
+selected4of8,0,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+selected4of8,0,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+selected4of8,0,r2_27924cae165f7682,alfalfa,0.35507117441176145,wheat,alfalfa,repaired
+selected4of8,0,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+selected4of8,0,r2_d969f29bd6915100,maize,0.21983041894160316,wheat,maize,repaired
+selected4of8,0,r2_9273ffc8059af648,maize,0.22477476661817541,wheat,maize,repaired
+selected4of8,0,r2_ca654c9a52ce74ea,wheat,0.4200911039980301,alfalfa,wheat,repaired
+selected4of8,0,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+selected4of8,0,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+selected4of8,0,r2_c4c4de9227fadc35,wheat,0.5875759076976761,alfalfa,wheat,repaired
+selected4of8,0,r2_aa70cfb565bdd4dc,alfalfa,0.43011718596321674,wheat,alfalfa,repaired
+selected4of8,0,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+selected4of8,0,r2_628897512b6a2af8,wheat,0.36226550251581735,wheat,alfalfa,newly wrong
+selected4of8,0,r2_c3443b8916f711d8,alfalfa,0.2887282174443778,alfalfa,wheat,newly wrong
+selected4of8,0,r2_795dbe64daf1393e,maize,0.33160366981689143,maize,wheat,newly wrong
+selected4of8,0,r2_ed0a700c8d600826,alfalfa,0.4340455972055635,alfalfa,maize,newly wrong
+selected4of8,0,r2_6c35f134e64bca53,maize,0.23806572101642434,maize,wheat,newly wrong
+selected4of8,0,r2_b85a947d054ef65c,maize,0.18666097901857778,maize,wheat,newly wrong
+selected4of8,0,r2_791aaea3871338e0,maize,0.22165564425993814,maize,wheat,newly wrong
+selected4of8,0,r2_b8877e485c482f9b,maize,0.2880753936826466,maize,wheat,newly wrong
+selected4of8,0,r2_6031759c938a3b17,maize,0.22236797852704152,maize,wheat,newly wrong
+selected4of8,0,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,alfalfa,newly wrong
+selected4of8,0,r2_b5289b969fbf42b2,wheat,0.44924029110686536,wheat,alfalfa,newly wrong
+selected4of8,0,r2_1f545a3b2da7ef78,wheat,0.25097831642355256,wheat,maize,newly wrong
+selected4of8,0,r2_531dff0786af660a,wheat,0.24537441804303534,wheat,maize,newly wrong
+selected4of8,0,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+selected4of8,0,r2_1fce2848d8477aa5,alfalfa,0.4993317779583877,alfalfa,wheat,newly wrong
+selected4of8,0,r2_341c26527f18c802,wheat,0.40474297716398905,wheat,maize,newly wrong
+selected4of8,1,r2_ba004d66efad2472,maize,0.36725348511009304,wheat,maize,repaired
+selected4of8,1,r2_406890e8b561037e,wheat,0.2471986084324841,maize,wheat,repaired
+selected4of8,1,r2_7cd2631b7b902708,wheat,0.0926529257212636,maize,wheat,repaired
+selected4of8,1,r2_795dbe64daf1393e,maize,0.33160366981689143,wheat,maize,repaired
+selected4of8,1,r2_e676c14a57c9bcf9,wheat,0.26028885547558334,maize,wheat,repaired
+selected4of8,1,r2_a8de9a03fb60dbc1,alfalfa,0.6857480051153131,maize,alfalfa,repaired
+selected4of8,1,r2_069389624ba82d04,alfalfa,0.6686036335676702,wheat,alfalfa,repaired
+selected4of8,1,r2_57205ac0e9369c82,wheat,0.06964412897336308,maize,wheat,repaired
+selected4of8,1,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+selected4of8,1,r2_e3b8e451c679d0b2,maize,0.10637449888041313,wheat,maize,repaired
+selected4of8,1,r2_840c17692d93b9c0,wheat,0.4689288147964682,alfalfa,wheat,repaired
+selected4of8,1,r2_2ff3841a7e3e6cf4,maize,0.21937739263323766,wheat,maize,repaired
+selected4of8,1,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+selected4of8,1,r2_9273ffc8059af648,maize,0.22477476661817541,alfalfa,maize,repaired
+selected4of8,1,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+selected4of8,1,r2_6ab6ff2e6e86d075,wheat,0.2685535033780898,maize,wheat,repaired
+selected4of8,1,r2_d4415bf56dd9516b,wheat,0.5650505427566478,alfalfa,wheat,repaired
+selected4of8,1,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+selected4of8,1,r2_9c8ae2b2f46436ac,wheat,0.2741166996767994,wheat,maize,newly wrong
+selected4of8,1,r2_ed0a700c8d600826,alfalfa,0.4340455972055635,alfalfa,maize,newly wrong
+selected4of8,1,r2_28d92a5765719d00,maize,0.5192958875446181,maize,alfalfa,newly wrong
+selected4of8,1,r2_d40e91de1ed61f6b,alfalfa,0.365745374647335,alfalfa,maize,newly wrong
+selected4of8,1,r2_962031913a06f370,maize,0.2818917837450478,maize,wheat,newly wrong
+selected4of8,1,r2_7b02a29c620531ea,wheat,0.22299508512104496,wheat,maize,newly wrong
+selected4of8,1,r2_a046425ec25f1689,alfalfa,0.6354695448220733,alfalfa,wheat,newly wrong
+selected4of8,1,r2_ca654c9a52ce74ea,wheat,0.4200911039980301,wheat,alfalfa,newly wrong
+selected4of8,1,r2_fd5211681b17c39b,maize,0.3250658248419486,maize,wheat,newly wrong
+selected4of8,1,r2_39299cebfea1da28,maize,0.30539099623308724,maize,wheat,newly wrong
+selected4of8,1,r2_afa355013a0e8ad5,alfalfa,0.47534131532450113,alfalfa,wheat,newly wrong
+selected4of8,1,r2_aa70cfb565bdd4dc,alfalfa,0.43011718596321674,alfalfa,wheat,newly wrong
+selected4of8,2,r2_ba004d66efad2472,maize,0.36725348511009304,wheat,maize,repaired
+selected4of8,2,r2_795dbe64daf1393e,maize,0.33160366981689143,wheat,maize,repaired
+selected4of8,2,r2_603a372b00c27a56,maize,0.20187561555666755,wheat,maize,repaired
+selected4of8,2,r2_1c6135f87eb23875,wheat,0.2756458655865658,maize,wheat,repaired
+selected4of8,2,r2_069389624ba82d04,alfalfa,0.6686036335676702,wheat,alfalfa,repaired
+selected4of8,2,r2_4b75e32b7b1f8d87,wheat,0.4828322171643801,alfalfa,wheat,repaired
+selected4of8,2,r2_6c35f134e64bca53,maize,0.23806572101642434,wheat,maize,repaired
+selected4of8,2,r2_8ec1cb4c990985bb,maize,0.25177329052058695,wheat,maize,repaired
+selected4of8,2,r2_bde734c2ea490e79,wheat,0.2393457177059849,maize,wheat,repaired
+selected4of8,2,r2_7b02a29c620531ea,wheat,0.22299508512104496,alfalfa,wheat,repaired
+selected4of8,2,r2_9273ffc8059af648,maize,0.22477476661817541,alfalfa,maize,repaired
+selected4of8,2,r2_e91e8f93974751ee,wheat,0.5046684352043969,alfalfa,wheat,repaired
+selected4of8,2,r2_3001177cce6494ab,maize,0.2778967733444567,wheat,maize,repaired
+selected4of8,2,r2_67cc0b08164e580c,maize,0.2459837733325327,wheat,maize,repaired
+selected4of8,2,r2_b3e36ca747f29088,alfalfa,0.49247497512700344,wheat,alfalfa,repaired
+selected4of8,2,r2_fcae42c565c30726,alfalfa,0.5363568055620919,wheat,alfalfa,repaired
+selected4of8,2,r2_1cc3a8dcd820561e,alfalfa,0.4053152797932234,wheat,alfalfa,repaired
+selected4of8,2,r2_2e566d399eb4242b,wheat,0.4908540860225411,alfalfa,wheat,repaired
+selected4of8,2,r2_256989b8685e29b2,wheat,0.2763860793533266,wheat,maize,newly wrong
+selected4of8,2,r2_9c8ae2b2f46436ac,wheat,0.2741166996767994,wheat,maize,newly wrong
+selected4of8,2,r2_ed0a700c8d600826,alfalfa,0.4340455972055635,alfalfa,maize,newly wrong
+selected4of8,2,r2_8c37a93684e47ded,wheat,0.26494405392582027,wheat,maize,newly wrong
+selected4of8,2,r2_28bb8646e7bebe25,alfalfa,0.39368232156416727,alfalfa,wheat,newly wrong
+selected4of8,2,r2_a06ae41cb8b85e9a,wheat,0.3282722711637825,wheat,maize,newly wrong
+selected4of8,2,r2_4c6cb011227d7431,maize,0.25120189167793616,maize,wheat,newly wrong
+selected4of8,2,r2_5b01d9de66529eaf,wheat,0.26973906260483166,wheat,maize,newly wrong
+selected4of8,2,r2_531dff0786af660a,wheat,0.24537441804303534,wheat,alfalfa,newly wrong
+selected4of8,2,r2_e8d4bf2b8259e912,wheat,0.5181183968404708,wheat,alfalfa,newly wrong
+selected4of8,2,r2_341c26527f18c802,wheat,0.40474297716398905,wheat,maize,newly wrong

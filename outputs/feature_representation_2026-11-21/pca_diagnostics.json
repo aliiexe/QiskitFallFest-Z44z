@@ -1,0 +1,338 @@
+{
+  "scope": "descriptive full-training fit only; never used as preprocessing in CV",
+  "components": [
+    {
+      "component": 1,
+      "variance_ratio": 0.5256052203863602,
+      "cumulative_variance": 0.5256052203863602,
+      "eta2_all_crops": 0.0357217715323791,
+      "eta2_maize_wheat": 0.023603090149756215,
+      "largest_coefficients": [
+        {
+          "feature": "B3",
+          "coefficient": 0.3433229229124463
+        },
+        {
+          "feature": "B5",
+          "coefficient": 0.3421818143703037
+        },
+        {
+          "feature": "B9",
+          "coefficient": 0.31386389849184854
+        },
+        {
+          "feature": "B2",
+          "coefficient": 0.31375636476649477
+        }
+      ]
+    },
+    {
+      "component": 2,
+      "variance_ratio": 0.3713875239531424,
+      "cumulative_variance": 0.8969927443395025,
+      "eta2_all_crops": 0.6743835605771575,
+      "eta2_maize_wheat": 0.21985999838413553,
+      "largest_coefficients": [
+        {
+          "feature": "NDVI",
+          "coefficient": 0.44045216792848246
+        },
+        {
+          "feature": "B7",
+          "coefficient": 0.3322726301540989
+        },
+        {
+          "feature": "B8",
+          "coefficient": 0.3309268539016767
+        },
+        {
+          "feature": "B8A",
+          "coefficient": 0.32490493149080013
+        }
+      ]
+    },
+    {
+      "component": 3,
+      "variance_ratio": 0.0659213872726786,
+      "cumulative_variance": 0.9629141316121811,
+      "eta2_all_crops": 0.08588901612407326,
+      "eta2_maize_wheat": 0.097882468011738,
+      "largest_coefficients": [
+        {
+          "feature": "B12",
+          "coefficient": 0.5825752186040378
+        },
+        {
+          "feature": "B11",
+          "coefficient": 0.5785063738926162
+        },
+        {
+          "feature": "B2",
+          "coefficient": -0.3543645202535761
+        },
+        {
+          "feature": "B1",
+          "coefficient": -0.3342124385277366
+        }
+      ]
+    },
+    {
+      "component": 4,
+      "variance_ratio": 0.028322123378488006,
+      "cumulative_variance": 0.9912362549906691,
+      "eta2_all_crops": 0.4639601488261018,
+      "eta2_maize_wheat": 0.4509736153407306,
+      "largest_coefficients": [
+        {
+          "feature": "B1",
+          "coefficient": 0.5637848649951618
+        },
+        {
+          "feature": "B5",
+          "coefficient": -0.45674344876220374
+        },
+        {
+          "feature": "B4",
+          "coefficient": -0.40203816989612656
+        },
+        {
+          "feature": "NDVI",
+          "coefficient": 0.3577820543280313
+        }
+      ]
+    },
+    {
+      "component": 5,
+      "variance_ratio": 0.00396165756650052,
+      "cumulative_variance": 0.9951979125571696,
+      "eta2_all_crops": 0.028837121087074175,
+      "eta2_maize_wheat": 0.028522956452787133,
+      "largest_coefficients": [
+        {
+          "feature": "B9",
+          "coefficient": 0.8900008707595538
+        },
+        {
+          "feature": "B8",
+          "coefficient": -0.271338420073422
+        },
+        {
+          "feature": "NDVI",
+          "coefficient": -0.183382955079546
+        },
+        {
+          "feature": "B6",
+          "coefficient": -0.15973940339905346
+        }
+      ]
+    },
+    {
+      "component": 6,
+      "variance_ratio": 0.0018522861557857687,
+      "cumulative_variance": 0.9970501987129554,
+      "eta2_all_crops": 0.02409946739404932,
+      "eta2_maize_wheat": 0.007055625373355198,
+      "largest_coefficients": [
+        {
+          "feature": "NDVI",
+          "coefficient": 0.6889206269239174
+        },
+        {
+          "feature": "B1",
+          "coefficient": -0.3222409212004915
+        },
+        {
+          "feature": "B7",
+          "coefficient": -0.2701231101562281
+        },
+        {
+          "feature": "B11",
+          "coefficient": 0.26650684889538495
+        }
+      ]
+    },
+    {
+      "component": 7,
+      "variance_ratio": 0.0012623821780369515,
+      "cumulative_variance": 0.9983125808909924,
+      "eta2_all_crops": 4.617928982223887e-05,
+      "eta2_maize_wheat": 1.3644857273344642e-05,
+      "largest_coefficients": [
+        {
+          "feature": "B5",
+          "coefficient": 0.5341694798446186
+        },
+        {
+          "feature": "B2",
+          "coefficient": -0.5123242120274788
+        },
+        {
+          "feature": "B1",
+          "coefficient": 0.4935497826385179
+        },
+        {
+          "feature": "NDVI",
+          "coefficient": 0.28056316533285336
+        }
+      ]
+    },
+    {
+      "component": 8,
+      "variance_ratio": 0.0010091740636140433,
+      "cumulative_variance": 0.9993217549546064,
+      "eta2_all_crops": 0.039632534023137725,
+      "eta2_maize_wheat": 0.049593933486372754,
+      "largest_coefficients": [
+        {
+          "feature": "B11",
+          "coefficient": 0.6366910893758284
+        },
+        {
+          "feature": "B12",
+          "coefficient": -0.6060226386883285
+        },
+        {
+          "feature": "B1",
+          "coefficient": 0.276973370146076
+        },
+        {
+          "feature": "B4",
+          "coefficient": -0.19978304426734125
+        }
+      ]
+    },
+    {
+      "component": 9,
+      "variance_ratio": 0.00031176774298024743,
+      "cumulative_variance": 0.9996335226975867,
+      "eta2_all_crops": 0.003405026679968223,
+      "eta2_maize_wheat": 1.6342466619472628e-05,
+      "largest_coefficients": [
+        {
+          "feature": "B6",
+          "coefficient": 0.519221271211667
+        },
+        {
+          "feature": "B4",
+          "coefficient": -0.49324070609700027
+        },
+        {
+          "feature": "B3",
+          "coefficient": 0.41645472857853766
+        },
+        {
+          "feature": "B8",
+          "coefficient": -0.3247929552502355
+        }
+      ]
+    },
+    {
+      "component": 10,
+      "variance_ratio": 0.0002071778752357886,
+      "cumulative_variance": 0.9998407005728225,
+      "eta2_all_crops": 0.004360637160459282,
+      "eta2_maize_wheat": 0.000938701541599866,
+      "largest_coefficients": [
+        {
+          "feature": "B4",
+          "coefficient": 0.6013614392508205
+        },
+        {
+          "feature": "B5",
+          "coefficient": -0.36831325189726066
+        },
+        {
+          "feature": "B6",
+          "coefficient": 0.36449448561407
+        },
+        {
+          "feature": "B8A",
+          "coefficient": -0.3352992037878087
+        }
+      ]
+    },
+    {
+      "component": 11,
+      "variance_ratio": 7.977784195627861e-05,
+      "cumulative_variance": 0.9999204784147787,
+      "eta2_all_crops": 0.007165737999692406,
+      "eta2_maize_wheat": 0.0007893040957932505,
+      "largest_coefficients": [
+        {
+          "feature": "B8",
+          "coefficient": 0.6796969039106632
+        },
+        {
+          "feature": "B8A",
+          "coefficient": -0.6653414191402969
+        },
+        {
+          "feature": "B7",
+          "coefficient": -0.1944090577613232
+        },
+        {
+          "feature": "B9",
+          "coefficient": 0.12954167305352038
+        }
+      ]
+    },
+    {
+      "component": 12,
+      "variance_ratio": 6.678976328073345e-05,
+      "cumulative_variance": 0.9999872681780595,
+      "eta2_all_crops": 0.012513870167208455,
+      "eta2_maize_wheat": 7.879269667302207e-07,
+      "largest_coefficients": [
+        {
+          "feature": "B3",
+          "coefficient": 0.6752595217860012
+        },
+        {
+          "feature": "B2",
+          "coefficient": -0.5298081681568003
+        },
+        {
+          "feature": "B6",
+          "coefficient": -0.3114907657470207
+        },
+        {
+          "feature": "B5",
+          "coefficient": -0.26530135121807663
+        }
+      ]
+    },
+    {
+      "component": 13,
+      "variance_ratio": 1.2731821940589264e-05,
+      "cumulative_variance": 1.0,
+      "eta2_all_crops": 0.0010226306666391508,
+      "eta2_maize_wheat": 0.00016741472282790314,
+      "largest_coefficients": [
+        {
+          "feature": "B7",
+          "coefficient": 0.7861782599877667
+        },
+        {
+          "feature": "B6",
+          "coefficient": -0.4919023921188694
+        },
+        {
+          "feature": "B8A",
+          "coefficient": -0.3196995134173268
+        },
+        {
+          "feature": "B5",
+          "coefficient": 0.15275070574724073
+        }
+      ]
+    }
+  ],
+  "class_counts": {
+    "wheat": 425,
+    "alfalfa": 247,
+    "maize": 242
+  },
+  "full_decomposition_reconstruction_passed": true,
+  "extra_variance_PC5_through_PC8": 0.008085499963937284,
+  "interpretation": "eta-squared measures descriptive mean separation; it does not prove incremental prediction or causality"
+}

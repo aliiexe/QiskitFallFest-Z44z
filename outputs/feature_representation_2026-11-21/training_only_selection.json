@@ -1,0 +1,37 @@
+{
+  "selected_representation": "raw13",
+  "selected_at": "2026-11-21T01:58:32.951682+00:00",
+  "criterion": "mean three-repeat nested-SVM pooled OOF macro-F1; ties favor fewer output features",
+  "candidates": [
+    {
+      "view": "pca4",
+      "mean_oof_macro_f1": 0.8939115454862789
+    },
+    {
+      "view": "pca6",
+      "mean_oof_macro_f1": 0.9094956211052004
+    },
+    {
+      "view": "pca8",
+      "mean_oof_macro_f1": 0.9105585805832203
+    },
+    {
+      "view": "pca13",
+      "mean_oof_macro_f1": 0.9093070157723605
+    },
+    {
+      "view": "raw13",
+      "mean_oof_macro_f1": 0.9130408147531606
+    },
+    {
+      "view": "late5_8",
+      "mean_oof_macro_f1": 0.6157936499878865
+    },
+    {
+      "view": "selected4of8",
+      "mean_oof_macro_f1": 0.9007387796068308
+    }
+  ],
+  "selection_scope": "training only",
+  "validation_or_test_used": false
+}

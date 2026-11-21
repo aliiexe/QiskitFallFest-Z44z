@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "oof_files_rescored": 63,
+  "oof_rows_rescored": 57582,
+  "fold_runs": 189,
+  "previous_files_unchanged": true,
+  "full_PCA_reconstruction": "passed",
+  "validation_or_test_scoring": false
+}

@@ -1,0 +1,130 @@
+[
+  {
+    "view": "pca6",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_603a372b00c27a56",
+    "target": "maize",
+    "NDVI": 0.20187561555666755
+  },
+  {
+    "view": "pca6",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_67cc0b08164e580c",
+    "target": "maize",
+    "NDVI": 0.2459837733325327
+  },
+  {
+    "view": "pca6",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_0786546ce39aeece",
+    "target": "wheat",
+    "NDVI": 0.27803225342691007
+  },
+  {
+    "view": "pca6",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_4bf745c59c964103",
+    "target": "wheat",
+    "NDVI": 0.30562130141509625
+  },
+  {
+    "view": "pca6",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_9fb8858fe8f18de8",
+    "target": "maize",
+    "NDVI": 0.3079663669961945
+  },
+  {
+    "view": "pca6",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_d0e13ab275fea61a",
+    "target": "maize",
+    "NDVI": 0.18052820532621705
+  },
+  {
+    "view": "pca6",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_1da35aa4b575dc80",
+    "target": "wheat",
+    "NDVI": 0.27292802806742333
+  },
+  {
+    "view": "pca6",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_b9635f849c560af2",
+    "target": "wheat",
+    "NDVI": 0.23806573790828642
+  },
+  {
+    "view": "pca8",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_6fd05193b9ff5d64",
+    "target": "maize",
+    "NDVI": 0.22556497199715048
+  },
+  {
+    "view": "pca8",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_e3b8e451c679d0b2",
+    "target": "maize",
+    "NDVI": 0.10637449888041313
+  },
+  {
+    "view": "pca8",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_ffc1819d14d991f1",
+    "target": "wheat",
+    "NDVI": 0.2551490810416903
+  },
+  {
+    "view": "pca8",
+    "change": "repaired",
+    "repeat_count": 3,
+    "sample_id": "r2_fd5b1fb3025c2f6c",
+    "target": "wheat",
+    "NDVI": 0.29067274822520206
+  },
+  {
+    "view": "pca8",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_9fb8858fe8f18de8",
+    "target": "maize",
+    "NDVI": 0.3079663669961945
+  },
+  {
+    "view": "pca8",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_fa0213ed3f030722",
+    "target": "maize",
+    "NDVI": 0.3954590280434576
+  },
+  {
+    "view": "pca8",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_1da35aa4b575dc80",
+    "target": "wheat",
+    "NDVI": 0.27292802806742333
+  },
+  {
+    "view": "pca8",
+    "change": "newly wrong",
+    "repeat_count": 3,
+    "sample_id": "r2_341c26527f18c802",
+    "target": "wheat",
+    "NDVI": 0.40474297716398905
+  }
+]

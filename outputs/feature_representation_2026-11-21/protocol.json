@@ -1,0 +1,60 @@
+{
+  "study": "Training-only investigation of crop information beyond PCA component 4",
+  "hypothesis": "Low-variance components 5-8 may carry crop-discriminative information omitted by leading-variance PCA compression; additional standardized PCs may instead amplify irrelevant variation.",
+  "data": "914 original training fields only; no validation/test predictions, scoring or selection",
+  "primary_views": [
+    "pca4",
+    "pca6",
+    "pca8"
+  ],
+  "diagnostic_controls": [
+    "pca13",
+    "raw13",
+    "late5_8",
+    "selected4of8"
+  ],
+  "views": {
+    "pca4": "StandardScaler -> PCA(4, full SVD) -> StandardScaler",
+    "pca6": "StandardScaler -> PCA(6, full SVD) -> StandardScaler",
+    "pca8": "StandardScaler -> PCA(8, full SVD) -> StandardScaler",
+    "pca13": "full PCA + unit-variance PC scaling; controls for discarded components",
+    "raw13": "StandardScaler on the original 13 features; controls for whitening/reweighting",
+    "late5_8": "PCA(8) then retain only standardized PCs 5-8; tests whether later PCs alone are predictive",
+    "selected4of8": "PCA(8) + unit-variance PC scaling + SelectKBest(f_classif, k=4); labels and transforms fitted inside each fold"
+  },
+  "learners": {
+    "logistic": "LogisticRegression C=1, lbfgs, max_iter=3000, tol=1e-6; deterministic",
+    "svm_fixed": "organizer SVC C=100, gamma=0.01, unmodified for every view",
+    "svm_nested": "same SVC; inner-training-only grid C=[1,10,100], gamma=[0.01,0.1,scale]"
+  },
+  "outer_cv": {
+    "splits": 3,
+    "split_random_states": [
+      2026,
+      2027,
+      2028
+    ],
+    "stratified": true,
+    "shuffle": true,
+    "first_repeat_matches_previous_folds": true
+  },
+  "inner_cv": {
+    "splits": 3,
+    "random_state_rule": "30000 + 100*repeat + outer_fold",
+    "stratified": true,
+    "shuffle": true
+  },
+  "selection": "mean of three repeat-specific pooled out-of-fold macro-F1 scores for nested SVM; exact ties favor fewer output features",
+  "paired_comparisons": "same fields and outer folds for every representation and learner; report all repeats and crop precision/recall",
+  "descriptive_analysis": "complete full-training PCA, loadings, feature distributions and label separation are exploratory; they are never substituted for fold-fitted transformations",
+  "quantum_decision": "Do not increase qubit count based on variance alone. Require consistent incremental predictive evidence; consider four selected inputs before six/eight qubits. Any quantum comparison is separately explained and preregistered after this study.",
+  "limitations": [
+    "training spatial identifiers unavailable; CV is not spatial",
+    "repeat folds overlap and are not independent samples",
+    "classical gains do not guarantee QNN gains",
+    "PCA component signs can flip and are not physical crop effects"
+  ],
+  "validation_scores_historical_only": true,
+  "test_inference": false,
+  "hybrid_or_slide_work": false
+}
