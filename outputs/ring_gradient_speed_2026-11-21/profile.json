@@ -1,0 +1,342 @@
+{
+  "status": "passed",
+  "scope": "914 training fields only, fixed original seed 0; no validation inference",
+  "profiled_timing_caveat": "cProfile adds overhead; use separate unprofiled runs for speed claims",
+  "recorded_at": "2026-11-21T10:00:36.842176+00:00",
+  "preprocessing_seconds": 0.007720791996689513,
+  "unprofiled_model_construction_seconds": 0.0012626249954337254,
+  "unprofiled_fit_seconds": 4.566068167012418,
+  "profiled_constructor_seconds": 0.0007924170058686286,
+  "profiled_fit_seconds": 10.55364162499609,
+  "profiled_fixed_input_state_preparation_seconds": 0.14668658300070092,
+  "profiled_probability_passes_seconds": 10.390624752893928,
+  "profiled_remaining_optimizer_gradient_python_seconds": 0.01633028910146095,
+  "probability_share_of_profiled_fit": 0.9845534955710397,
+  "calls": 47,
+  "probability_passes": 1175,
+  "logical_field_evaluations": 1073950,
+  "top_cumulative_functions": [
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/experiments/qnn_optimization/model.py",
+      "line": 94,
+      "function": "fit",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.000612522,
+      "cumulative_seconds": 10.553699125000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_minimize.py",
+      "line": 54,
+      "function": "minimize",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 2.9626e-05,
+      "cumulative_seconds": 10.405125708
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_lbfgsb_py.py",
+      "line": 272,
+      "function": "_minimize_lbfgsb",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 0.00017362900000000001,
+      "cumulative_seconds": 10.405041833
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py",
+      "line": 360,
+      "function": "_update_fun",
+      "primitive_calls": 48,
+      "total_calls": 48,
+      "self_seconds": 4.2375e-05,
+      "cumulative_seconds": 10.403386664000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/_lib/_util.py",
+      "line": 541,
+      "function": "__call__",
+      "primitive_calls": 47,
+      "total_calls": 47,
+      "self_seconds": 7.8996e-05,
+      "cumulative_seconds": 10.403344289000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_optimize.py",
+      "line": 71,
+      "function": "_compute_if_needed",
+      "primitive_calls": 94,
+      "total_calls": 94,
+      "self_seconds": 0.000138985,
+      "cumulative_seconds": 10.403320752
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_optimize.py",
+      "line": 78,
+      "function": "__call__",
+      "primitive_calls": 47,
+      "total_calls": 47,
+      "self_seconds": 2.3744000000000002e-05,
+      "cumulative_seconds": 10.403220580000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/experiments/qnn_optimization/model.py",
+      "line": 110,
+      "function": "objective",
+      "primitive_calls": 47,
+      "total_calls": 47,
+      "self_seconds": 0.000239654,
+      "cumulative_seconds": 10.403032544
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/experiments/qnn_optimization/model.py",
+      "line": 76,
+      "function": "loss_gradient",
+      "primitive_calls": 47,
+      "total_calls": 47,
+      "self_seconds": 0.0072466810000000005,
+      "cumulative_seconds": 10.402590795
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/experiments/ring_gradient_speed/profile_baseline.py",
+      "line": 25,
+      "function": "statevector_proba",
+      "primitive_calls": 1175,
+      "total_calls": 1175,
+      "self_seconds": 0.0012335710000000001,
+      "cumulative_seconds": 10.390973483
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/experiments/qnn_optimization/model.py",
+      "line": 67,
+      "function": "statevector_proba",
+      "primitive_calls": 1175,
+      "total_calls": 1175,
+      "self_seconds": 0.811667111,
+      "cumulative_seconds": 10.389524015000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py",
+      "line": 409,
+      "function": "fun_and_grad",
+      "primitive_calls": 47,
+      "total_calls": 47,
+      "self_seconds": 7.394500000000001e-05,
+      "cumulative_seconds": 10.181121952
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/states/statevector.py",
+      "line": 440,
+      "function": "evolve",
+      "primitive_calls": 1073950,
+      "total_calls": 1073950,
+      "self_seconds": 0.8480816990000001,
+      "cumulative_seconds": 5.38756609
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/states/statevector.py",
+      "line": 592,
+      "function": "probabilities",
+      "primitive_calls": 1073950,
+      "total_calls": 1073950,
+      "self_seconds": 1.209300426,
+      "cumulative_seconds": 3.103267837
+    },
+    {
+      "file": "/opt/homebrew/Cellar/python@3.12/3.12.16/Frameworks/Python.framework/Versions/3.12/lib/python3.12/copy.py",
+      "line": 61,
+      "function": "copy",
+      "primitive_calls": 1078128,
+      "total_calls": 1078128,
+      "self_seconds": 0.895277753,
+      "cumulative_seconds": 2.35898785
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 2245,
+      "function": "clip",
+      "primitive_calls": 1073997,
+      "total_calls": 1073997,
+      "self_seconds": 0.36251855600000005,
+      "cumulative_seconds": 1.6550252120000002
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/numpy/_core/fromnumeric.py",
+      "line": 48,
+      "function": "_wrapfunc",
+      "primitive_calls": 1171003,
+      "total_calls": 1171003,
+      "self_seconds": 0.233235445,
+      "cumulative_seconds": 1.3439122920000002
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/states/statevector.py",
+      "line": 928,
+      "function": "_evolve_operator",
+      "primitive_calls": 1077606,
+      "total_calls": 1077606,
+      "self_seconds": 0.7729014120000001,
+      "cumulative_seconds": 1.1758535700000001
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method 'clip' of 'numpy.ndarray' objects>",
+      "primitive_calls": 1073997,
+      "total_calls": 1073997,
+      "self_seconds": 0.164342286,
+      "cumulative_seconds": 1.01663839
+    },
+    {
+      "file": "/opt/homebrew/Cellar/python@3.12/3.12.16/Frameworks/Python.framework/Versions/3.12/lib/python3.12/copy.py",
+      "line": 247,
+      "function": "_reconstruct",
+      "primitive_calls": 1078128,
+      "total_calls": 1078128,
+      "self_seconds": 0.42852858800000004,
+      "cumulative_seconds": 0.869944932
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/numpy/_core/_methods.py",
+      "line": 96,
+      "function": "_clip",
+      "primitive_calls": 1073997,
+      "total_calls": 1073997,
+      "self_seconds": 0.852296104,
+      "cumulative_seconds": 0.852296104
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/operator.py",
+      "line": 87,
+      "function": "__init__",
+      "primitive_calls": 4831,
+      "total_calls": 53006,
+      "self_seconds": 0.030001441,
+      "cumulative_seconds": 0.825063748
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/operator.py",
+      "line": 774,
+      "function": "_init_instruction",
+      "primitive_calls": 1175,
+      "total_calls": 1175,
+      "self_seconds": 0.0024175190000000004,
+      "cumulative_seconds": 0.804709514
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/operator.py",
+      "line": 812,
+      "function": "_append_instruction",
+      "primitive_calls": 1175,
+      "total_calls": 24675,
+      "self_seconds": 0.050504794000000006,
+      "cumulative_seconds": 0.744572777
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.isinstance>",
+      "primitive_calls": 5824683,
+      "total_calls": 5824683,
+      "self_seconds": 0.417479246,
+      "cumulative_seconds": 0.6789184220000001
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/operator.py",
+      "line": 495,
+      "function": "compose",
+      "primitive_calls": 23500,
+      "total_calls": 23500,
+      "self_seconds": 0.082583344,
+      "cumulative_seconds": 0.57036998
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<built-in method builtins.getattr>",
+      "primitive_calls": 4457531,
+      "total_calls": 4457531,
+      "self_seconds": 0.343053471,
+      "cumulative_seconds": 0.389701104
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/op_shape.py",
+      "line": 425,
+      "function": "compose",
+      "primitive_calls": 1101106,
+      "total_calls": 1101106,
+      "self_seconds": 0.251563129,
+      "cumulative_seconds": 0.329718442
+    },
+    {
+      "file": "<frozen abc>",
+      "line": 117,
+      "function": "__instancecheck__",
+      "primitive_calls": 1241718,
+      "total_calls": 1241718,
+      "self_seconds": 0.12905371300000001,
+      "cumulative_seconds": 0.261440801
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/states/quantum_state.py",
+      "line": 70,
+      "function": "dims",
+      "primitive_calls": 1073950,
+      "total_calls": 1073950,
+      "self_seconds": 0.153886202,
+      "cumulative_seconds": 0.22439028900000002
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_optimize.py",
+      "line": 204,
+      "function": "_prepare_scalar_function",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 4.7080000000000005e-06,
+      "cumulative_seconds": 0.223246291
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/scipy/optimize/_differentiable_functions.py",
+      "line": 218,
+      "function": "__init__",
+      "primitive_calls": 1,
+      "total_calls": 1,
+      "self_seconds": 1.8249e-05,
+      "cumulative_seconds": 0.22324154200000002
+    },
+    {
+      "file": "~",
+      "line": 0,
+      "function": "<method '__reduce_ex__' of 'object' objects>",
+      "primitive_calls": 1078128,
+      "total_calls": 1078128,
+      "self_seconds": 0.219745674,
+      "cumulative_seconds": 0.219745674
+    },
+    {
+      "file": "/Users/alibourak/QiskitFallFest2026/QiskitFallFest_EMSI_QuantumAfrica/.venv/lib/python3.12/site-packages/qiskit/quantum_info/operators/base_operator.py",
+      "line": 135,
+      "function": "input_dims",
+      "primitive_calls": 1073950,
+      "total_calls": 1073950,
+      "self_seconds": 0.137799006,
+      "cumulative_seconds": 0.203957037
+    },
+    {
+      "file": "/opt/homebrew/Cellar/python@3.12/3.12.16/Frameworks/Python.framework/Versions/3.12/lib/python3.12/copyreg.py",
+      "line": 98,
+      "function": "__newobj__",
+      "primitive_calls": 1078128,
+      "total_calls": 1078128,
+      "self_seconds": 0.134699504,
+      "cumulative_seconds": 0.20046602300000002
+    }
+  ],
+  "baseline_weights_reproduce": true,
+  "versions": {
+    "qiskit": "2.4.2",
+    "qiskit-machine-learning": "0.9.1",
+    "numpy": "2.5.5",
+    "scipy": "1.18.1"
+  }
+}

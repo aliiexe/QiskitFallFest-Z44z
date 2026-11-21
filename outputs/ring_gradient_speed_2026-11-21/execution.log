@@ -1,0 +1,36 @@
+Training only: 3 unchanged-ring gradient engines x 3 folds x seeds 0/1/2. Inference uses the same standard SamplerQNN.
+CV parameter_shift fold=0 seed=0 F1=0.869912 fit=3.4146s cache=0.0419s calls=49
+CV batched_shift fold=0 seed=0 F1=0.869912 fit=0.5125s cache=0.0414s calls=49
+CV operator_adjoint fold=0 seed=0 F1=0.869912 fit=0.0556s cache=0.0414s calls=49
+CV batched_shift fold=0 seed=1 F1=0.872590 fit=0.5557s cache=0.0410s calls=54
+CV operator_adjoint fold=0 seed=1 F1=0.872590 fit=0.0574s cache=0.0414s calls=54
+CV parameter_shift fold=0 seed=1 F1=0.872590 fit=3.8217s cache=0.0406s calls=54
+CV operator_adjoint fold=0 seed=2 F1=0.839409 fit=0.0623s cache=0.0412s calls=75
+CV parameter_shift fold=0 seed=2 F1=0.839409 fit=5.2611s cache=0.0400s calls=75
+CV batched_shift fold=0 seed=2 F1=0.839409 fit=0.7696s cache=0.0406s calls=75
+CV batched_shift fold=1 seed=0 F1=0.771264 fit=0.4740s cache=0.0413s calls=45
+CV operator_adjoint fold=1 seed=0 F1=0.771264 fit=0.0545s cache=0.0414s calls=45
+CV parameter_shift fold=1 seed=0 F1=0.771264 fit=3.1760s cache=0.0417s calls=45
+CV operator_adjoint fold=1 seed=1 F1=0.867292 fit=0.0620s cache=0.0417s calls=70
+CV parameter_shift fold=1 seed=1 F1=0.867292 fit=4.8833s cache=0.0410s calls=70
+CV batched_shift fold=1 seed=1 F1=0.867292 fit=0.7052s cache=0.0402s calls=70
+CV parameter_shift fold=1 seed=2 F1=0.875601 fit=3.6848s cache=0.0414s calls=52
+CV batched_shift fold=1 seed=2 F1=0.875601 fit=0.5356s cache=0.0410s calls=52
+CV operator_adjoint fold=1 seed=2 F1=0.875601 fit=0.0563s cache=0.0414s calls=52
+CV operator_adjoint fold=2 seed=0 F1=0.858488 fit=0.0575s cache=0.0415s calls=56
+CV parameter_shift fold=2 seed=0 F1=0.858488 fit=3.9616s cache=0.0405s calls=56
+CV batched_shift fold=2 seed=0 F1=0.858488 fit=0.5821s cache=0.0421s calls=56
+CV parameter_shift fold=2 seed=1 F1=0.858488 fit=4.6312s cache=0.0415s calls=65
+CV batched_shift fold=2 seed=1 F1=0.858488 fit=0.6651s cache=0.0418s calls=65
+CV operator_adjoint fold=2 seed=1 F1=0.858488 fit=0.0593s cache=0.0410s calls=65
+CV batched_shift fold=2 seed=2 F1=0.858488 fit=0.5198s cache=0.0416s calls=47
+CV operator_adjoint fold=2 seed=2 F1=0.858488 fit=0.0557s cache=0.0423s calls=47
+CV parameter_shift fold=2 seed=2 F1=0.858488 fit=3.4028s cache=0.0417s calls=47
+SELECTION LOCKED: operator_adjoint. Now one full-training comparison against baseline; no validation retuning.
+FINAL parameter_shift seed=0 F1=0.894346 fit=5.1058s cache=0.0673s total=5.2068s old-labels-match=True
+FINAL operator_adjoint seed=0 F1=0.894346 fit=0.0821s cache=0.0664s total=0.1774s old-labels-match=True
+FINAL operator_adjoint seed=1 F1=0.894346 fit=0.0873s cache=0.0652s total=0.1845s old-labels-match=True
+FINAL parameter_shift seed=1 F1=0.894346 fit=7.1783s cache=0.0659s total=7.2777s old-labels-match=True
+FINAL parameter_shift seed=2 F1=0.894346 fit=5.6045s cache=0.0643s total=5.7048s old-labels-match=True
+FINAL operator_adjoint seed=2 F1=0.894346 fit=0.0819s cache=0.0641s total=0.1764s old-labels-match=True
+Complete. Demo notebook and all earlier files unchanged; no test inference or validation-driven settings.

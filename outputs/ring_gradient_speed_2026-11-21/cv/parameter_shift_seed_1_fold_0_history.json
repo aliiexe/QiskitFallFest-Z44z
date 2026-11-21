@@ -1,0 +1,434 @@
+[
+  {
+    "evaluation": 1,
+    "objective_bits": 1.404912441548651,
+    "seconds": 0.1114721250050934,
+    "gradient_norm": 0.37362390889533453,
+    "probability_passes": 25,
+    "logical_field_evaluations": 15225
+  },
+  {
+    "evaluation": 2,
+    "objective_bits": 1.3264154149989111,
+    "seconds": 0.17928166600177065,
+    "gradient_norm": 0.5369120288437202,
+    "probability_passes": 50,
+    "logical_field_evaluations": 30450
+  },
+  {
+    "evaluation": 3,
+    "objective_bits": 1.2196027688994047,
+    "seconds": 0.24754625000059605,
+    "gradient_norm": 0.25777643891610685,
+    "probability_passes": 75,
+    "logical_field_evaluations": 45675
+  },
+  {
+    "evaluation": 4,
+    "objective_bits": 1.153228723493413,
+    "seconds": 0.3155554580007447,
+    "gradient_norm": 0.27374808158796343,
+    "probability_passes": 100,
+    "logical_field_evaluations": 60900
+  },
+  {
+    "evaluation": 5,
+    "objective_bits": 1.2088708449348304,
+    "seconds": 0.383427708002273,
+    "gradient_norm": 0.4373579403884155,
+    "probability_passes": 125,
+    "logical_field_evaluations": 76125
+  },
+  {
+    "evaluation": 6,
+    "objective_bits": 1.0779597648202086,
+    "seconds": 0.4504713750066003,
+    "gradient_norm": 0.2656188470584795,
+    "probability_passes": 150,
+    "logical_field_evaluations": 91350
+  },
+  {
+    "evaluation": 7,
+    "objective_bits": 1.0380517752788139,
+    "seconds": 0.519704708000063,
+    "gradient_norm": 0.20517169102651525,
+    "probability_passes": 175,
+    "logical_field_evaluations": 106575
+  },
+  {
+    "evaluation": 8,
+    "objective_bits": 0.965208610495471,
+    "seconds": 0.5884148750046734,
+    "gradient_norm": 0.14017192613525328,
+    "probability_passes": 200,
+    "logical_field_evaluations": 121800
+  },
+  {
+    "evaluation": 9,
+    "objective_bits": 0.9067042481555757,
+    "seconds": 0.6578700000100071,
+    "gradient_norm": 0.15237837892869863,
+    "probability_passes": 225,
+    "logical_field_evaluations": 137025
+  },
+  {
+    "evaluation": 10,
+    "objective_bits": 0.8793171868236123,
+    "seconds": 0.7272724580107024,
+    "gradient_norm": 0.12651556248998427,
+    "probability_passes": 250,
+    "logical_field_evaluations": 152250
+  },
+  {
+    "evaluation": 11,
+    "objective_bits": 0.8575911068648993,
+    "seconds": 0.7977854580094572,
+    "gradient_norm": 0.12157853857415236,
+    "probability_passes": 275,
+    "logical_field_evaluations": 167475
+  },
+  {
+    "evaluation": 12,
+    "objective_bits": 0.8476578058087492,
+    "seconds": 0.8688411250041099,
+    "gradient_norm": 0.16362058057043358,
+    "probability_passes": 300,
+    "logical_field_evaluations": 182700
+  },
+  {
+    "evaluation": 13,
+    "objective_bits": 0.8339363779846514,
+    "seconds": 0.9387958330044057,
+    "gradient_norm": 0.0692783144769745,
+    "probability_passes": 325,
+    "logical_field_evaluations": 197925
+  },
+  {
+    "evaluation": 14,
+    "objective_bits": 0.8264976944542012,
+    "seconds": 1.0084432080038823,
+    "gradient_norm": 0.07738836221940441,
+    "probability_passes": 350,
+    "logical_field_evaluations": 213150
+  },
+  {
+    "evaluation": 15,
+    "objective_bits": 0.8109073441134534,
+    "seconds": 1.0782723330048611,
+    "gradient_norm": 0.10555825350634052,
+    "probability_passes": 375,
+    "logical_field_evaluations": 228375
+  },
+  {
+    "evaluation": 16,
+    "objective_bits": 0.8398238053006796,
+    "seconds": 1.1481878330087056,
+    "gradient_norm": 0.20409197327248826,
+    "probability_passes": 400,
+    "logical_field_evaluations": 243600
+  },
+  {
+    "evaluation": 17,
+    "objective_bits": 0.805027683489395,
+    "seconds": 1.2188635830098065,
+    "gradient_norm": 0.09270628366913207,
+    "probability_passes": 425,
+    "logical_field_evaluations": 258825
+  },
+  {
+    "evaluation": 18,
+    "objective_bits": 0.7972761273661658,
+    "seconds": 1.2883176660106983,
+    "gradient_norm": 0.04864696622529253,
+    "probability_passes": 450,
+    "logical_field_evaluations": 274050
+  },
+  {
+    "evaluation": 19,
+    "objective_bits": 0.7951379563724229,
+    "seconds": 1.357946375006577,
+    "gradient_norm": 0.023333064859690684,
+    "probability_passes": 475,
+    "logical_field_evaluations": 289275
+  },
+  {
+    "evaluation": 20,
+    "objective_bits": 0.7942919220609154,
+    "seconds": 1.4272012500005076,
+    "gradient_norm": 0.022082515032804027,
+    "probability_passes": 500,
+    "logical_field_evaluations": 304500
+  },
+  {
+    "evaluation": 21,
+    "objective_bits": 0.7913056393346752,
+    "seconds": 1.496126666010241,
+    "gradient_norm": 0.0335368371829736,
+    "probability_passes": 525,
+    "logical_field_evaluations": 319725
+  },
+  {
+    "evaluation": 22,
+    "objective_bits": 0.7631533078594509,
+    "seconds": 1.565083166002296,
+    "gradient_norm": 0.2481960324378871,
+    "probability_passes": 550,
+    "logical_field_evaluations": 334950
+  },
+  {
+    "evaluation": 23,
+    "objective_bits": 1.6202140292014917,
+    "seconds": 1.6339880830055336,
+    "gradient_norm": 0.7209581428548613,
+    "probability_passes": 575,
+    "logical_field_evaluations": 350175
+  },
+  {
+    "evaluation": 24,
+    "objective_bits": 0.7626151765756775,
+    "seconds": 1.7027184160106117,
+    "gradient_norm": 0.26457567018446626,
+    "probability_passes": 600,
+    "logical_field_evaluations": 365400
+  },
+  {
+    "evaluation": 25,
+    "objective_bits": 1.5676689339360559,
+    "seconds": 1.7723417500092182,
+    "gradient_norm": 1.109701768334584,
+    "probability_passes": 625,
+    "logical_field_evaluations": 380625
+  },
+  {
+    "evaluation": 26,
+    "objective_bits": 1.029615207586398,
+    "seconds": 1.8413238750072196,
+    "gradient_norm": 0.7441665063840457,
+    "probability_passes": 650,
+    "logical_field_evaluations": 395850
+  },
+  {
+    "evaluation": 27,
+    "objective_bits": 0.761927500202895,
+    "seconds": 1.9108356250071665,
+    "gradient_norm": 0.282968624618578,
+    "probability_passes": 675,
+    "logical_field_evaluations": 411075
+  },
+  {
+    "evaluation": 28,
+    "objective_bits": 0.7469249060034459,
+    "seconds": 1.9803647910011932,
+    "gradient_norm": 0.2706869922646413,
+    "probability_passes": 700,
+    "logical_field_evaluations": 426300
+  },
+  {
+    "evaluation": 29,
+    "objective_bits": 0.766488862370048,
+    "seconds": 2.0500119580101455,
+    "gradient_norm": 0.4377551511266518,
+    "probability_passes": 725,
+    "logical_field_evaluations": 441525
+  },
+  {
+    "evaluation": 30,
+    "objective_bits": 0.703248781782015,
+    "seconds": 2.1202533330069855,
+    "gradient_norm": 0.2435265246825865,
+    "probability_passes": 750,
+    "logical_field_evaluations": 456750
+  },
+  {
+    "evaluation": 31,
+    "objective_bits": 0.668098660878373,
+    "seconds": 2.190264999997453,
+    "gradient_norm": 0.1465171837558021,
+    "probability_passes": 775,
+    "logical_field_evaluations": 471975
+  },
+  {
+    "evaluation": 32,
+    "objective_bits": 0.6481965185565035,
+    "seconds": 2.2603535000089323,
+    "gradient_norm": 0.1172515807788624,
+    "probability_passes": 800,
+    "logical_field_evaluations": 487200
+  },
+  {
+    "evaluation": 33,
+    "objective_bits": 0.6391414409299355,
+    "seconds": 2.329601541001466,
+    "gradient_norm": 0.05676389143431061,
+    "probability_passes": 825,
+    "logical_field_evaluations": 502425
+  },
+  {
+    "evaluation": 34,
+    "objective_bits": 0.6368453290421411,
+    "seconds": 2.399230916009401,
+    "gradient_norm": 0.018006602042472702,
+    "probability_passes": 850,
+    "logical_field_evaluations": 517650
+  },
+  {
+    "evaluation": 35,
+    "objective_bits": 0.6365165565328987,
+    "seconds": 2.468312875003903,
+    "gradient_norm": 0.0077445122791221545,
+    "probability_passes": 875,
+    "logical_field_evaluations": 532875
+  },
+  {
+    "evaluation": 36,
+    "objective_bits": 0.6364347749504689,
+    "seconds": 2.537564250000287,
+    "gradient_norm": 0.006527110343551107,
+    "probability_passes": 900,
+    "logical_field_evaluations": 548100
+  },
+  {
+    "evaluation": 37,
+    "objective_bits": 0.6364025427815994,
+    "seconds": 2.6072145409998484,
+    "gradient_norm": 0.0021511843951640217,
+    "probability_passes": 925,
+    "logical_field_evaluations": 563325
+  },
+  {
+    "evaluation": 38,
+    "objective_bits": 0.6363974194879843,
+    "seconds": 2.676866041001631,
+    "gradient_norm": 0.0005653877292748905,
+    "probability_passes": 950,
+    "logical_field_evaluations": 578550
+  },
+  {
+    "evaluation": 39,
+    "objective_bits": 0.636397115862852,
+    "seconds": 2.7469953750114655,
+    "gradient_norm": 0.0001751892182662276,
+    "probability_passes": 975,
+    "logical_field_evaluations": 593775
+  },
+  {
+    "evaluation": 40,
+    "objective_bits": 0.6363970761531333,
+    "seconds": 2.8166129580058623,
+    "gradient_norm": 0.00010207758174342622,
+    "probability_passes": 1000,
+    "logical_field_evaluations": 609000
+  },
+  {
+    "evaluation": 41,
+    "objective_bits": 0.636397048722116,
+    "seconds": 2.8858333329990273,
+    "gradient_norm": 9.165355649756661e-05,
+    "probability_passes": 1025,
+    "logical_field_evaluations": 624225
+  },
+  {
+    "evaluation": 42,
+    "objective_bits": 0.6363969699612703,
+    "seconds": 2.956042541001807,
+    "gradient_norm": 0.00016808521307521348,
+    "probability_passes": 1050,
+    "logical_field_evaluations": 639450
+  },
+  {
+    "evaluation": 43,
+    "objective_bits": 0.6363967799649917,
+    "seconds": 3.024311958011822,
+    "gradient_norm": 0.00035454548387148607,
+    "probability_passes": 1075,
+    "logical_field_evaluations": 654675
+  },
+  {
+    "evaluation": 44,
+    "objective_bits": 0.6363963146445922,
+    "seconds": 3.0940388750022976,
+    "gradient_norm": 0.0006190762825971375,
+    "probability_passes": 1100,
+    "logical_field_evaluations": 669900
+  },
+  {
+    "evaluation": 45,
+    "objective_bits": 0.636395180829569,
+    "seconds": 3.1655265000008512,
+    "gradient_norm": 0.0012164050633569142,
+    "probability_passes": 1125,
+    "logical_field_evaluations": 685125
+  },
+  {
+    "evaluation": 46,
+    "objective_bits": 0.6363925860282361,
+    "seconds": 3.2353275830100756,
+    "gradient_norm": 0.0016006266148140221,
+    "probability_passes": 1150,
+    "logical_field_evaluations": 700350
+  },
+  {
+    "evaluation": 47,
+    "objective_bits": 0.6363836957767212,
+    "seconds": 3.305573457997525,
+    "gradient_norm": 0.002517734439332404,
+    "probability_passes": 1175,
+    "logical_field_evaluations": 715575
+  },
+  {
+    "evaluation": 48,
+    "objective_bits": 0.6363780126037208,
+    "seconds": 3.37758041601046,
+    "gradient_norm": 0.002685728168850068,
+    "probability_passes": 1200,
+    "logical_field_evaluations": 730800
+  },
+  {
+    "evaluation": 49,
+    "objective_bits": 0.636372196597177,
+    "seconds": 3.4760446250002133,
+    "gradient_norm": 0.0016230437874408185,
+    "probability_passes": 1225,
+    "logical_field_evaluations": 746025
+  },
+  {
+    "evaluation": 50,
+    "objective_bits": 0.6363692732952274,
+    "seconds": 3.544805333003751,
+    "gradient_norm": 0.00061278796889116,
+    "probability_passes": 1250,
+    "logical_field_evaluations": 761250
+  },
+  {
+    "evaluation": 51,
+    "objective_bits": 0.6363687655120089,
+    "seconds": 3.613665166005376,
+    "gradient_norm": 0.00046615081234322207,
+    "probability_passes": 1275,
+    "logical_field_evaluations": 776475
+  },
+  {
+    "evaluation": 52,
+    "objective_bits": 0.6363686593174872,
+    "seconds": 3.683317832998,
+    "gradient_norm": 0.00010540934414690999,
+    "probability_passes": 1300,
+    "logical_field_evaluations": 791700
+  },
+  {
+    "evaluation": 53,
+    "objective_bits": 0.6363686534964483,
+    "seconds": 3.752871625008993,
+    "gradient_norm": 3.5090301315019855e-05,
+    "probability_passes": 1325,
+    "logical_field_evaluations": 806925
+  },
+  {
+    "evaluation": 54,
+    "objective_bits": 0.6363686522263873,
+    "seconds": 3.821642625000095,
+    "gradient_norm": 1.722865576715904e-05,
+    "probability_passes": 1350,
+    "logical_field_evaluations": 822150
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "objective": "Preserve the exact four-qubit twelve-angle ring classifier while reducing measured local training time.",
+  "methods": [
+    "parameter_shift",
+    "batched_shift",
+    "operator_adjoint"
+  ],
+  "fixed": {
+    "model": "Existing TopologyClassifier(topology=ring), unchanged circuit and parameter order",
+    "qubits": 4,
+    "trainable": 12,
+    "PCA_components": 4,
+    "CX_gates": 8,
+    "entangling_blocks": 2,
+    "encoding": "pi/2*(1+tanh(z))",
+    "readout": "Original basis integer modulo 3, labels alfalfa/maize/wheat",
+    "preprocessing": "Original StandardScaler -> full-SVD PCA4 -> StandardScaler, fit inside each CV training fold",
+    "loss": "Original mean base-two cross-entropy; probability floor 1e-10 and matching derivative clipping",
+    "optimizer": "Inherited L-BFGS-B fit unchanged, cap 100 loss/gradient calls, maxiter/maxfun=100, ftol=1e-9, gtol=1e-5, maxls=20, no bounds",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "initialization": "default_rng(seed).uniform(-pi,pi,12)"
+  },
+  "methods_explained": {
+    "parameter_shift": "Existing native Qiskit Statevector/Operator cached-input per-field evaluator; 25 complete probability passes per loss/gradient call",
+    "batched_shift": "Same parameter-shift formula and actual bound Qiskit ansatz Operator; NumPy evolves all independent input states as a batch",
+    "operator_adjoint": "Qiskit-generated full-register RY/CX operator bases, exact matrix-product reverse differentiation of the SAME loss; independent NumPy implementation, not an official Qiskit primitive"
+  },
+  "verification": {
+    "same_circuit_signature": true,
+    "frozen_probabilities_tolerance": 1e-10,
+    "gate_operator_tolerance": 1e-12,
+    "gradient_absolute_tolerance": 2e-07,
+    "checks": [
+      "Original Qiskit parameter shift",
+      "Central finite differences",
+      "Official installed SamplerQNN.backward probability gradients",
+      "All-field frozen-weight SamplerQNN probabilities",
+      "Random complex states",
+      "Clipped-zero-probability case"
+    ]
+  },
+  "selection": {
+    "data": "Only the 914 training fields; prior fixed three stratified folds (seed 2026), not spatial",
+    "fits": 27,
+    "quality_gate": "A faster method must reproduce ALL pooled OOF predicted labels of the unchanged baseline for every seed, and mean final training loss within 1e-7 bits; otherwise retain baseline",
+    "cost": "Lowest median across seeds of the sum of model construction + fold preprocessing + fit + standard inference over all three folds",
+    "ties": "Exact timing ties prefer the simpler batched-shift method",
+    "ordering": "Rotate method execution order across fold/seed pairs to reduce fixed-order bias",
+    "no_setting_tuning": "No additional optimizer/tolerance/budget grid; the change is derivative/evaluation method only"
+  },
+  "final_comparison": {
+    "lock_before_validation": true,
+    "models": "Baseline and training-selected method only, all 914 fields, seeds 0/1/2",
+    "ordering": "Alternate baseline/selected order by seed",
+    "validation": "One locked comparison on the existing 150 fields; no validation-driven method/setting/seed reselection",
+    "inference": "Unchanged standard SamplerQNN/QMLSampler(shots=None), even for the faster trainer"
+  },
+  "timing": {
+    "measure_on_same_machine": true,
+    "include": "Model construction, scaler/PCA fit+transform, Qiskit input-state creation, dense-batch conversion, constant-gate cache creation, every optimizer evaluation, inference",
+    "profile": "Separate cProfile diagnostic timings; do not compare profiled fit time with unprofiled speed results",
+    "microbenchmark": "Repeated fixed-weight training-only loss/gradient timings, with cache construction recorded separately",
+    "accounting": "Adjoint forward passes and reverse small-matrix work reported separately; no claim that they equal hardware circuit counts",
+    "scope": "Exact classical simulation at four qubits, not hardware or quantum-advantage speedup"
+  },
+  "environment": "Use current Python 3.12 environment; no qiskit-algorithms installation or package upgrades",
+  "preservation": "Preserve current on-disk modified demonstration and organizer notebooks, every existing experiment/result/model; create no new notebook",
+  "test_inference": false
+}

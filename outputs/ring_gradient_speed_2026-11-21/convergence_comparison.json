@@ -1,0 +1,218 @@
+[
+  {
+    "method": "parameter_shift",
+    "seed": 0,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 0,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 0,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 1,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 1,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 1,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 2,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 2,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "parameter_shift",
+    "seed": 2,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 0.0,
+    "final_weights_max_absolute_difference": 0.0
+  },
+  {
+    "method": "batched_shift",
+    "seed": 0,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 2.5646151868841116e-14,
+    "final_weights_max_absolute_difference": 4.3165471197426086e-13
+  },
+  {
+    "method": "batched_shift",
+    "seed": 0,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 6.023292975498862e-12,
+    "final_weights_max_absolute_difference": 3.19300141882195e-13
+  },
+  {
+    "method": "batched_shift",
+    "seed": 0,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 4.719447055379078e-12,
+    "final_weights_max_absolute_difference": 3.3331781779111225e-11
+  },
+  {
+    "method": "batched_shift",
+    "seed": 1,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 2.6163404776013977e-10,
+    "final_weights_max_absolute_difference": 6.377121053446899e-13
+  },
+  {
+    "method": "batched_shift",
+    "seed": 1,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 1.4094592160063257e-10,
+    "final_weights_max_absolute_difference": 7.1662675793504604e-12
+  },
+  {
+    "method": "batched_shift",
+    "seed": 1,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 7.63995533503703e-11,
+    "final_weights_max_absolute_difference": 2.3794299863766355e-12
+  },
+  {
+    "method": "batched_shift",
+    "seed": 2,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 1.870191779218544e-09,
+    "final_weights_max_absolute_difference": 6.596345691889383e-11
+  },
+  {
+    "method": "batched_shift",
+    "seed": 2,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 4.219735671995295e-12,
+    "final_weights_max_absolute_difference": 7.100986465502501e-13
+  },
+  {
+    "method": "batched_shift",
+    "seed": 2,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 3.3836977664236656e-10,
+    "final_weights_max_absolute_difference": 1.2818146544191222e-10
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 0,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 2.1405099914773018e-13,
+    "final_weights_max_absolute_difference": 2.324807013565078e-13
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 0,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 5.332623231879552e-12,
+    "final_weights_max_absolute_difference": 2.7000623958883807e-13
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 0,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 2.236244522890729e-11,
+    "final_weights_max_absolute_difference": 1.4327539155090108e-10
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 1,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 4.691489419172967e-10,
+    "final_weights_max_absolute_difference": 8.633094239485217e-13
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 1,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 1.556636264332667e-09,
+    "final_weights_max_absolute_difference": 5.3010484890592124e-11
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 1,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 1.9301227283108346e-10,
+    "final_weights_max_absolute_difference": 9.013234603116871e-12
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 2,
+    "fold": 0,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 5.443330231003074e-10,
+    "final_weights_max_absolute_difference": 1.4110379531473427e-11
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 2,
+    "fold": 1,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 8.288369990339106e-12,
+    "final_weights_max_absolute_difference": 1.4923617897011354e-12
+  },
+  {
+    "method": "operator_adjoint",
+    "seed": 2,
+    "fold": 2,
+    "same_objective_call_count": true,
+    "training_curve_max_loss_difference_bits": 1.7560068954480812e-09,
+    "final_weights_max_absolute_difference": 6.651581507810533e-10
+  }
+]

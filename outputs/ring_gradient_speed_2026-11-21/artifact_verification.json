@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "CV_fits_rescored": 27,
+  "OOF_prediction_files_rescored": 9,
+  "validation_prediction_files_rescored": 6,
+  "all_CV_and_validation_predicted_labels_unchanged": true,
+  "work_counters_verified": true,
+  "same_initial_points": true,
+  "same_circuit_shape": true,
+  "all_previous_files_unchanged": true,
+  "demo_notebook_sha256_unchanged": "acad902152bdd0881d7c3bccfda402c991a4f669114b8716267bb92d25c245a8",
+  "selection_sha256_unchanged": "1ab02fd9c184ef088235c64a31db3a4c7cef7ddff9e78f163ed48148bbfc6e04",
+  "analysis_source_sha256": "f686ab060e751a5a521f2e26018a9f5a4690e8c104210e0ec1f6647cb86253de",
+  "no_new_notebook": true,
+  "test_inference": false
+}
