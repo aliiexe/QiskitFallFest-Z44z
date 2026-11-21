@@ -78,3 +78,7 @@ Follow README installation instructions with Python 3.12. In VS Code select the 
 ```
 
 The verifier checks artifact/organizer hashes; derivatives at initial and trained weights for every seed; fixed-weight Qiskit probabilities; all saved metrics; fresh fast and parameter-shift fits for all seeds; matching weights, loss curves and work counts; a deterministic SVM refit; training-only OOF predictions; and saved/fresh notebook workflows, each in a new kernel. It uses its current interpreter through a private temporary kernelspec, not a globally registered research kernel. Reports and executed copies go in a new ignored `outputs/release_check_*` directory. The command does not merge or change bundled models.
+
+## Release verification
+
+On 21 November 2026, a fresh local clone of the committed release was tested in an independent Python 3.12 environment installed from the unchanged requirements. Both notebook modes passed all 10 code cells in separate fresh kernels. All three full fits and the training-only CV predictions reproduced the saved evidence. All 59 protected organizer files passed their checksums; no absolute Mac paths were present in either executed notebook. The compact machine-readable audit, including fresh measured timings and gradient errors, is [FINAL_VERIFICATION.json](FINAL_VERIFICATION.json). It identifies the tested implementation commit; the subsequent verification-record commit only adds this evidence.

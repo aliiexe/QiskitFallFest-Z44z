@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "python": "3.12.16",
+  "packages": {
+    "numpy": "2.5.5",
+    "scipy": "1.18.1",
+    "qiskit": "2.4.2",
+    "qiskit-machine-learning": "0.9.1",
+    "scikit-learn": "1.9.1"
+  },
+  "gradient_checks": [
+    {
+      "seed": 0,
+      "weights": "initial",
+      "finite_difference_max_error": 5.643481237882497e-10,
+      "qiskit_gradient_max_error": 2.535721632668242e-12,
+      "parameter_shift_max_error": 4.0245584642661925e-16
+    },
+    {
+      "seed": 0,
+      "weights": "trained",
+      "finite_difference_max_error": 3.23826937487226e-10,
+      "qiskit_gradient_max_error": 2.6221386173475025e-12,
+      "parameter_shift_max_error": 5.551115123125783e-16
+    },
+    {
+      "seed": 1,
+      "weights": "initial",
+      "finite_difference_max_error": 3.6482780685354044e-10,
+      "qiskit_gradient_max_error": 2.796984865938157e-12,
+      "parameter_shift_max_error": 3.122502256758253e-16
+    },
+    {
+      "seed": 1,
+      "weights": "trained",
+      "finite_difference_max_error": 2.0999754019035421e-10,
+      "qiskit_gradient_max_error": 5.768385769044926e-12,
+      "parameter_shift_max_error": 4.440892098500626e-16
+    },
+    {
+      "seed": 2,
+      "weights": "initial",
+      "finite_difference_max_error": 3.5105013340697155e-10,
+      "qiskit_gradient_max_error": 2.5378310564150297e-12,
+      "parameter_shift_max_error": 1.942890293094024e-16
+    },
+    {
+      "seed": 2,
+      "weights": "trained",
+      "finite_difference_max_error": 2.3042594221589496e-10,
+      "qiskit_gradient_max_error": 8.074402257918223e-12,
+      "parameter_shift_max_error": 3.3306690738754696e-16
+    }
+  ],
+  "full_training": [
+    {
+      "seed": 0,
+      "macro_f1": 0.8943462968545876,
+      "fast": {
+        "preprocessing_seconds": 0.0011746670061256737,
+        "model_construction_seconds": 0.0008903339912649244,
+        "fit_seconds": 0.08186162500351202,
+        "inference_seconds": 0.08896350000577513,
+        "total_seconds": 0.17289012600667775
+      },
+      "shift_fit_seconds": 5.025644415989518,
+      "shift_total_seconds": 5.124741333987913,
+      "gradient_calls": 47,
+      "fast_forward_passes": 47,
+      "shift_forward_passes": 1175
+    },
+    {
+      "seed": 1,
+      "macro_f1": 0.8943462968545876,
+      "fast": {
+        "preprocessing_seconds": 0.001080667003407143,
+        "model_construction_seconds": 0.0009808750037336722,
+        "fit_seconds": 0.09176675000344403,
+        "inference_seconds": 0.095415249990765,
+        "total_seconds": 0.18924354200134985
+      },
+      "shift_fit_seconds": 7.192767041997286,
+      "shift_total_seconds": 7.288421167992055,
+      "gradient_calls": 68,
+      "fast_forward_passes": 68,
+      "shift_forward_passes": 1700
+    },
+    {
+      "seed": 2,
+      "macro_f1": 0.8943462968545876,
+      "fast": {
+        "preprocessing_seconds": 0.0010988340072799474,
+        "model_construction_seconds": 0.0009229169954778627,
+        "fit_seconds": 0.08542987500550225,
+        "inference_seconds": 0.09553350000351202,
+        "total_seconds": 0.18298512601177208
+      },
+      "shift_fit_seconds": 5.9083905830048025,
+      "shift_total_seconds": 6.006661999999778,
+      "gradient_calls": 55,
+      "fast_forward_passes": 55,
+      "shift_forward_passes": 1375
+    }
+  ],
+  "training_only_cv": [
+    {
+      "seed": 0,
+      "macro_f1": 0.8343051729779418
+    },
+    {
+      "seed": 1,
+      "macro_f1": 0.8660267199513806
+    },
+    {
+      "seed": 2,
+      "macro_f1": 0.8576745484922457
+    }
+  ],
+  "notebooks": [
+    {
+      "workflow": "saved_models",
+      "code_cells_passed": 10,
+      "wall_seconds": 12.066332500005956
+    },
+    {
+      "workflow": "fresh_training",
+      "code_cells_passed": 10,
+      "wall_seconds": 3.8196855830028653
+    }
+  ],
+  "organizer_file_hashes_passed": 59,
+  "source_imports_from_this_checkout": true,
+  "all_artifact_checksums_passed": true,
+  "timing_scope": "Fresh local CPU times, includes every fit cache. Imports, I/O and rendering excluded.",
+  "verified_at_utc": "2026-11-21T11:32:28Z",
+  "verification_scope": "Local fresh clone of the committed release; independent Python 3.12 environment installed from unchanged requirements.txt.",
+  "tested_source_commit": "d654d877fed165e24ec7bd25f454718761996c33",
+  "reproduction_command": "python scripts/verify_final_solution.py --reproduce-cv --execute-notebook",
+  "original_demo_and_dirty_research_files_preserved": true,
+  "main_commit_unchanged": "510f8626fcfb7448097b89892aa795a1ace2710b",
+  "executed_notebooks_have_no_absolute_mac_paths": true,
+  "fresh_clone_git_status_clean_after_tests": true
+}
